@@ -1,0 +1,263 @@
+1790178726121	Sync.LogManager	DEBUG	Flushing file log
+1790178726121	Sync.LogManager	DEBUG	Log cleanup threshold time: 1789314726121
+1790178726123	Sync.LogManager	DEBUG	Done deleting files.
+1790178733048	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1790179326127	Sync.Service	DEBUG	User-Agent: Firefox/156.0 (Linux x86_64) FxSync/1.158.0.20260915231823.desktop
+1790179326127	Sync.Service	INFO	Starting sync at 2026-09-23 16:02:06 in browser session pQ1Mfp9_alT4
+1790179326128	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790179326130	Sync.Status	INFO	Resetting Status.
+1790179326130	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => success.status_ok
+1790179326131	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1790179326131	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1790179326131	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1790179326131	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1790179326131	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1790179329965	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/info/collections
+1790179329965	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/info/configuration
+1790179330262	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/info/configuration
+1790179330262	Sync.Service	DEBUG	Fetching global metadata record
+1790179330262	Sync.Service	DEBUG	Weave Version: 1.158.0 Local Storage: 5 Remote Storage: 5
+1790179330262	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1790179330262	Sync.Service	INFO	Testing info/collections: {"addons":1790154039.91,"forms":1790174818.4,"extension-storage":1790160366.16,"meta":1765969149.33,"clients":1790177121.21,"crypto":1765969138.63,"history":1790174818.81,"passwords":1790061176.85,"prefs":1790154503.53,"tabs":1790178725.32,"bookmarks":1790154508.59}
+1790179330262	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1765969138.63
+1790179330263	Sync.Synchronizer	DEBUG	Refreshing client list.
+1790179330263	Sync.Engine.Clients	DEBUG	First sync, uploading all items
+1790179330263	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1790179333547	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1790179362425	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/clients?full=1&limit=1000
+1790179362439	Sync.Engine.Clients	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 47 reconciled.
+1790179362439	Sync.Engine.Clients	DEBUG	Refreshing the known stale clients list
+1790179362439	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790179362439	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client -h142T1LSMCR - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client 0dd0020f66d0ee9f32d044304515926d - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client 203cf3ead067ba1ec54b5d3dcf46469f - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client 3pxwwcxkoQOs - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client 40ede02c9bfea90141c0a4fa2d29309e - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client 4AYrNpVZk4hY - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client 5773428479976d966b05386834cff92b - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client 5bda53602346a84495d04b753691dfc6 - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client 6vQ9OTJnThBr - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client 75c2dc919a9ddd53efadfde5d7a58960 - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client 8mcA02Pa0gOe - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client 91c1f11a5619129278312a84101e51c4 - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client Bag-O0GJMMiu - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client FPz3oAnah9ej - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client GICSFfSa7r0X - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client LrgXlu0-T39Y - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client LwJEEvdjJfPA - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client TEtOf9f6fbXq - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client W3-aItwULDQT - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client WaV_3M5mA_1N - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client YZUR14eDBeol - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client Yb1xfWKFsD9W - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client _2aPRMLoxSa7 - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client aJrEOsuPyllP - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client aTdEQ_mVUC7g - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client b47bfcd16bf44fad05396a21fbcae139 - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client ba0Kx84wRK8P - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client bcd05d2b348360d6f0a080abd965f35b - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client ca779e857a9872c3139c45b178832c11 - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client e77d9c89d0117d540101f1ecff3f378f - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client fL8vWG8Oxznr - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client h48BUxyTJzRU - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client jN__1UH5kBg- - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client jqO15h4CMbgs - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client kM6DpnKGnZig - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client nC4s1jtfPqyL - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client nT0y1WSLEkBP - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client quZpbHsatdKh - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client ssxT_HVJGiKi - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client th2adi8-NkRB - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client wScmVL3YMZqn - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client xX7HAJEpGbcw - in known stale clients list
+1790179362439	Sync.Engine.Clients	INFO	Hiding stale client zXGGQ0mHeFIA - in known stale clients list
+1790179362440	Sync.Engine.Clients	INFO	Uploading 47 outgoing records
+1790179362440	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790179362440	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790179362441	Sync.Engine.Clients.Store	ERROR	Preparing to upload record -h142T1LSMCR that we consider stale
+1790179362441	Sync.Engine.Clients.Store	ERROR	Preparing to upload record 0dd0020f66d0ee9f32d044304515926d that we consider stale
+1790179362442	Sync.Engine.Clients.Store	ERROR	Preparing to upload record 203cf3ead067ba1ec54b5d3dcf46469f that we consider stale
+1790179362442	Sync.Engine.Clients.Store	ERROR	Preparing to upload record 3pxwwcxkoQOs that we consider stale
+1790179362443	Sync.Engine.Clients.Store	ERROR	Preparing to upload record 40ede02c9bfea90141c0a4fa2d29309e that we consider stale
+1790179362443	Sync.Engine.Clients.Store	ERROR	Preparing to upload record 4AYrNpVZk4hY that we consider stale
+1790179362444	Sync.Engine.Clients.Store	ERROR	Preparing to upload record 5773428479976d966b05386834cff92b that we consider stale
+1790179362444	Sync.Engine.Clients.Store	ERROR	Preparing to upload record 5bda53602346a84495d04b753691dfc6 that we consider stale
+1790179362444	Sync.Engine.Clients.Store	ERROR	Preparing to upload record 6vQ9OTJnThBr that we consider stale
+1790179362445	Sync.Engine.Clients.Store	ERROR	Preparing to upload record 75c2dc919a9ddd53efadfde5d7a58960 that we consider stale
+1790179362445	Sync.Engine.Clients.Store	ERROR	Preparing to upload record 8mcA02Pa0gOe that we consider stale
+1790179362445	Sync.Engine.Clients.Store	ERROR	Preparing to upload record 91c1f11a5619129278312a84101e51c4 that we consider stale
+1790179362445	Sync.Engine.Clients.Store	ERROR	Preparing to upload record Bag-O0GJMMiu that we consider stale
+1790179362446	Sync.Engine.Clients.Store	ERROR	Preparing to upload record FPz3oAnah9ej that we consider stale
+1790179362446	Sync.Engine.Clients.Store	ERROR	Preparing to upload record GICSFfSa7r0X that we consider stale
+1790179362446	Sync.Engine.Clients.Store	ERROR	Preparing to upload record LrgXlu0-T39Y that we consider stale
+1790179362446	Sync.Engine.Clients.Store	ERROR	Preparing to upload record LwJEEvdjJfPA that we consider stale
+1790179362447	Sync.Engine.Clients.Store	ERROR	Preparing to upload record TEtOf9f6fbXq that we consider stale
+1790179362447	Sync.Engine.Clients.Store	ERROR	Preparing to upload record W3-aItwULDQT that we consider stale
+1790179362447	Sync.Engine.Clients.Store	ERROR	Preparing to upload record WaV_3M5mA_1N that we consider stale
+1790179362447	Sync.Engine.Clients.Store	ERROR	Preparing to upload record YZUR14eDBeol that we consider stale
+1790179362447	Sync.Engine.Clients.Store	ERROR	Preparing to upload record Yb1xfWKFsD9W that we consider stale
+1790179362447	Sync.Engine.Clients.Store	ERROR	Preparing to upload record _2aPRMLoxSa7 that we consider stale
+1790179362448	Sync.Engine.Clients.Store	ERROR	Preparing to upload record aJrEOsuPyllP that we consider stale
+1790179362448	Sync.Engine.Clients.Store	ERROR	Preparing to upload record aTdEQ_mVUC7g that we consider stale
+1790179362448	Sync.Engine.Clients.Store	ERROR	Preparing to upload record b47bfcd16bf44fad05396a21fbcae139 that we consider stale
+1790179362448	Sync.Engine.Clients.Store	ERROR	Preparing to upload record ba0Kx84wRK8P that we consider stale
+1790179362448	Sync.Engine.Clients.Store	ERROR	Preparing to upload record bcd05d2b348360d6f0a080abd965f35b that we consider stale
+1790179362449	Sync.Engine.Clients.Store	ERROR	Preparing to upload record ca779e857a9872c3139c45b178832c11 that we consider stale
+1790179362449	Sync.Engine.Clients.Store	ERROR	Preparing to upload record e77d9c89d0117d540101f1ecff3f378f that we consider stale
+1790179362449	Sync.Engine.Clients.Store	ERROR	Preparing to upload record fL8vWG8Oxznr that we consider stale
+1790179362449	Sync.Engine.Clients.Store	ERROR	Preparing to upload record h48BUxyTJzRU that we consider stale
+1790179362449	Sync.Engine.Clients.Store	ERROR	Preparing to upload record jN__1UH5kBg- that we consider stale
+1790179362450	Sync.Engine.Clients.Store	ERROR	Preparing to upload record jqO15h4CMbgs that we consider stale
+1790179362450	Sync.Engine.Clients.Store	ERROR	Preparing to upload record kM6DpnKGnZig that we consider stale
+1790179362450	Sync.Engine.Clients.Store	ERROR	Preparing to upload record nC4s1jtfPqyL that we consider stale
+1790179362450	Sync.Engine.Clients.Store	ERROR	Preparing to upload record nT0y1WSLEkBP that we consider stale
+1790179362450	Sync.Engine.Clients.Store	ERROR	Preparing to upload record quZpbHsatdKh that we consider stale
+1790179362450	Sync.Engine.Clients.Store	ERROR	Preparing to upload record ssxT_HVJGiKi that we consider stale
+1790179362450	Sync.Engine.Clients.Store	ERROR	Preparing to upload record th2adi8-NkRB that we consider stale
+1790179362451	Sync.Engine.Clients.Store	ERROR	Preparing to upload record wScmVL3YMZqn that we consider stale
+1790179362451	Sync.Engine.Clients.Store	ERROR	Preparing to upload record xX7HAJEpGbcw that we consider stale
+1790179362451	Sync.Engine.Clients.Store	ERROR	Preparing to upload record zXGGQ0mHeFIA that we consider stale
+1790179362451	Sync.Engine.Clients	INFO	Posting 47 records of 24384 bytes with batch=true
+1790179362451	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790179362452	Sync.Collection	DEBUG	POST Length: 24384
+1790179363230	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/clients?batch=true&commit=true
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363230	Sync.Engine.Clients	WARN	No command/No record changes for a client we uploaded
+1790179363232	Sync.Synchronizer	INFO	Updating enabled engines: 4 clients.
+1790179363233	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1790179363234	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790179363234	Sync.Engine.Prefs	INFO	Uploading 0 outgoing records
+1790179363237	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/account/devices/notify
+1790179363237	Services.Common.RESTRequest	DEBUG	POST Length: 1743
+1790179363273	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790179363273	Sync.Engine.Passwords	INFO	Uploading 0 outgoing records
+1790179363275	Sync.Engine.Tabs	INFO	update_local_state has 2 tab entries
+1790179363275	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790179363275	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790179363329	Sync.Engine.Tabs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790179363329	Sync.Engine.Tabs	DEBUG	Updating last sync to 1790178725.32
+1790179363335	Sync.Engine.Tabs	INFO	prepare_for_upload found 2 tabs
+1790179363335	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1790179363336	Sync.Engine.Tabs	INFO	Posting 1 records of 983 bytes with batch=true
+1790179363336	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790179363337	Sync.Collection	DEBUG	POST Length: 983
+1790179363688	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/tabs?batch=true&commit=true
+1790179363689	Sync.Engine.Tabs	INFO	sync uploaded 1 records
+1790179363689	Sync.Engine.Tabs	DEBUG	Updating last sync to 1790179363.48
+1790179363741	Sync.Engine.Bookmarks	DEBUG	Checking if server sync ID tjHFz770HLMT matches existing
+1790179363742	Sync.Engine.Bookmarks	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790179363742	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust
+1790179363743	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust took 1.103ms
+1790179363743	Sync.Engine.Bookmarks.Mirror	DEBUG	No changes detected in both mirror and Places
+1790179363743	Sync.Engine.Bookmarks	INFO	Uploading 0 outgoing records
+1790179363744	Sync.Engine.Bookmarks.BookmarkSyncUtils	DEBUG	pushChanges: Processed change records: {"weak":0,"skipped":0,"updated":0}
+1790179363744	Sync.Engine.Addons	DEBUG	Refreshing reconciler state
+1790179363744	Sync.AddonsReconciler	INFO	Refreshing global state from AddonManager.
+1790179363744	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Form Autofill (version=1.0.1, id=formautofill@mozilla.org)
+1790179363744	Sync.AddonsReconciler	DEBUG	Rectifying state for addon IPP Activator (version=0.3, id=ipp-activator@mozilla.com)
+1790179363744	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Picture-In-Picture (version=1.0.0, id=pictureinpicture@mozilla.org)
+1790179363744	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Add-ons Search Detection (version=3.0.0, id=addons-search-detection@mozilla.com)
+1790179363744	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Web Compatibility Interventions (version=156.1.0, id=webcompat@mozilla.org)
+1790179363744	Sync.AddonsReconciler	DEBUG	Rectifying state for addon System theme — auto (version=1.4.2, id=default-theme@mozilla.org)
+1790179363744	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Light (version=1.3.4, id=firefox-compact-light@mozilla.org)
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark (version=1.3.4, id=firefox-compact-dark@mozilla.org)
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Alpenglow (version=1.5.3, id=firefox-alpenglow@mozilla.org)
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon AdGuard AdBlocker (version=5.5.2.3, id=adguardadblocker@adguard.com)
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon TWP - Translate Web Pages (version=10.2.1.0, id={036a55b4-5e72-4d05-a06c-cba2dfcc134a})
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark Reader (version=4.9.131, id=addon@darkreader.org)
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Red (version=1.0, id={8de5f8c3-bfc2-443b-9913-7bbadbd1ba0d})
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Violet (version=1.0, id={aab1adac-5449-47fd-b836-c2f43dc28f3f})
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Full Black (version=1.0, id={c933beb8-06cc-4278-ac6a-d7b4552e487f})
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Multi-Account Containers (version=8.3.8, id=@testpilot-containers)
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon uBlock Origin (version=1.75.0, id=uBlock0@raymondhill.net)
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon MYNT: Material You New Tab (version=3.3.802, id={c30c387e-cd01-42b4-b5c7-6af2d820535b})
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Invert Colors (version=1.0, id=invert-colors@sugarpine.cafe)
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon New Tab (version=158.0.20260913.220257, id=newtab@mozilla.org)
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon h264ify (version=1.1.0, id=jid1-TSgSxBhncsPBWQ@jetpack)
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon &udm=14 (version=2.10, id=url-modifier@example.com)
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Yellow (version=1.0, id={cd6791f7-4b6d-47b4-8877-1d4c82c6699d})
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon OpenH264 Video Codec provided by Cisco Systems, Inc. (version=2.6.0, id=gmp-gmpopenh264)
+1790179363745	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Widevine Content Decryption Module provided by Google Inc. (version=4.10.3050.0, id=gmp-widevinecdm)
+1790179363745	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1790179363746	Sync.Engine.Addons	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790179363746	Sync.Engine.Addons	INFO	Uploading 0 outgoing records
+1790179363746	Sync.Engine.Addresses	DEBUG	First sync, uploading all items
+1790179363746	Sync.Engine.Addresses	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790179363746	Sync.Engine.Addresses	INFO	Uploading 0 outgoing records
+1790179363747	Sync.Engine.CreditCards	DEBUG	First sync, uploading all items
+1790179363747	Sync.Engine.CreditCards	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790179363747	Sync.Engine.CreditCards	INFO	Uploading 0 outgoing records
+1790179363747	Sync.Engine.Forms	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790179363747	Sync.Engine.Forms	INFO	Uploading 0 outgoing records
+1790179363747	Sync.Engine.History	DEBUG	Checking if server sync ID Ij-618O1tqny matches existing
+1790179363748	Sync.Engine.History	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790179363748	Sync.Engine.History	INFO	Uploading 0 outgoing records
+1790179363748	Sync.Engine.Extension-Storage	DEBUG	Initializing sync temp tables
+1790179363749	Sync.Engine.Extension-Storage	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790179363749	Sync.Engine.Extension-Storage	DEBUG	get_outgoing found 0 items
+1790179363750	Sync.Engine.Extension-Storage	INFO	Uploading 0 outgoing records
+1790179363750	Sync.Engine.Extension-Storage	DEBUG	Initializing sync temp tables
+1790179363750	Sync.Doctor	INFO	Skipping check of prefs - disabled via preferences
+1790179363750	Sync.Doctor	INFO	Skipping check of passwords - disabled via preferences
+1790179363750	Sync.Doctor	INFO	Skipping check of tabs - disabled via preferences
+1790179363750	Sync.Doctor	INFO	Skipping check of bookmarks - disabled via preferences
+1790179363750	Sync.Doctor	INFO	Skipping check of addons - disabled via preferences
+1790179363750	Sync.Doctor	INFO	Skipping check of addresses - disabled via preferences
+1790179363750	Sync.Doctor	INFO	Skipping check of creditcards - disabled via preferences
+1790179363750	Sync.Doctor	INFO	Skipping check of forms - disabled via preferences
+1790179363750	Sync.Doctor	INFO	Skipping check of history - disabled via preferences
+1790179363750	Sync.Doctor	INFO	Skipping check of extension-storage - disabled via preferences
+1790179363750	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1790179363750	Sync.Status	DEBUG	Status.sync: success.sync => success.sync
+1790179363750	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1790179363750	Sync.Synchronizer	INFO	Sync completed at 2026-09-23 16:02:43 after 37.62 secs.
+1790179363751	Sync.Declined	DEBUG	Handling remote declined: []
+1790179363751	Sync.Declined	DEBUG	Handling local declined: []
+1790179363751	Sync.Declined	DEBUG	Declined changed? false
+1790179363751	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1790179363751	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)

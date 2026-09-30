@@ -1,0 +1,214 @@
+1790155402638	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1790155919308	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790155920476	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790155976856	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790155983828	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790156002639	Sync.Service	DEBUG	User-Agent: Firefox/156.0 (Linux x86_64) FxSync/1.158.0.20260915231823.desktop
+1790156002639	Sync.Service	INFO	Starting sync at 2026-09-23 09:33:22 in browser session lAtpdiZtejxW
+1790156002639	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790156002641	Sync.Status	INFO	Resetting Status.
+1790156002641	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1790156002642	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1790156002642	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1790156002642	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1790156002642	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1790156002642	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1790156012393	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398861 - NS_ERROR_CONNECTION_REFUSED
+1790156012393	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_CONNECTION_REFUSED\"  nsresult: \"0x804b000d (NS_ERROR_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1790156032841	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790156033870	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1790156033870	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790156033871	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1790156033872	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790156038167	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1790156038167	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1790156038169	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790156038169	Sync.Service	DEBUG	User-Agent: Firefox/156.0 (Linux x86_64) FxSync/1.158.0.20260915231823.desktop
+1790156038170	Sync.Service	INFO	Starting sync at 2026-09-23 09:33:58 in browser session lAtpdiZtejxW
+1790156038170	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:128:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1397:6
+sync/<@service.sys.mjs:1371:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1372:7
+1790156038170	Sync.Service	INFO	Cannot start sync: already syncing?
+1790156039232	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790156097222	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1790156097230	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790156097299	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790156097339	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790156099775	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790156102225	Sync.Engine.Tabs	INFO	update_local_state has 2 tab entries
+1790156102225	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790156102225	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790156102269	Sync.Engine.Tabs	INFO	prepare_for_upload found 2 tabs
+1790156102270	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790156102270	Sync.Collection	DEBUG	POST Length: 983
+1790156103050	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/tabs
+1790156103050	Sync.Telemetry	INFO	Notification for engine tabs but it isn't current
+1790156124514	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790156125713	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790156208101	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/info/collections
+1790156208101	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/info/configuration
+1790156208102	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1790156208102	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1790156208102	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1790156208102	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1790156208102	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1790156209225	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/info/configuration
+1790156209225	Sync.Service	DEBUG	Fetching global metadata record
+1790156209225	Sync.Service	DEBUG	Weave Version: 1.158.0 Local Storage: 5 Remote Storage: 5
+1790156209225	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1790156209225	Sync.Service	INFO	Testing info/collections: {"extension-storage":1790154046.32,"meta":1765969149.33,"crypto":1765969138.63,"history":1790155402.37,"forms":1790154045.09,"clients":1790154502.55,"tabs":1790156102.79,"bookmarks":1790154508.59,"passwords":1790061176.85,"addons":1790154039.91,"prefs":1790154503.53}
+1790156209225	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1765969138.63
+1790156209225	Sync.Synchronizer	DEBUG	Refreshing client list.
+1790156209225	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1790156209737	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1790156209936	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/clients?full=1&limit=1000
+1790156209948	Sync.Engine.Clients	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 47 reconciled.
+1790156209948	Sync.Engine.Clients	DEBUG	Refreshing the known stale clients list
+1790156209949	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790156209949	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client 8pkC7S5lgT0f - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client -h142T1LSMCR - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client 0dd0020f66d0ee9f32d044304515926d - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client 203cf3ead067ba1ec54b5d3dcf46469f - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client 3pxwwcxkoQOs - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client 40ede02c9bfea90141c0a4fa2d29309e - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client 4AYrNpVZk4hY - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client 5773428479976d966b05386834cff92b - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client 5bda53602346a84495d04b753691dfc6 - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client 6vQ9OTJnThBr - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client 75c2dc919a9ddd53efadfde5d7a58960 - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client 8mcA02Pa0gOe - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client 91c1f11a5619129278312a84101e51c4 - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client Bag-O0GJMMiu - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client FPz3oAnah9ej - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client GICSFfSa7r0X - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client LrgXlu0-T39Y - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client LwJEEvdjJfPA - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client TEtOf9f6fbXq - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client W3-aItwULDQT - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client WaV_3M5mA_1N - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client YZUR14eDBeol - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client Yb1xfWKFsD9W - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client _2aPRMLoxSa7 - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client aJrEOsuPyllP - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client aTdEQ_mVUC7g - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client b47bfcd16bf44fad05396a21fbcae139 - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client ba0Kx84wRK8P - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client bcd05d2b348360d6f0a080abd965f35b - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client ca779e857a9872c3139c45b178832c11 - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client e77d9c89d0117d540101f1ecff3f378f - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client fL8vWG8Oxznr - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client h48BUxyTJzRU - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client jN__1UH5kBg- - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client jqO15h4CMbgs - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client kM6DpnKGnZig - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client nC4s1jtfPqyL - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client nT0y1WSLEkBP - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client quZpbHsatdKh - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client ssxT_HVJGiKi - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client th2adi8-NkRB - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client wScmVL3YMZqn - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client xX7HAJEpGbcw - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Hiding stale client zXGGQ0mHeFIA - in known stale clients list
+1790156209949	Sync.Engine.Clients	INFO	Uploading 0 outgoing records
+1790156209951	Sync.Synchronizer	INFO	Updating enabled engines: 3 clients.
+1790156209952	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1790156209952	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790156209952	Sync.Engine.Prefs	INFO	Uploading 0 outgoing records
+1790156209991	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790156209991	Sync.Engine.Passwords	INFO	Uploading 0 outgoing records
+1790156209993	Sync.Engine.Tabs	INFO	update_local_state has 2 tab entries
+1790156209993	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790156209993	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790156210003	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790156210449	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/tabs?newer=1790155401.75&full=1&limit=1000
+1790156210451	Sync.Engine.Tabs	INFO	inserting tab for device 8pkC7S5lgT0f, last modified at 1790155903080
+1790156210459	Sync.Engine.Tabs	INFO	removed 0 stale clients (threshold was 1774603401750)
+1790156210459	Sync.Engine.Tabs	INFO	deleted 0 pending tab closures because they were not in the new tabs
+1790156210459	Sync.Engine.Tabs	INFO	deleted 0 records because they timed out
+1790156210459	Sync.Engine.Tabs	INFO	Records: 2 applied, 2 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790156210460	Sync.Engine.Tabs	DEBUG	Updating last sync to 1790156102.79
+1790156210467	Sync.Engine.Tabs	INFO	prepare_for_upload found 2 tabs
+1790156210468	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1790156210469	Sync.Engine.Tabs	INFO	Posting 1 records of 983 bytes with batch=true
+1790156210469	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790156210469	Sync.Collection	DEBUG	POST Length: 983
+1790156211587	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/tabs?batch=true&commit=true
+1790156211588	Sync.Engine.Tabs	INFO	sync uploaded 1 records
+1790156211588	Sync.Engine.Tabs	DEBUG	Updating last sync to 1790156210.71
+1790156211596	Sync.Engine.Bookmarks	DEBUG	Checking if server sync ID tjHFz770HLMT matches existing
+1790156211597	Sync.Engine.Bookmarks	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790156211597	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust
+1790156211599	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust took 1.405ms
+1790156211599	Sync.Engine.Bookmarks.Mirror	DEBUG	No changes detected in both mirror and Places
+1790156211599	Sync.Engine.Bookmarks	INFO	Uploading 0 outgoing records
+1790156211599	Sync.Engine.Bookmarks.BookmarkSyncUtils	DEBUG	pushChanges: Processed change records: {"weak":0,"skipped":0,"updated":0}
+1790156211599	Sync.Engine.Addons	DEBUG	Refreshing reconciler state
+1790156211599	Sync.AddonsReconciler	INFO	Refreshing global state from AddonManager.
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Form Autofill (version=1.0.1, id=formautofill@mozilla.org)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon IPP Activator (version=0.3, id=ipp-activator@mozilla.com)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Picture-In-Picture (version=1.0.0, id=pictureinpicture@mozilla.org)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Add-ons Search Detection (version=3.0.0, id=addons-search-detection@mozilla.com)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Web Compatibility Interventions (version=156.1.0, id=webcompat@mozilla.org)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon System theme — auto (version=1.4.2, id=default-theme@mozilla.org)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Light (version=1.3.4, id=firefox-compact-light@mozilla.org)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark (version=1.3.4, id=firefox-compact-dark@mozilla.org)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Alpenglow (version=1.5.3, id=firefox-alpenglow@mozilla.org)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon AdGuard AdBlocker (version=5.5.2.3, id=adguardadblocker@adguard.com)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon TWP - Translate Web Pages (version=10.2.1.0, id={036a55b4-5e72-4d05-a06c-cba2dfcc134a})
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark Reader (version=4.9.131, id=addon@darkreader.org)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Red (version=1.0, id={8de5f8c3-bfc2-443b-9913-7bbadbd1ba0d})
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Violet (version=1.0, id={aab1adac-5449-47fd-b836-c2f43dc28f3f})
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Full Black (version=1.0, id={c933beb8-06cc-4278-ac6a-d7b4552e487f})
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Multi-Account Containers (version=8.3.8, id=@testpilot-containers)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon uBlock Origin (version=1.75.0, id=uBlock0@raymondhill.net)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon MYNT: Material You New Tab (version=3.3.802, id={c30c387e-cd01-42b4-b5c7-6af2d820535b})
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Invert Colors (version=1.0, id=invert-colors@sugarpine.cafe)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon New Tab (version=158.0.20260913.220257, id=newtab@mozilla.org)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon h264ify (version=1.1.0, id=jid1-TSgSxBhncsPBWQ@jetpack)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon &udm=14 (version=2.10, id=url-modifier@example.com)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Yellow (version=1.0, id={cd6791f7-4b6d-47b4-8877-1d4c82c6699d})
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon OpenH264 Video Codec provided by Cisco Systems, Inc. (version=2.6.0, id=gmp-gmpopenh264)
+1790156211600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Widevine Content Decryption Module provided by Google Inc. (version=4.10.3050.0, id=gmp-widevinecdm)
+1790156211601	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1790156211601	Sync.Engine.Addons	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790156211601	Sync.Engine.Addons	INFO	Uploading 0 outgoing records
+1790156211602	Sync.Engine.Addresses	DEBUG	First sync, uploading all items
+1790156211602	Sync.Engine.Addresses	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790156211602	Sync.Engine.Addresses	INFO	Uploading 0 outgoing records
+1790156211602	Sync.Engine.CreditCards	DEBUG	First sync, uploading all items
+1790156211602	Sync.Engine.CreditCards	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790156211602	Sync.Engine.CreditCards	INFO	Uploading 0 outgoing records
+1790156211603	Sync.Engine.Forms	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790156211603	Sync.Engine.Forms	INFO	Uploading 0 outgoing records
+1790156211603	Sync.Engine.History	DEBUG	Checking if server sync ID Ij-618O1tqny matches existing
+1790156211603	Sync.Engine.History	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790156211603	Sync.Engine.History	INFO	Uploading 0 outgoing records
+1790156211604	Sync.Engine.Extension-Storage	DEBUG	Initializing sync temp tables
+1790156211605	Sync.Engine.Extension-Storage	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790156211606	Sync.Engine.Extension-Storage	DEBUG	get_outgoing found 0 items
+1790156211606	Sync.Engine.Extension-Storage	INFO	Uploading 0 outgoing records
+1790156211606	Sync.Engine.Extension-Storage	DEBUG	Initializing sync temp tables
+1790156211606	Sync.Doctor	INFO	Skipping check of prefs - disabled via preferences
+1790156211606	Sync.Doctor	INFO	Skipping check of passwords - disabled via preferences
+1790156211607	Sync.Doctor	INFO	Skipping check of tabs - disabled via preferences
+1790156211607	Sync.Doctor	INFO	Skipping check of bookmarks - disabled via preferences
+1790156211607	Sync.Doctor	INFO	Skipping check of addons - disabled via preferences
+1790156211607	Sync.Doctor	INFO	Skipping check of addresses - disabled via preferences
+1790156211607	Sync.Doctor	INFO	Skipping check of creditcards - disabled via preferences
+1790156211607	Sync.Doctor	INFO	Skipping check of forms - disabled via preferences
+1790156211607	Sync.Doctor	INFO	Skipping check of history - disabled via preferences
+1790156211607	Sync.Doctor	INFO	Skipping check of extension-storage - disabled via preferences
+1790156211607	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1790156211607	Sync.Status	DEBUG	Status.sync: success.sync => success.sync
+1790156211607	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1790156211607	Sync.Synchronizer	INFO	Sync completed at 2026-09-23 09:36:51 after 208.97 secs.
+1790156211607	Sync.Declined	DEBUG	Handling remote declined: []
+1790156211607	Sync.Declined	DEBUG	Handling local declined: []
+1790156211607	Sync.Declined	DEBUG	Declined changed? false
+1790156211607	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1790156211607	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)

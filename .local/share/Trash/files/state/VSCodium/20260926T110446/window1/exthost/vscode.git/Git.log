@@ -1,0 +1,68 @@
+2026-09-26 11:04:48.161 [info] [main] Log level: Info
+2026-09-26 11:04:48.161 [info] [main] Validating found git in: "git"
+2026-09-26 11:04:48.161 [info] [main] Using git "2.55.0" from "git"
+2026-09-26 11:04:48.161 [info] [Model][doInitialScan] Initial repository scan started
+2026-09-26 11:04:48.161 [info] > git rev-parse --show-toplevel [21ms]
+2026-09-26 11:04:48.163 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2026-09-26 11:04:48.172 [info] [Model][openRepository] Opened repository (path): /run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler
+2026-09-26 11:04:48.172 [info] [Model][openRepository] Opened repository (real path): /run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler
+2026-09-26 11:04:48.172 [info] [Model][openRepository] Opened repository (kind): repository
+2026-09-26 11:04:48.186 [info] > git config --get commit.template [5ms]
+2026-09-26 11:04:48.186 [info] > git config --get --local core.virtualfilesystem [10ms]
+2026-09-26 11:04:48.186 [warning] [Git][config] git config failed: Failed to execute git
+2026-09-26 11:04:48.187 [info] > git rev-parse --show-toplevel [4ms]
+2026-09-26 11:04:48.195 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2026-09-26 11:04:48.197 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/.git/refs/remotes/origin/main'
+2026-09-26 11:04:48.198 [info] > git rev-parse --show-toplevel [4ms]
+2026-09-26 11:04:48.201 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2026-09-26 11:04:48.209 [info] > git status -z -uall [5ms]
+2026-09-26 11:04:48.210 [info] > git rev-parse --show-toplevel [10ms]
+2026-09-26 11:04:48.214 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-09-26 11:04:48.231 [info] > git config --get commit.template [2ms]
+2026-09-26 11:04:48.231 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2026-09-26 11:04:48.234 [info] > git rev-parse --show-toplevel [21ms]
+2026-09-26 11:04:48.242 [info] > git config --get --local branch.main.vscode-merge-base [8ms]
+2026-09-26 11:04:48.242 [warning] [Git][config] git config failed: Failed to execute git
+2026-09-26 11:04:48.245 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-09-26 11:04:48.245 [info] > git rev-parse --show-toplevel [7ms]
+2026-09-26 11:04:48.245 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-09-26 11:04:48.248 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/.git/refs/remotes/origin/main'
+2026-09-26 11:04:48.249 [info] > git reflog main --grep-reflog=branch: Created from *. [5ms]
+2026-09-26 11:04:48.252 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2026-09-26 11:04:48.258 [info] > git status -z -uall [3ms]
+2026-09-26 11:04:48.259 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [7ms]
+2026-09-26 11:04:48.263 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-09-26 11:04:48.265 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2026-09-26 11:04:48.270 [info] > git config --add --local branch.main.vscode-merge-base origin/main [1ms]
+2026-09-26 11:04:48.278 [info] > git config --get commit.template [4ms]
+2026-09-26 11:04:48.279 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-09-26 11:04:48.282 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/.git/refs/remotes/origin/main'
+2026-09-26 11:04:48.283 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2026-09-26 11:04:48.290 [info] > git status -z -uall [4ms]
+2026-09-26 11:04:48.291 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-09-26 11:04:48.301 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2026-09-26 11:04:48.305 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2026-09-26 11:04:48.308 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% d78aae0e28f1e9144aceefe07eed1ead751bf4c2...refs/remotes/origin/main -- [4ms]
+2026-09-26 11:04:48.309 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% d78aae0e28f1e9144aceefe07eed1ead751bf4c2...refs/remotes/origin/main -- [1ms]
+2026-09-26 11:04:48.694 [info] > git check-ignore -v -z --stdin [2ms]
+2026-09-26 11:04:49.359 [info] > git config --get commit.template [4ms]
+2026-09-26 11:04:49.360 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-09-26 11:04:49.363 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/.git/refs/remotes/origin/main'
+2026-09-26 11:04:49.364 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-09-26 11:04:49.371 [info] > git status -z -uall [4ms]
+2026-09-26 11:04:49.372 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-09-26 11:05:01.535 [info] > git check-ignore -v -z --stdin [1ms]
+2026-09-26 11:19:04.959 [info] [main] Log level: Info
+2026-09-26 11:19:04.959 [info] [main] Validating found git in: "git"
+2026-09-26 11:19:04.959 [info] [main] Using git "2.55.0" from "git"
+2026-09-26 11:19:04.959 [info] [Model][doInitialScan] Initial repository scan started
+2026-09-26 11:19:04.959 [info] > git rev-parse --show-toplevel [5ms]
+2026-09-26 11:19:04.959 [info] fatal: not a git repository (or any parent up to mount point /run/media/Inba)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-26 11:19:04.960 [info] > git rev-parse --show-toplevel [1ms]
+2026-09-26 11:19:04.960 [info] fatal: not a git repository (or any parent up to mount point /run/media/Inba)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-26 11:19:04.967 [info] > git rev-parse --show-toplevel [1ms]
+2026-09-26 11:19:04.967 [info] fatal: not a git repository (or any parent up to mount point /run/media/Inba)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-09-26 11:19:04.968 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)

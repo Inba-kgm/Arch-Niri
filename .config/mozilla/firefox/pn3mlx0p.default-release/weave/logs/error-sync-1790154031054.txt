@@ -1,0 +1,53 @@
+1790153999069	Sync.LogManager	DEBUG	Flushing file log
+1790153999080	Sync.LogManager	DEBUG	Log cleanup threshold time: 1789289999080
+1790153999082	Sync.LogManager	DEBUG	Done deleting files.
+1790154000332	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1790154005362	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1790154023783	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1790154023818	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:fxa_status
+1790154023819	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:fxa_status
+1790154023819	FirefoxAccounts	DEBUG	fxa_status received
+1790154023819	FirefoxAccounts	DEBUG	fxa status ok=true - private=false, service=sync, context=oauth, pairing=true
+1790154023825	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:fxa_status
+1790154023825	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:fxa_status
+1790154023825	FirefoxAccounts	DEBUG	fxa_status received
+1790154023825	FirefoxAccounts	DEBUG	fxa status ok=true - private=false, service=sync, context=oauth, pairing=true
+1790154023832	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:oauth_flow_begin
+1790154023832	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:oauth_flow_begin
+1790154023832	FirefoxAccounts	DEBUG	Webchannel is starting a new oauth flow for scopes profile,https://identity.mozilla.com/apps/oldsync
+1790154023852	FirefoxAccounts	TRACE	observed topic=push-message, data=chrome://fxa-device-update, subject=[xpconnect wrapped nsISupports]
+1790154023852	FirefoxAccounts	TRACE	FxAccountsPushService _onPushMessage
+1790154023853	FirefoxAccounts	DEBUG	empty push message, but oauth doesn't require checking account status - ignoring
+1790154024474	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790154024527	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790154024578	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790154025519	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:fxa_status
+1790154025520	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:fxa_status
+1790154025520	FirefoxAccounts	DEBUG	fxa_status received
+1790154025520	FirefoxAccounts	DEBUG	fxa status ok=true - private=false, service=sync, context=oauth_webchannel_v1, pairing=false
+1790154025837	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:fxa_status
+1790154025837	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:fxa_status
+1790154025837	FirefoxAccounts	DEBUG	fxa_status received
+1790154025837	FirefoxAccounts	DEBUG	fxa status ok=true - private=false, service=sync, context=oauth, pairing=false
+1790154025885	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:fxa_status
+1790154025886	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:fxa_status
+1790154025886	FirefoxAccounts	DEBUG	fxa_status received
+1790154025886	FirefoxAccounts	DEBUG	fxa status ok=true - private=false, service=sync, context=oauth, pairing=false
+1790154026203	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790154028813	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1790154031044	Sync.RemoteTabs	INFO	Doing a tab sync.
+1790154031044	Sync.Service	DEBUG	User-Agent: Firefox/156.0 (Linux x86_64) FxSync/1.158.0.20260915231823.desktop
+1790154031044	Sync.Service	INFO	Starting sync at 2026-09-23 09:00:31 in browser session lAtpdiZtejxW
+1790154031044	Sync.Service	DEBUG	In sync: should login.
+1790154031044	Sync.Service	INFO	User logged in successfully - verifying login.
+1790154031044	Sync.RemoteTabs	INFO	Generating tab list with filter
+1790154031053	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790154031053	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState has an unverified user
+1790154031053	Sync.Status	DEBUG	Status.login: error.login.reason.account => error.login.reason.account
+1790154031053	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1790154031053	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1790154031053	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1790154031053	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790154031054	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1066:15) JS Stack trace: onNotify@service.sys.mjs:1066:15
+1790154031054	Sync.Service	DEBUG	Not syncing: login returned false.
+1790154031054	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent

@@ -1,0 +1,18 @@
+2026-09-26 15:15:18: IPC: Starting server using secret key: /home/Inba/.config/joplin-desktop/ipc_secret_key.txt
+2026-09-26 15:17:47: App: [appClose] quitWithSyncCheck() called - syncPending: <false>
+2026-09-26 15:17:47: App: [appClose] quit() called
+2026-09-26 15:17:47: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-09-26 15:17:52: IPC: Starting server using secret key: /home/Inba/.config/joplin-desktop/ipc_secret_key.txt
+2026-09-26 15:30:50: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-09-26 15:30:50: App: [appClose] isGoingToExit: <true>
+2026-09-26 15:30:50: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-09-26 15:30:50: App: [appClose] quit() called
+2026-09-26 15:30:50: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-09-26 15:30:50: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-09-28 19:52:51: IPC: Starting server using secret key: /home/Inba/.config/joplin-desktop/ipc_secret_key.txt
+2026-09-28 19:53:37: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-09-28 19:53:37: App: [appClose] isGoingToExit: <true>
+2026-09-28 19:53:37: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-09-28 19:53:37: App: [appClose] quit() called
+2026-09-28 19:53:37: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-09-29 09:31:04: IPC: Starting server using secret key: /home/Inba/.config/joplin-desktop/ipc_secret_key.txt

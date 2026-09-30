@@ -1,0 +1,116 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=indexingPriority)(B9=highestRecordedUID)
+  (BA=ns:msg:db:row:scope:pending:all)(BB=ns:msg:db:table:kind:pending)
+  (BC=dateReceived)(BD=ProtoThreadFlags)(BE=account)(BF=junkscore)
+  (C0=keywords)(C1=replyTo)(C2=dobayes.mailnews@mozilla.org#junk)
+  (C3=columnStates)(C4=customSortCol)(C5=imageSize)(C6=sender_name)
+  (C7=ns:msg:db:row:scope:ops:all)(C8=ns:msg:db:table:kind:ops)
+  (C9=prevkeywords)(CA=op)(CB=msgKey)(CC=opFlags)(CD=newFlags)
+  (CE=moveDest)(CF=msgSize)(D0=gloda-id)(D1=gloda-dirty)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=sortColumns)(B0=imapFlags)
+  (B1=useServerRetention)(B2=highestModSeq)(B3=MRUTime)(B4=sortOrder)
+  (B5=sortType)(B6=viewType)(B7=viewFlags)>
+<(80=1)(95=fffffffe)(81=0)>[1:m(^9B=1)(^8F^95)(^91=0)(^90=0)(^92=0)
+    (^93=0)]
+<(86=2)(9D=6969baca)>[2:m(^9B=2)(^8F=2)(^91^9D)(^90=0)(^92=1)(^93=0)]
+<(A3=3)(A1=69930f98)>[3:m(^9B=3)(^8F=3)(^91^A1)(^90=0)(^92=1)(^93=0)]
+<(AB=4)(A9=6a2247fe)>[4:m(^9B=4)(^8F=4)(^91^A9)(^90=0)(^92=1)(^93=0)]
+
+<(97="noreply" <replies@microsoft.com>)(98
+    ="Microsoft Rewards" <MicrosoftRewards@customermail.microsoft.com>)
+  (99=<inbavanans7484@outlook.com>)(9A
+    =Level up fast: Unlock more rewards today)(9B
+    =AC70000000142AA9F5E0044054Bmscom_mkt_prod79@customermail.microsoft.com)
+  (8B=)(9C=696a15a1)(92=utf-8)(9E=1a1bb)(94=ffffffff)(AE
+    =0|Microsoft Rewards <MicrosoftRewards@customermail.microsoft.com>)
+  (9F
+    =AC7000000014BCCB72F00444132mscom_mkt_prod79@customermail.microsoft.com)
+  (A0=69930fde)(A2=1a550)(A4=noreply@tm.openai.com)(A5
+    =OpenAI <trustandsafety@tm.openai.com>)(8D=inbavanans7484@outlook.com)
+  (A6=OpenAI - Access =?UTF-8?Q?Deactivated=0A=0A=5BC-oN86j5iYJzlI=5D?=)
+  (A7=yGTAE6UQQw2w4O2C7RL3dQ@geopod-ismtpd-8)(A8=6a224800)(AA=b2ce)
+  (AD=0|OpenAI <trustandsafety@tm.openai.com>)>
+{1:^80 {(k^96:c)(s=9)} 
+  [2(^88=1)(^C1^97)(^82^98)(^85^99)(^81^9A)(^83^9B)(^84=)(^BC^9C)(^86^9D)
+    (^89=1)(^95^92)(^87^9E)(^9A^94)(^8E=2)(^BD=0)(^C6^AE)(^C9=)]
+  [3(^88=1)(^C1^97)(^82^98)(^85^99)(^81^9A)(^83^9F)(^84=)(^BC^A0)(^86^A1)
+    (^89=1)(^95^92)(^87^A2)(^9A^94)(^8E=3)(^BD=0)(^C6^AE)(^C9=)]
+  [4(^88=1)(^C1^A4)(^82^A5)(^85^8D)(^81^A6)(^83^A7)(^84=)(^BC^A8)(^86^A9)
+    (^89=1)(^95^92)(^87^AA)(^9A^94)(^8E=4)(^BD=0)(^C6^AD)(^C9=)]}
+{2:^80 {(k^97:c)(s=9)2:m } 2 }
+{FFFFFFFE:^80 {(k^97:c)(s=9)1:m } }
+{3:^80 {(k^97:c)(s=9)3:m } 3 }
+{4:^80 {(k^97:c)(s=9)4:m } 4 }[1:^80]
+
+<(8E=Use ChatGPT to make life easier)>
+{FFFFFFFD:^99 {(k^98:c)(s=9)} 
+  [2(^94^9A)]
+  [3(^94^9A)]
+  [4(^94^A6)]}
+
+<(82=Junk)(83=$122)(84=6000)(AC=1790267968)(87=12)(88=-1)(B1=50082014)
+  (8A=15)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^AF^83)(^B0^84)(^B1=1)(^A7^82)(^B2=0)
+    (^B3^AC)(^B4=2)(^B5=12)(^B6=0)(^B7=1)(^B8=-1)(^88^B1)(^A8=15)(^B9=4)
+    (^A1=3)(^A2=0)(^A6=4)]}
+
+<(B2=imap://inbavanans7484%40outlook.com@outlook.office365.com/Deleted)
+  (B0=b24e)>
+{1:^C7 {(k^C8:c)(s=9)} 
+  [1(^CB=1)(^CD=1)(^CE^B2)(^CA=2)(^CF^B0)]
+  [2(^CB=2)(^CD=1)(^CE^B2)(^CA=2)(^CF^9E)]
+  [3(^CB=3)(^CD=1)(^CE^B2)(^CA=2)(^CF^A2)]
+  [4(^CB=4)(^CD=1)(^CE^B2)(^CA=2)(^CF^AA)]}
+
+@$${8{@
+< <(a=c)> // (f=iso-8859-1)
+  (D2=inPlayback)>
+[-2:m(^9B=2)(^8F=2)(^91=0)(^90=0)(^92=0)(^93=0)]
+[-3:m(^9B=3)(^8F=3)(^91=0)(^90=0)(^92=0)(^93=0)]
+[-4:m(^9B=4)(^8F=4)(^91=0)(^90=0)(^92=0)(^93=0)]
+[-5:m(^93=0)]
+{-1:^80 {(k^96:c)(s=9)5:m } }
+{-2:^80 {(k^97:c)(s=9)2:m } }
+{-3:^80 {(k^97:c)(s=9)3:m } }
+{-4:^80 {(k^97:c)(s=9)4:m } }[-3:^80(^C9=)]
+[-4:^80(^C9=)]
+[-1:^80(^C9=)(^88=1)]
+[-2:^80(^C9=)]
+{-FFFFFFFD:^99 {(k^98:c)(s=9)} }
+[1:^9F(^A1=0)]
+[2:^C7(^D2=1)]
+[3:^C7(^D2=1)]
+[4:^C7(^D2=1)]
+[1:^C7(^D2=1)]
+@$$}8}@
+
+@$${9{@
+[3:^80(^88=1)]
+[4:^80(^88=1)]
+[2:^80(^88=1)]
+<(89=40082014)>[1:^9F(^88^89)]
+{-1:^C7 {(k^C8:c)(s=9)} }
+[-2:^C7]
+[-3:^C7]
+[-4:^C7]
+[-1:^C7]
+@$$}9}@
+
+@$${A{@
+@$$}A}@

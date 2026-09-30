@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+
+# Options using raw unicode glyphs
+options="\uF023\n\uF08B\n\uF01E\n\uF011"
+
+# Slim theme overrides to match a sleek Waybar scale
+theme_override="
+inputbar { 
+    enabled: false; 
+}
+mode-switcher { 
+    enabled: false; 
+}
+window { 
+    location: east; 
+    anchor: east; 
+    width: 70px; 
+    x-offset: -12px; 
+    border-color: #737AA4;
+    border :1px dash;
+} 
+listview { 
+    lines: 4; 
+    columns: 1;
+    layout: vertical;
+    spacing: 10px;
+    padding: 7px 0px;
+}
+element-icon {
+    enabled: false;
+}
+element-text {
+    font: 'JetBrainsMono Nerd Font 17';
+    horizontal-align: 0.5;
+    vertical-align: 0.5;
+}
+element {
+    padding: 8px 0px;
+}
+
+element selected.normal,
+element selected.urgent,
+element selected.active {
+    border: 1px solid;
+    border-color: #7b181780;
+}
+
+"
+
+# Launch rofi
+chosen=$(echo -e "$options" | rofi -dmenu -i -filter "" -no-custom -p "Power Menu:" -theme-str "$theme_override")
+
+# Execute command matching the generated unicode outputs cleanly
+case "$chosen" in
+    *$'\UF023'*)
+        swaylock ;;
+    *$'\UF08B'*)
+        niri msg action quit --skip-confirmation ;;
+    *$'\UF01E'*)
+        systemctl reboot ;;
+    *$'\UF011'*)
+        systemctl poweroff ;;
+esac
+

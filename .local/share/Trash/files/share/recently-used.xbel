@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/Inba/Downloads/config.kdl" added="2026-09-23T09:13:21.797707Z" modified="2026-09-23T09:13:21.797712Z" visited="2026-09-23T09:13:21.797708Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T09:13:21.797709Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/init-wallpaper.sh" added="2026-09-23T09:19:45.205130Z" modified="2026-09-23T09:19:45.205133Z" visited="2026-09-23T09:19:45.205131Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T09:19:45.205132Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/wallpaper-change.sh" added="2026-09-23T09:19:47.458615Z" modified="2026-09-23T09:19:47.458619Z" visited="2026-09-23T09:19:47.458616Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T09:19:47.458617Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/config.jsonc" added="2026-09-23T09:24:07.017811Z" modified="2026-09-23T14:14:21.849400Z" visited="2026-09-23T09:24:07.017811Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T14:14:21.849398Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/style.css" added="2026-09-23T09:24:09.461205Z" modified="2026-09-23T09:48:27.835434Z" visited="2026-09-23T09:24:09.461206Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T09:48:27.835432Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/wifi-menu.sh" added="2026-09-23T09:24:18.337516Z" modified="2026-09-23T09:48:30.027893Z" visited="2026-09-23T09:24:18.337518Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T09:48:30.027890Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/config.rasi" added="2026-09-23T09:29:54.882821Z" modified="2026-09-23T09:29:54.882828Z" visited="2026-09-23T09:29:54.882822Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T09:29:54.882824Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/rofi-logout" added="2026-09-23T09:29:57.887487Z" modified="2026-09-23T09:29:57.887496Z" visited="2026-09-23T09:29:57.887490Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T09:29:57.887492Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/colors.rasi" added="2026-09-23T09:32:33.645231Z" modified="2026-09-23T09:32:33.645237Z" visited="2026-09-23T09:32:33.645232Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T09:32:33.645233Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/fonts.rasi" added="2026-09-23T09:32:39.236016Z" modified="2026-09-23T09:32:39.236022Z" visited="2026-09-23T09:32:39.236017Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T09:32:39.236019Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/accels.scm" added="2026-09-23T09:34:06.158867Z" modified="2026-09-23T09:34:06.158870Z" visited="2026-09-23T09:34:06.158868Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-scheme"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T09:34:06.158868Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/renamerrc" added="2026-09-23T09:34:08.109288Z" modified="2026-09-23T09:34:08.109292Z" visited="2026-09-23T09:34:08.109289Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T09:34:08.109290Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/uca.xml" added="2026-09-23T09:34:13.517668Z" modified="2026-09-23T09:34:13.517681Z" visited="2026-09-23T09:34:13.517670Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T09:34:13.517676Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml" added="2026-09-23T09:34:57.136307Z" modified="2026-09-23T09:34:57.136310Z" visited="2026-09-23T09:34:57.136307Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-23T09:34:57.136308Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/user" added="2026-09-23T09:36:40.306144Z" modified="2026-09-23T09:36:40.306149Z" visited="2026-09-23T09:36:40.306145Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T09:36:40.306146Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/foot.ini" added="2026-09-23T09:56:27.451171Z" modified="2026-09-23T14:22:33.689149Z" visited="2026-09-23T09:56:27.451171Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T14:22:33.689147Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/foot-startup.sh" added="2026-09-23T10:00:02.252209Z" modified="2026-09-23T14:22:33.689158Z" visited="2026-09-23T10:00:02.252210Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T14:22:33.689157Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/ff1a19e4c5f6d19598a5ae1e954ac544.jpg" added="2026-09-23T10:28:34.602257Z" modified="2026-09-23T10:28:34.602262Z" visited="2026-09-23T10:28:34.602258Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T10:28:34.602260Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/ff1a19e4c5f6d19598a5ae1e954ac544(1).jpg" added="2026-09-23T10:28:40.638373Z" modified="2026-09-23T10:28:40.638382Z" visited="2026-09-23T10:28:40.638375Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T10:28:40.638377Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/47d4563ebab751d0a52b7046f92c9307.jpg" added="2026-09-23T10:36:10.596953Z" modified="2026-09-23T10:36:10.596958Z" visited="2026-09-23T10:36:10.596954Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T10:36:10.596955Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/wallpaper_resolution.jpg.jpeg" added="2026-09-23T10:44:32.519829Z" modified="2026-09-23T10:44:32.519832Z" visited="2026-09-23T10:44:32.519829Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T10:44:32.519830Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Pictures/Dark_Nature.jpg" added="2026-09-23T10:45:56.918292Z" modified="2026-09-26T08:43:11.878923Z" visited="2026-09-23T10:45:56.918293Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-26T08:43:11.878920Z" count="3"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T10:46:12.119211Z" count="1"/>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2026-09-25T17:12:35.420819Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Pictures/Screenshots/Screenshot%20from%202026-09-23%2013-08-40.png" added="2026-09-23T13:08:51.013399Z" modified="2026-09-26T08:43:53.682388Z" visited="2026-09-23T13:08:51.013400Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T13:09:14.047456Z" count="2"/>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-26T08:43:53.682385Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Pictures/Screenshots/Screenshot%20from%202026-09-23%2016-23-19.png" added="2026-09-23T16:24:37.220639Z" modified="2026-09-23T16:24:37.220642Z" visited="2026-09-23T16:24:37.220639Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T16:24:37.220640Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Pictures/Screenshots/Screenshot%20from%202026-09-23%2016-26-41.png" added="2026-09-23T16:26:48.652351Z" modified="2026-09-23T16:26:48.652354Z" visited="2026-09-23T16:26:48.652351Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T16:26:48.652352Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Pictures/Screenshots/Screenshot%20from%202026-09-23%2016-30-10.png" added="2026-09-23T16:30:52.570691Z" modified="2026-09-23T16:30:52.570694Z" visited="2026-09-23T16:30:52.570692Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-23T16:30:52.570692Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Documents/Kicad/Demo" added="2026-09-24T14:30:47.430320Z" modified="2026-09-24T14:30:47.430327Z" visited="2026-09-24T14:30:47.430321Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="kicad" exec="&apos;kicad %u&apos;" modified="2026-09-24T14:30:47.430324Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Documents/Kicad/Demo/Demo.kicad_pro" added="2026-09-24T14:30:47.772243Z" modified="2026-09-24T14:36:28.415721Z" visited="2026-09-24T14:30:47.772244Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-kicad-project"/>
+        <bookmark:applications>
+          <bookmark:application name="kicad" exec="&apos;kicad %u&apos;" modified="2026-09-24T14:36:28.415719Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Documents/Kicad/Demo/Demo.kicad_sch" added="2026-09-24T14:30:51.736535Z" modified="2026-09-24T14:38:56.779675Z" visited="2026-09-24T14:30:51.736536Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-kicad-schematic"/>
+        <bookmark:applications>
+          <bookmark:application name="kicad" exec="&apos;kicad %u&apos;" modified="2026-09-24T14:38:56.779672Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/config/gtk-3.0/gtk.css" added="2026-09-24T16:13:58.722069Z" modified="2026-09-24T16:13:58.722075Z" visited="2026-09-24T16:13:58.722070Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-24T16:13:58.722072Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/config/gtk-3.0/settings.ini" added="2026-09-24T16:14:23.102338Z" modified="2026-09-24T16:14:23.102343Z" visited="2026-09-24T16:14:23.102339Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-24T16:14:23.102340Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/config" added="2026-09-24T17:01:11.580711Z" modified="2026-09-24T17:02:51.748420Z" visited="2026-09-24T17:01:11.580712Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-24T17:02:51.748418Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/muffon-2.4.0-linux-aarch64.pacman" added="2026-09-25T17:03:38.365658Z" modified="2026-09-25T17:03:38.365661Z" visited="2026-09-25T17:03:38.365658Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-25T17:03:38.365659Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/Inba/PublicSpace/Home/Iqube/ARDUINO/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf" added="2026-09-26T05:23:53.379942Z" modified="2026-09-26T05:23:53.379944Z" visited="2026-09-26T05:23:53.379942Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-26T05:23:53.379943Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/README.md" added="2026-09-26T05:53:58.419454Z" modified="2026-09-26T05:53:58.419457Z" visited="2026-09-26T05:53:58.419454Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/markdown"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-26T05:53:58.419456Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/Inba/PublicSpace/Home/Pictures/PWm/TSOVVtbqGVQ596ZKG1MalzuVg5_LOrMcOA5SrsGjlZ4xB6hgIiHEZvdbgKjJXQJ5xMPzBSFEpUqGx9y9ZgkxhUIdNvMCa4YgrIOusqPG1ENEfb7XxUFgEHjA1dRvPYnlbJgyhvyMQEpakzCCTTiiLL9zHJJ9MV40CNNYTmZfJhtsnRK7QzhZI6qhx0A4vPiD.jpg" added="2026-09-26T06:07:48.585355Z" modified="2026-09-28T14:07:28.653881Z" visited="2026-09-26T06:07:48.585356Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-26T06:07:49.034723Z" count="2"/>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-28T14:07:28.653874Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/Inba/PublicSpace/Backup-Tyga/Music/Ringtones_applied/instagram_1775893347705(44.1K).m4a" added="2026-09-26T08:44:30.623957Z" modified="2026-09-26T08:44:40.150427Z" visited="2026-09-26T08:44:30.623958Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-26T08:44:40.150425Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/Inba/PublicSpace/Backup-Tyga/Music/sound_recorder" added="2026-09-26T09:54:44.890409Z" modified="2026-09-26T09:54:44.890415Z" visited="2026-09-26T09:54:44.890410Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-26T09:54:44.890412Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/Greenhouse_Temperature_Sensing_Project_Report_DSD.pdf" added="2026-09-27T18:25:35.309111Z" modified="2026-09-27T18:45:18.420874Z" visited="2026-09-27T18:25:35.309112Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-27T18:45:18.420871Z" count="3"/>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-27T18:40:59.900538Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/Automated%20Poultry%20Farm%20Environment%20Control%20System%20Report.pdf" added="2026-09-27T18:51:52.898795Z" modified="2026-09-27T18:52:13.803289Z" visited="2026-09-27T18:51:52.898797Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-27T18:51:52.898800Z" count="1"/>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-27T18:52:13.803286Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/Automated%20Poultry%20Farm%20Hardware%20Presentation.pptx" added="2026-09-27T18:53:22.342296Z" modified="2026-09-27T18:54:35.036598Z" visited="2026-09-27T18:53:22.342297Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-27T18:53:22.342300Z" count="1"/>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-27T18:54:35.036594Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/Automated%20Poultry%20Farm%20Hardware%20Presentation.pdf" added="2026-09-27T18:54:15.095614Z" modified="2026-09-27T19:05:56.354509Z" visited="2026-09-27T18:54:15.095615Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-27T19:05:56.354504Z" count="2"/>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-27T18:54:53.702825Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/Automated%20Poultry%20Farm%20Hardware%20Presentation(1).pptx" added="2026-09-27T18:56:22.223641Z" modified="2026-09-27T18:56:29.122919Z" visited="2026-09-27T18:56:22.223642Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-27T18:56:22.223646Z" count="1"/>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-27T18:56:29.122906Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/Automated%20Poultry%20Farm%20Hardware%20Presentation(2).pptx" added="2026-09-27T18:58:09.441562Z" modified="2026-09-27T18:58:18.246722Z" visited="2026-09-27T18:58:09.441563Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-27T18:58:09.441567Z" count="1"/>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-27T18:58:18.246718Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Documents/Automated%20Poultry%20Farm%20Hardware%20Presentation(2)" added="2026-09-27T19:03:29.275725Z" modified="2026-09-27T19:03:29.275731Z" visited="2026-09-27T19:03:29.275726Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-27T19:03:29.275728Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Documents/Automated%20Poultry%20Farm%20Hardware%20Presentation(2).pptx" added="2026-09-27T19:03:29.574032Z" modified="2026-09-27T19:03:29.574046Z" visited="2026-09-27T19:03:29.574035Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+        <bookmark:applications>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-27T19:03:29.574039Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Documents/Automated%20Poultry%20Farm.pptx" added="2026-09-27T19:05:24.699425Z" modified="2026-09-27T19:05:24.699444Z" visited="2026-09-27T19:05:24.699427Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-27T19:05:24.699436Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/Automated%20Poultry%20Farm%20Report.pdf" added="2026-09-27T19:06:53.761094Z" modified="2026-09-27T19:07:19.027330Z" visited="2026-09-27T19:06:53.761096Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-27T19:06:53.761099Z" count="1"/>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-27T19:07:19.027327Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/WhatsApp%20Video%202026-09-27%20at%2012.02.21%20PM.mp4" added="2026-09-27T19:09:46.638805Z" modified="2026-09-27T19:09:46.638813Z" visited="2026-09-27T19:09:46.638806Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-27T19:09:46.638809Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/Inba/PublicSpace/Backup-Tyga/Documents/Projects/Automated%20Poultry%20Management" added="2026-09-27T19:10:57.490709Z" modified="2026-09-27T19:10:57.490723Z" visited="2026-09-27T19:10:57.490712Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-27T19:10:57.490717Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/Inba/PublicSpace/Backup-Tyga/Pictures/Wallpapers/Lord%20Shiva/shiva.jpg" added="2026-09-27T19:11:56.740576Z" modified="2026-09-28T14:12:34.998323Z" visited="2026-09-27T19:11:56.740577Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-27T19:15:47.855608Z" count="2"/>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-28T14:12:34.998317Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/Gemini_Generated_Image_aikmiwaikmiwaikm.png" added="2026-09-27T19:18:22.815195Z" modified="2026-09-28T14:12:15.442621Z" visited="2026-09-27T19:18:22.815198Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-27T19:18:45.970891Z" count="2"/>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-28T14:12:15.442614Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/boot_log.txt" added="2026-09-27T19:37:37.177866Z" modified="2026-09-27T19:37:37.177874Z" visited="2026-09-27T19:37:37.177868Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-27T19:37:37.177870Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/Inba/PublicSpace/Backup-Tyga/Documents/Projects/5%20digit%20Seven%20Segment%20Display/Circuit" added="2026-09-27T20:31:10.515211Z" modified="2026-09-27T20:31:10.844085Z" visited="2026-09-27T20:31:10.515212Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-27T20:31:10.844082Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/Inba/PublicSpace/Backup-Tyga/Documents/Projects/5%20digit%20Seven%20Segment%20Display/Circuit.jpg" added="2026-09-27T20:31:54.508347Z" modified="2026-09-27T20:31:54.508349Z" visited="2026-09-27T20:31:54.508347Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-27T20:31:54.508348Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/Inba/PublicSpace/Backup-Tyga/Documents/Projects/Atmega328p-Usbasp/practical.jpg" added="2026-09-27T20:55:38.981945Z" modified="2026-09-27T20:55:39.331614Z" visited="2026-09-27T20:55:38.981947Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-27T20:55:39.331612Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/config/niri/config.kdl" added="2026-09-28T11:59:26.030194Z" modified="2026-09-28T11:59:26.030206Z" visited="2026-09-28T11:59:26.030196Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-28T11:59:26.030200Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/Inba/PublicSpace/Home/Iqube/ARDUINO/Arduino-UNO-pinout-high-resolution.jpg" added="2026-09-28T13:02:02.004542Z" modified="2026-09-28T13:02:02.004548Z" visited="2026-09-28T13:02:02.004543Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-28T13:02:02.004545Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Pictures/Screenshots/Screenshot%20from%202026-09-24%2022-01-14.png" added="2026-09-28T13:38:15.730151Z" modified="2026-09-28T16:03:41.966605Z" visited="2026-09-28T13:38:15.730152Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-28T16:03:41.966597Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Pictures/Screenshots/screenshot_20260928_185237.png" added="2026-09-28T13:38:20.861112Z" modified="2026-09-28T16:03:37.626577Z" visited="2026-09-28T13:38:20.861113Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-28T16:03:37.626569Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Pictures/Screenshots/screenshot_20260928_185719.png" added="2026-09-28T13:38:24.649676Z" modified="2026-09-28T13:38:24.649678Z" visited="2026-09-28T13:38:24.649676Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-28T13:38:24.649677Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Pictures/Screenshots/screenshot_20260928_185951.png" added="2026-09-28T13:38:26.736469Z" modified="2026-09-28T13:38:26.736471Z" visited="2026-09-28T13:38:26.736469Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-28T13:38:26.736470Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Documents/LINGESH" added="2026-09-28T15:08:01.246826Z" modified="2026-09-28T15:53:31.970899Z" visited="2026-09-28T15:08:01.246826Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-28T15:53:31.970894Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Documents/LINGESH.fb2" added="2026-09-28T15:08:01.529342Z" modified="2026-09-28T15:08:01.529346Z" visited="2026-09-28T15:08:01.529343Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-fictionbook+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-28T15:08:01.529344Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/imgdownloader-81fe3cfa.png" added="2026-09-28T15:23:49.796597Z" modified="2026-09-28T15:24:08.811017Z" visited="2026-09-28T15:23:49.796599Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-28T15:23:49.796602Z" count="1"/>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-28T15:24:08.811013Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Documents/LINGESH2" added="2026-09-28T15:39:15.605911Z" modified="2026-09-28T15:39:15.605917Z" visited="2026-09-28T15:39:15.605912Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-28T15:39:15.605914Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Documents/LINGESH2.docx" added="2026-09-28T15:39:15.939907Z" modified="2026-09-28T15:39:15.939914Z" visited="2026-09-28T15:39:15.939908Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-28T15:39:15.939910Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Documents/LINGESH.docx" added="2026-09-28T15:39:31.613640Z" modified="2026-09-28T15:39:31.613647Z" visited="2026-09-28T15:39:31.613641Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-28T15:39:31.613643Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Documents/LINGESH.pptx" added="2026-09-28T15:53:32.281347Z" modified="2026-09-28T15:53:32.281353Z" visited="2026-09-28T15:53:32.281348Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+        <bookmark:applications>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-28T15:53:32.281350Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/Book4.xlsx" added="2026-09-28T15:54:19.421376Z" modified="2026-09-28T15:54:46.098536Z" visited="2026-09-28T15:54:19.421377Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-28T15:54:19.421380Z" count="1"/>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-28T15:54:46.098532Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Pictures/Screenshots/Screenshot%20from%202026-09-28%2021-34-10.png" added="2026-09-28T16:04:33.386291Z" modified="2026-09-28T16:04:33.386302Z" visited="2026-09-28T16:04:33.386292Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-28T16:04:33.386295Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Pictures/Screenshots/Screenshot%20from%202026-09-28%2021-36-15.png" added="2026-09-28T16:06:24.268472Z" modified="2026-09-28T16:06:24.268481Z" visited="2026-09-28T16:06:24.268473Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-28T16:06:24.268475Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/LINGESH.xlsx" added="2026-09-28T16:08:27.697292Z" modified="2026-09-28T16:08:28.023775Z" visited="2026-09-28T16:08:27.697293Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-28T16:08:28.023770Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/Book5.xlsx" added="2026-09-28T16:09:22.063635Z" modified="2026-09-28T16:09:40.359619Z" visited="2026-09-28T16:09:22.063636Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-28T16:09:22.063638Z" count="1"/>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-28T16:09:40.359615Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/LINGESH2.xlsx" added="2026-09-28T16:12:47.877117Z" modified="2026-09-28T16:12:48.173447Z" visited="2026-09-28T16:12:47.877118Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-28T16:12:48.173442Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/QUOTATION.docx" added="2026-09-28T16:14:15.081880Z" modified="2026-09-28T16:14:21.006315Z" visited="2026-09-28T16:14:15.081882Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-28T16:14:15.081885Z" count="1"/>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-28T16:14:21.006305Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Pictures/Screenshots/Screenshot%20from%202026-09-28%2022-14-38.png" added="2026-09-28T16:44:50.229231Z" modified="2026-09-28T16:45:12.329567Z" visited="2026-09-28T16:44:50.229232Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-28T16:45:12.329565Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Documents/LINGESH3" added="2026-09-28T16:46:31.308151Z" modified="2026-09-28T16:46:31.308153Z" visited="2026-09-28T16:46:31.308151Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-28T16:46:31.308152Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Documents/LINGESH3.docx" added="2026-09-28T16:46:31.635339Z" modified="2026-09-28T16:46:31.635342Z" visited="2026-09-28T16:46:31.635339Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="DesktopEditors" exec="&apos;DesktopEditors %u&apos;" modified="2026-09-28T16:46:31.635340Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/MG995.PDF" added="2026-09-29T13:15:17.328087Z" modified="2026-09-29T13:15:17.328095Z" visited="2026-09-29T13:15:17.328088Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-29T13:15:17.328090Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/q" added="2026-09-29T13:31:00.228850Z" modified="2026-09-29T13:31:02.805028Z" visited="2026-09-29T13:31:00.228851Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-29T13:31:02.805027Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/.zsh_history" added="2026-09-29T15:43:53.905181Z" modified="2026-09-29T15:43:53.905185Z" visited="2026-09-29T15:43:53.905182Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2026-09-29T15:43:53.905183Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/fastpwm.c" added="2026-09-29T16:01:55.182766Z" modified="2026-09-29T16:02:13.366742Z" visited="2026-09-29T16:01:55.182767Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-29T16:01:55.182767Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2026-09-29T16:02:13.366741Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/SG90.PDF" added="2026-09-29T16:03:54.385794Z" modified="2026-09-29T16:03:54.385799Z" visited="2026-09-29T16:03:54.385795Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-09-29T16:03:54.385797Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/Inba/PublicSpace/Home/Documents/Arduino/sketch_sep29a" added="2026-09-29T17:14:39.704293Z" modified="2026-09-29T17:14:39.954379Z" visited="2026-09-29T17:14:39.704293Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2026-09-29T17:14:39.954377Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/Inba/PublicSpace/Home/Documents/git/Timer-Toggler/fastpwm" added="2026-09-29T18:39:58.291533Z" modified="2026-09-29T18:39:58.298551Z" visited="2026-09-29T18:39:58.291535Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="codium" exec="&apos;gio open %u&apos;" modified="2026-09-29T18:39:58.291538Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2026-09-29T18:39:58.298549Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/IMG_20260930_100017.jpg" added="2026-09-30T04:34:46.357601Z" modified="2026-09-30T04:34:46.373633Z" visited="2026-09-30T04:34:46.357603Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2026-09-30T04:34:46.373630Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Inba/Downloads/IMG_20260930_100022.jpg" added="2026-09-30T04:34:46.357630Z" modified="2026-09-30T04:34:46.373672Z" visited="2026-09-30T04:34:46.357632Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2026-09-30T04:34:46.373670Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

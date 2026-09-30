@@ -1,0 +1,61 @@
+## ~/.config/swaylock/config
+
+# --- Behavior ---
+ignore-empty-password
+show-failed-attempts
+
+# --- Background ---
+image=/home/Inba/Pictures/Wallpapers/Wallpaper_resolution.jpeg
+scaling=fill
+
+# --- Indicator ---
+indicator-idle-visible
+indicator-radius=90
+indicator-thickness=5
+indicator-caps-lock
+
+# --- Inside ---
+inside-color=11111be6
+inside-clear-color=11111be6
+inside-ver-color=11111be6
+inside-wrong-color=11111be6
+
+# --- Ring ---
+ring-color=a6adc8ff
+ring-clear-color=a6adc8ff
+ring-ver-color=cdd6f4ff
+ring-wrong-color=f38ba8ff
+
+# --- Text inside indicator ---
+text-color=cdd6f4ff
+text-clear-color=cdd6f4ff
+text-ver-color=cdd6f4ff
+text-wrong-color=f38ba8ff
+
+idle-text="Welcome"
+text-clear=Password
+text-ver=Verifying...
+text-wrong=Wrong!
+
+
+# --- Lines ---
+line-color=00000000
+line-clear-color=00000000
+line-ver-color=00000000
+line-wrong-color=00000000
+separator-color=00000000
+
+# --- Text ---
+text-color=cdd6f4ff
+text-clear-color=cdd6f4ff
+text-ver-color=cdd6f4ff
+text-wrong-color=f38ba8ff
+
+# --- Key feedback ---
+key-hl-color=585b70ff
+bs-hl-color=9399b2ff
+
+# --- Font ---
+font=JetBrains Mono Nerd Font
+font-size=30
+

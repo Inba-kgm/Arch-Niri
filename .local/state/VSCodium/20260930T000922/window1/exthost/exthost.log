@@ -1,0 +1,22 @@
+2026-09-30 00:09:24.295 [info] Extension host with pid 2793 started
+2026-09-30 00:09:24.316 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-30 00:09:24.337 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-30 00:09:24.437 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-09-30 00:09:24.530 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-09-30 00:09:24.568 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-30 00:09:24.649 [info] Eager extensions activated
+2026-09-30 00:09:24.671 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-30 00:09:24.672 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-30 00:09:58.309 [info] Extension host terminating: received terminate message from renderer
+2026-09-30 00:09:58.314 [info] Extension host with pid 2793 exiting with code 0
+2026-09-30 00:09:59.414 [info] Extension host with pid 5105 started
+2026-09-30 00:09:59.414 [info] Skipping acquiring lock for /home/Inba/.config/VSCodium/User/workspaceStorage/b4e511f6b19c36f30c30aa0b7dd34404.
+2026-09-30 00:09:59.437 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-30 00:09:59.478 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-30 00:09:59.534 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-09-30 00:09:59.544 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-30 00:09:59.565 [info] Eager extensions activated
+2026-09-30 00:09:59.639 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-30 00:09:59.641 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-30 00:13:44.938 [info] Extension host terminating: received terminate message from renderer
+2026-09-30 00:13:44.941 [info] Extension host with pid 5105 exiting with code 0

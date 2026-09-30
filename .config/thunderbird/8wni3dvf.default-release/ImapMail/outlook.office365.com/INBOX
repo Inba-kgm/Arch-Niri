@@ -1,0 +1,1856 @@
+From - Thu Sep 24 16:38:23 2026
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Received: from MN2PR19MB3998.namprd19.prod.outlook.com (2603:10b6:208:1e1::21)
+ by SJ0PR19MB5415.namprd19.prod.outlook.com with HTTPS; Mon, 21 Sep 2026
+ 19:21:29 +0000
+Received: from BN9P223CA0014.NAMP223.PROD.OUTLOOK.COM (2603:10b6:408:10b::19)
+ by MN2PR19MB3998.namprd19.prod.outlook.com (2603:10b6:208:1e1::21) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.428.16; Mon, 21 Sep
+ 2026 19:21:27 +0000
+Received: from BN3PEPF00022BD8.namprd03.prod.outlook.com
+ (2603:10b6:408:10b:cafe::8f) by BN9P223CA0014.outlook.office365.com
+ (2603:10b6:408:10b::19) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.21.428.16 via Frontend Transport; Mon,
+ 21 Sep 2026 19:21:27 +0000
+Authentication-Results: spf=pass (sender IP is 218.32.93.133)
+ smtp.mailfrom=nedm.asus.com; dkim=pass (signature was verified)
+ header.d=nedm.asus.com;dmarc=pass action=none
+ header.from=nedm.asus.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of nedm.asus.com designates
+ 218.32.93.133 as permitted sender) receiver=protection.outlook.com;
+ client-ip=218.32.93.133; helo=x133.neweredm.com; pr=C
+Received: from x133.neweredm.com (218.32.93.133) by
+ BN3PEPF00022BD8.mail.protection.outlook.com (10.167.248.104) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.21.451.8
+ via Frontend Transport; Mon, 21 Sep 2026 19:21:26 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:F007283431A3705E97F60CFF0BEFDD5CE3BAED41F07BF6AB06C527B0DF5FF163;UpperCasedChecksum:58A6B07AA961F3873C6D0646DF612AC40C4C09B8114A75ADAD1B2522B31BE998;SizeAsReceived:958;Count:10
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; q=dns/txt;
+ d=nedm.asus.com; s=s1024;
+ h=From:Message-ID:MIME-Version;
+ bh=tTcx62nmNA/oQnDx+HVAUO7o/S6JwN23n2JalyFyvl8=;
+ b=UBkQ76qhXgTVleP6GXvnV+t5tQ21ljF+wa1jOkUpR117sZwqTrh/lBZlieTTT5lcFq/5
+ xDBgmLBOeWm0m1PLCFCP2U4cM72JjYcoAHpV7HjsuMA4Wtz/3VwniXDOUb3G37Kzq9NNV4
+ 9SDtrJHPg4491Gp2e3L+0fx9Bqp6JlyAE=
+Date: Tue, 22 Sep 2026 03:21:20 +0800
+Message-ID: <0r67fbd0f8r0r8c24e.2b08fcfr1a818e3r1a8268drdr370.0r67fbd0@nedm.asus.com>
+Subject: =?utf-8?B?8J+RgCBUaGluayBST0cgSXMgSnVzdCBBYm91dCBHYW1pbmcgTGFwdG9wcz8gVGhpbmsgQWdhaW4h?=
+From: "=?utf-8?B?QVNVUyBJbmRpYQ==?="<noreply@nedm.asus.com>
+To: <inbavanans7484@outlook.com>
+List-Unsubscribe: <https://account.asus.com/cancel_edm.aspx?ECode=0r67fbd0f8r0r8c24e.2b08fcfr1a818e3r1a8268drdr370>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Content-Type: multipart/alternative;
+	boundary="0004544261d-94e3-4840-914c-d7493fd3d96d"
+X-IncomingHeaderCount: 10
+Return-Path: Return.EID67fbd0f8.inbavanans7484@nedm.asus.com
+X-MS-Exchange-Organization-ExpirationStartTime: 21 Sep 2026 19:21:27.4075
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: fc045913-1cae-4fbc-c6a3-08df1815888a
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: BN3PEPF00022BD8:EE_|MN2PR19MB3998:EE_|SJ0PR19MB5415:EE_
+X-MS-Exchange-Organization-AuthSource: BN3PEPF00022BD8.namprd03.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 9/20/2026 3:40:12 AM
+X-MS-Office365-Filtering-Correlation-Id: fc045913-1cae-4fbc-c6a3-08df1815888a
+X-Sender-IP: 218.32.93.133
+X-MS-Exchange-EOPDirect: true
+X-SID-PRA: NOREPLY@NEDM.ASUS.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:2;ARA:1444111002|9000799056|10300799038|58200799025|9400799043|5139299004|1290799033|47200799027|68400799013|5149299006|3069299007|10029299006|260826003000599003|1680799066|30041999003|1602099012|5090599003|2607281247196008|1380799030|1370799030|1360799030|440099028|4302099013|26104999009|3412199025|2406899039;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 21 Sep 2026 19:21:26.6022
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: fc045913-1cae-4fbc-c6a3-08df1815888a
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: BN3PEPF00022BD8.namprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MN2PR19MB3998
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.7983627
+X-MS-Exchange-Processed-By-BccFoldering: 15.21.0428.008
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000311)(920221119095)(90000117)(920221120095)(90012020)(91020020)(91040095)(9050020)(9100341)(944500132)(4810010)(4910033)(9575002)(10195002)(9320005)(120001);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?V3RETkowS1V5aytSUGNtaVpQcFpzSCt5M3ZXNHBwYTlub05GZm9HVnErM1pL?=
+ =?utf-8?B?QS9sczZSSStIWE9XRDRidnZldzJNY1AzTnlyTzB2NHVkanhNbnh1K2pweVNB?=
+ =?utf-8?B?dmZtRFNHOGhHNE1Ia2xFc3c0SzRueDNOR3hJTEdBL2J1eUJoaTZhWUNpM0F2?=
+ =?utf-8?B?ZFVGelozazltQm9xcHFqaUlTWVFhOVZneEQ3MTNjdm5vQTcwa0dYU09zS3g4?=
+ =?utf-8?B?bm1tN3JLTzJYMEE2anAydVdqK3JwV085c1BLZVRzMTVvK1ZMVVBiTjU0c1JF?=
+ =?utf-8?B?ZWt2Wm1WaTZ5bm9ERWRFc3ZSc1BTYzZoZ2pkcDdLUWMyYWFXRE12NVFaTFB4?=
+ =?utf-8?B?UGpEcFhCNW11c0ZBMnpSaVRRY0FjaDN1blR5SXRNZ29JL3FuanZJdEFPTEZn?=
+ =?utf-8?B?WVZPanhRN090RGNjbTN1U3JkZ2YwQ0dFWlQySm93eGxYOW5sanhlOW5wZ29i?=
+ =?utf-8?B?UGNzNlNwV0xDeS9ZTGZlam41NjdkcnZ3L1h4cXRqbFJRRzFyeGY4dVRDVjZT?=
+ =?utf-8?B?M0ZlNHdIR2hERXA2VW1uenJWNjdDb21IOGI1UkZwV3dmMFZoUVVELzN4TDVM?=
+ =?utf-8?B?eEx3d0Z1bEJid0oza3V2QUM0OHpSbGx3SmNBZmlFYVNXeGVuaFYvSS9KYTRs?=
+ =?utf-8?B?VVAzVkhuK1FpSXE2eW9hdndNQmtjNzdwYUJySy9QYXZ6V1hiMnJZYWZnVmlo?=
+ =?utf-8?B?UFN1Y0NWcFpvMDBvayt3dXFXMGNabURLVWNsWVh3WnlKMUhZVlJiczFtOWVM?=
+ =?utf-8?B?c2x4RGVmUlNOL0dENEJZL2tXc1ZuSHJBVGNsWVl6eFZQcmQ1WElYZGpoWjNn?=
+ =?utf-8?B?dWVLb29FcTNBREtsdTE5Mk4wVWNOc3dlQnFIZlNRT2VhT0d0cFk5UHZ0WmtR?=
+ =?utf-8?B?RDhNYmxiS3VjVnNYeE5hRlZSWk1ZWFhhSExzd21CbVJjaGc3NlJqY1JubnRR?=
+ =?utf-8?B?UXp4UWhRWFhlWjczMzRqdTFJSXdCQzJseHNLYXZENTZkVVJXTlQ1VDZWeU1U?=
+ =?utf-8?B?a2Z3ZlNCeW8wWWs1YUI0U2o1Y3oyeExrSUZHcWdFREFmSmxIRStHSWxHNWEr?=
+ =?utf-8?B?TWsvRURQL3Z5VWdOOFRkY2J2cUROMUQvajhLRGQzZUhCdStoVVJLbEZnWkRD?=
+ =?utf-8?B?TUhUK2QrdGhWQTI2S1BhaUVZMXlNT1ZFVFlpV0hlVGdjSW85VDk2alRMRHJC?=
+ =?utf-8?B?OUk5bCswT3oweGxUMSt6VlpqN0VzZERsYW5teTZvTkp0Q2czYVl1cjJLbG95?=
+ =?utf-8?B?QmNPZTZYeUJXdHRaSnVkUnBIUkE0OFphOVZJelp4aXI0VlU5MXh5azZ1d3hr?=
+ =?utf-8?B?WVhyVFFWc0draU45MW55ZFdURnpmOTRTTkxkdlI1dVY5S1p4N2FaOE5lU3cr?=
+ =?utf-8?B?cjJ5aGZFZVlKTVJyVkN5TW53bXBnM1U1dzd1Vkx1SGZubm9QTENGSTNsZU5J?=
+ =?utf-8?B?a1FtUHp3Qnl4TmdNcVAyNjk1SVJmK3V1c1ZKcVpZcFZGUENsa0FCK0tDaitY?=
+ =?utf-8?B?bEtpUko0bFM5V0dZbStHeGczTGxLVlNnTzREMndQYVJ0TWxkSDJYVldkdkZJ?=
+ =?utf-8?B?Q2o0OUJyTWY1Zlk1N1cwcUFDU0FFMmlER3BDVUZXL1lxbVNsbG9GZDl0c1pq?=
+ =?utf-8?B?RG5uYm5VbjRKbjZLRU1zMzV1eHhtSlhpSUdHV3BETFVhaUo5eGFucXRzWW44?=
+ =?utf-8?B?UTJ3RDhDSG5wV0xremZBMnF4OFo3dHdnOGgzOWVBaXNRWWR0OWhEa09tWEMy?=
+ =?utf-8?B?ZzFGTC9NUS9pMXd1YVg0U0ZGRGNLYkFta2tNamYybTU5Z3dYVEtwOFFweHli?=
+ =?utf-8?B?cEtBVmtmSEtPWlo0MU9iQ0VSZlhpNVpQQUNrTVM4Y3lYR0FqRzJJdVlVVG1r?=
+ =?utf-8?B?RGhhcFY3N0RjYlBKUzVOWGE3WkZoUUtKanJoNkIwZWRjUWZLMWM2U1J5NEdk?=
+ =?utf-8?B?OGRLME0yVm9tZG40ZlF5V2N2L0xlQnQ4L29aWXRyV1JMbHJscjRMdE5hdzhv?=
+ =?utf-8?B?YmJLSG5Qdkc5TzJpbUk0dmlGYjZEazBlZWNaYnBDZm81ZDZ5YWdhRDFtRytE?=
+ =?utf-8?B?YmswNkhKL2E0SE5nS0RqajhKckZNcm0valRBNTZnbkhYRnJYbDZiZiswcFBa?=
+ =?utf-8?B?bDZ2c0U5NnUwVkRqR0dqcXQ5WlltM2FHeGlIa1FDV3M2cktySnVFMVBnTTVo?=
+ =?utf-8?B?elBZS294dTVxV0F0dG4zYjd4UDQvWXNZbTd6Q3VkY3hkbTUxS1JOQVlhWE13?=
+ =?utf-8?B?aURsb3dhSjNONXFIK05Oay9DSGNGTTk3WWgyd2NPNFdaVFVZa3RTSFV6UTBI?=
+ =?utf-8?B?N2FwNkNMSmJpbDdvU1ZrVmZZdVM2ekVGNEV3RXBObmJ6Znd2TWtkTkROMVZi?=
+ =?utf-8?B?cVBpclVzN294U2FhTCtMSmV3M1dwYitWVzZGaG5aWkdjZUhiVHc2bVpkQ0dH?=
+ =?utf-8?B?T0xTT0xhWUlsaytGY3FnSWxJT0ttVWRvSzhBcnh6N1UxNzZLRjlCbWR1ZWV2?=
+ =?utf-8?B?R25aekVNaG5SeFBYbmlHK1B3R0tlVllGZCsveE54aTlWd2ZmMWRjUDFRTXR2?=
+ =?utf-8?B?K3V2L3pEVlNWTXlnd3lJaFpDdTl3S1pxU3YvMTRnaXlEL1N6aGhZYjlJcTZq?=
+ =?utf-8?B?UU9EVk9SMFNTZVFnTzRleUZXbGRxMW41Yk5IaDg3R3ZMM3hvV3hTUHBkMDVW?=
+ =?utf-8?B?RW1CMng0VmlpYkNtd25PQmgxNXVkK0YzTGI0cmViYi9NR2c5SjJQdXoyRTc2?=
+ =?utf-8?Q?6wP+C9p9lMyZdZEPlgtBmGO?=
+MIME-Version: 1.0
+
+--0004544261d-94e3-4840-914c-d7493fd3d96d
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=0D=0A=F0=9F=91=80 Think ROG Is Just About Gaming Laptops? Think=20=
+Again!=0D=0A=0D=0AHaving trouble reading this EDM? Click here to=20=
+see it in your browser.=0D=0AThis is an automatically generated e=
+-mail. Please do not reply to this email.=0D=0A=0D=0AHi, Inbavana=
+n S=0D=0A=0D=0A =0D=0A=0D=0A =0D=0A=0D=0AROG Ecosystem - Built fo=
+r Every Way You Game! =F0=9F=8E=AE=0D=0A=0D=0A=0D=0AFrom powerful=
+ gaming laptops and PCs to portable ROG Ally handhelds and gaming=
+=0D=0Aaccessories, ROG has a setup for every kind of gamer. Wheth=
+er you=E2=80=99re chasing=0D=0Ahigher FPS, building your ultimate=
+ battlestation, or taking your games wherever=0D=0Ayou go, there=E2=
+=80=99s a ROG device built to match your playstyle.=0D=0A=0D=0ALa=
+ptop. PC. Handheld or Any Gaming gear.=0D=0AWhatever your way of=20=
+gaming, ROG is ready to play along. =F0=9F=94=A5=0D=0A=0D=0AShop=20=
+Now =0D=0A=0D=0A =0D=0A =0D=0A =0D=0A =0D=0A=0D=0A=C2=A9ASUSTeK C=
+omputer Inc. All rights reserved.=0D=0AIf you wish to cancel your=
+ ASUS EDM subscription, please Click here =0D=0A=0D=0A=0D=0ARefer=
+ences:=0D=0A1: https://omicard.asus.com/HL/496b617/67fbd0f8/0/8c2=
+4e.2b08fcf/1a818e3/1a8268d/d/370/800.htm=0D=0A2: https://omicard.=
+asus.com/HL/?496b618/67fbd0f8/0/8c24e.2b08fcf/1a818e3/1a8268d/d/2=
+370/900/0/0/0/0/0/0/0/0/0/81/---aHR0cHM6Ly9yb2cuYXN1cy5jb20vaW4vP=
+3V0bV9zb3VyY2U9YXN1cy1lZG0mdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ2=
+49NjI5NTQtMjAyNjA5MjEtMjZRM19ST0dfRWNvc3lzdGVtJnV0bV9pZD01MjY1MDQ=
+3MzcxNzg5.htm=0D=0A3: https://omicard.asus.com/HL/496b619/67fbd0f=
+8/0/8c24e.2b08fcf/1a818e3/1a8268d/d/370/800.htm=0D=0A4: https://o=
+micard.asus.com/HL/496b61a/67fbd0f8/0/8c24e.2b08fcf/1a818e3/1a826=
+8d/d/370/800.htm=0D=0A5: https://omicard.asus.com/HL/496b61b/67fb=
+d0f8/0/8c24e.2b08fcf/1a818e3/1a8268d/d/370/800.htm=0D=0A6: https:=
+//omicard.asus.com/HL/496b61c/67fbd0f8/0/8c24e.2b08fcf/1a818e3/1a=
+8268d/d/370/800.htm=0D=0A7: https://omicard.asus.com/HL/?496b61d/=
+67fbd0f8/0/8c24e.2b08fcf/1a818e3/1a8268d/d/2370/900/0/0/0/0/0/0/0=
+/0/0/70/---aHR0cHM6Ly9hY2NvdW50LmFzdXMuY29tL2NhbmNlbF9lZG0uYXNweD=
+9tZWRtX2lkPTYyOTU0Jm1jb2RlPU01NjJBQjhCM0JFLUVGNTAxNi0zNDVGMDAtQUJ=
+DRjA5LTc4QzU2NjQyNUQyQTgzNUUzQQ=3D=3D.htm=0D=0A
+--0004544261d-94e3-4840-914c-d7493fd3d96d
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><b=
+ase href=3D"https://omicard.asus.com/Var/Elite/c8bcef95-2124-4fe9-812a-f24e=
+9581316f/EXTRA/">=0A=
+    <title>EDM</title>=0A=
+    =0A=
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">=0A=
+    <meta name=3D"x-apple-disable-message-reformatting">=0A=
+    <!--[if !mso]><!-->=0A=
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=0A=
+    <!--<![endif]-->=0A=
+    <!--[if gte mso 9]>=0A=
+      <xml>=0A=
+        <o:OfficeDocumentSettings>=0A=
+          <o:AllowPNG />=0A=
+          <o:PixelsPerInch>96</o:PixelsPerInch>=0A=
+        </o:OfficeDocumentSettings>=0A=
+      </xml>=0A=
+    <![endif]-->=0A=
+    <style type=3D"text/css">=0A=
+      body {=0A=
+        padding: 0;=0A=
+        margin: 0;=0A=
+      }=0A=
+=0A=
+      table,=0A=
+      td {=0A=
+        border-collapse: collapse;=0A=
+        mso-table-lspace: 0;=0A=
+        mso-table-rspace: 0;=0A=
+        word-break: break-word;=0A=
+      }=0A=
+=0A=
+      img {=0A=
+        height: auto;=0A=
+        text-decoration: none;=0A=
+        border: 0;=0A=
+        outline: none;=0A=
+        line-height: 100%;=0A=
+        interpolation-mode: bicubic;=0A=
+      }=0A=
+=0A=
+      .link {=0A=
+        display: inline-block;=0A=
+        color: #e30017;=0A=
+        cursor: pointer;=0A=
+      }=0A=
+=0A=
+      .calenderLink {=0A=
+        font-family: SegoeUI, Arial, sans-serif;=0A=
+        font-size: 14px;=0A=
+        color: #e30017;=0A=
+        line-height: 1.43;=0A=
+      }=0A=
+=0A=
+      .socialMedia {=0A=
+        display: inline-block;=0A=
+        cursor: pointer;=0A=
+        margin-right: 5px;=0A=
+      }=0A=
+=0A=
+      .button {=0A=
+        display: inline-block;=0A=
+        font-family: Roboto, Arial, sans-serif;=0A=
+        font-size: 14px;=0A=
+        text-decoration: none;=0A=
+        color: #ffffff;=0A=
+        background: #e30017;=0A=
+      }=0A=
+=0A=
+      .bodyBackground {=0A=
+        background: #000000;=0A=
+      }=0A=
+=0A=
+      .sectionBackground {=0A=
+        background: #212121;=0A=
+      }=0A=
+=0A=
+      .buttonTr {=0A=
+        background: #e30017;=0A=
+      }=0A=
+=0A=
+      .title {=0A=
+        color: #ffffff;=0A=
+      }=0A=
+=0A=
+      .description {=0A=
+        color: #b3b3b3;=0A=
+      }=0A=
+=0A=
+      .dividerBorder {=0A=
+        border-top: solid 1px #424242;=0A=
+      }=0A=
+    </style>=0A=
+    <!--[if !mso]><!-->=0A=
+    <style type=3D"text/css">=0A=
+      @media only screen and (max-width: 480px) {=0A=
+        @viewport {=0A=
+          width: 320px;=0A=
+        }=0A=
+=0A=
+        @viewport {=0A=
+          width: 320px;=0A=
+        }=0A=
+      }=0A=
+    </style>=0A=
+    <!--<![endif]-->=0A=
+    <!--[if mso]>=0A=
+      <xml>=0A=
+        <o:OfficeDocumentSettings>=0A=
+          <o:AllowPNG />=0A=
+          <o:PixelsPerInch>96</o:PixelsPerInch>=0A=
+        </o:OfficeDocumentSettings>=0A=
+      </xml>=0A=
+    <![endif]-->=0A=
+    <!--[if lte mso 11]>=0A=
+      <style type=3D"text/css">=0A=
+        .outlook-group-fix {=0A=
+          width: 100% !important;=0A=
+        }=0A=
+      </style>=0A=
+    <![endif]-->=0A=
+    <!--[if !mso]><!-->=0A=
+=0A=
+    <!--<![endif]-->=0A=
+  </head>=0A=
+=0A=
+  <body bgcolor=3D"#212121"><div style=3D"display: none; max-height: 0px; o=
+verflow: hidden;">=F0=9F=91=80 Think ROG Is Just About Gaming Laptops? Thin=
+k Again!</div>&nbsp;&nbsp;=0A=
+    <div>=0A=
+      <!--[if mso | IE]>=0A=
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">=0A=
+        <tbody>=0A=
+          <tr>=0A=
+            <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule=
+:exactly;">=0A=
+      <![endif]-->=0A=
+      <div style=3D"margin: 0 auto; width: 100%;">=0A=
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"width: 100%;">=0A=
+          <tbody>=0A=
+            <tr>=0A=
+              <td bgcolor=3D"#000000" align=3D"center" width=3D"100%">=0A=
+                <!--=E6=8F=90=E7=A4=BAbanner-->=0A=
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"100%">=0A=
+                  <tbody>=0A=
+                    <tr>=0A=
+                      <td bgcolor=3D"#212121" align=3D"center" style=3D"=0A=
+                          padding-top: 10px;=0A=
+                          padding-bottom: 10px;=0A=
+                          font-size: 0;=0A=
+                          word-break: break-word;=0A=
+">=0A=
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"700">=0A=
+                          <tbody>=0A=
+                            <tr>=0A=
+                              <td width=3D"700" style=3D"=0A=
+                                  margin: auto;=0A=
+                                  font-family: SegoeUI, Arial, sans-serif;=
+=0A=
+                                  font-size: 12px;=0A=
+                                  text-align: right;=0A=
+                                  color: #b3b3b3;=0A=
+">=0A=
+                                Having trouble reading this EDM? <a href=3D=
+"https://omicard.asus.com/HL/496b617/67fbd0f8/0/8c24e.2b08fcf/1a818e3/1a826=
+8d/d/370/800.htm" style=3D"color:#00a8ff;">Click here</a> to see it in your=
+ browser.<br>This is an automatically generated e-mail. Please do not reply=
+ to this email.=0A=
+                              </td>=0A=
+                            </tr>=0A=
+                          </tbody>=0A=
+                        </table>=0A=
+                      </td>=0A=
+                    </tr>=0A=
+                  </tbody>=0A=
+                </table>=0A=
+                <!--=E6=8F=90=E7=A4=BAbanner end-->=0A=
+=0A=
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"700">=0A=
+                  <tbody>=0A=
+                    <tr>=0A=
+                      <td align=3D"center">=0A=
+                        <table width=3D"700" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0">=0A=
+                          <tbody>=0A=
+                            <tr>=0A=
+                              <td width=3D"700" style=3D"=0A=
+                                  padding-top: 10px;=0A=
+                                  padding-bottom: 10px;=0A=
+                                  font-size: 0;=0A=
+                                  word-break: break-word;=0A=
+">=0A=
+                                <img border=3D"0" width=3D"100" height=3D"a=
+uto" src=3D"https://digitalmarketing.asus.com/edm/images/icons/rog-logo_edm=
+.png" style=3D"                                     display: block;        =
+                             width: 100px;                                 =
+    border: 0;                                     outline: none; ">=0A=
+                                <img border=3D"0" height=3D"auto" src=3D"ht=
+tps://digitalmarketing.asus.com/edm/images/space.png" style=3D"            =
+                         display: block;                                   =
+  border: 0;                                     outline: none; ">=0A=
+                              </td>=0A=
+                            </tr>=0A=
+                          </tbody>=0A=
+                        </table>=0A=
+                      </td>=0A=
+                    </tr>=0A=
+                    <!--line-->=0A=
+                    <tr>=0A=
+                      <td width=3D"700" colspan=3D"2" style=3D"font-size: 0=
+; word-break: break-word;">=0A=
+                        <div style=3D"=0A=
+                            margin: 0 auto;=0A=
+                            width: 700px;=0A=
+                            font-size: 1;=0A=
+                            border-top: solid 1px #424242;=0A=
+"></div>=0A=
+                        <!--[if mso | IE]>=0A=
+                          <table=0A=
+                            align=3D"center"=0A=
+                            border=3D"0"=0A=
+                            cellpadding=3D"0"=0A=
+                            cellspacing=3D"0"=0A=
+                            style=3D"=0A=
+                              border-top: solid 1px #424242;=0A=
+                              font-size: 1;=0A=
+                              margin: 0px auto;=0A=
+                              width: 100%;=0A=
+                            "=0A=
+                            role=3D"presentation"=0A=
+                            width=3D"100%"=0A=
+                          >=0A=
+                            <tbody>=0A=
+                              <tr>=0A=
+                                <td style=3D"height: 0; line-height: 0">=0A=
+                                  &nbsp;=0A=
+                                </td>=0A=
+                              </tr>=0A=
+                            </tbody>=0A=
+                          </table>=0A=
+                        <![endif]-->=0A=
+                      </td>=0A=
+                    </tr>=0A=
+                    <!--line End-->=0A=
+                  </tbody>=0A=
+                </table>=0A=
+=0A=
+                =0A=
+    <table id=3D"aa91934f-f524-474a-99a7-28070fed845a" class=3D"open-settin=
+gs-on-click" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"700"=
+>=0A=
+      <tbody>=0A=
+        <tr>=0A=
+          <td width=3D"700" colspan=3D"2" class=3D"title" style=3D"font-siz=
+e:0px;word-break:break-word;padding-top:20px;font-family: SegoeUI, Arial, s=
+ans-serif;font-size: 14px;">=0A=
+            <div>Hi, Inbavanan S</div>=0A=
+          </td>=0A=
+        </tr>=0A=
+      </tbody>=0A=
+    </table>=0A=
+<table id=3D"id-a5229be7-64ce-4a98-9915-aa0251feca0c" class=3D"open-setting=
+s-on-click" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"700">=
+=0A=
+    <tbody>=0A=
+      <tr>=0A=
+        <td width=3D"700" colspan=3D"2" style=3D"font-size:0px;word-break:b=
+reak-word;padding-top:20px;">=0A=
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+100%">=0A=
+            <tbody>=0A=
+              <tr align=3D"left" style=3D"font-size:0px;word-break:break-wo=
+rd;">=0A=
+                  <td width=3D"700">=0A=
+                    =0A=
+                      <a href=3D"https://omicard.asus.com/HL/?496b618/67fbd=
+0f8/0/8c24e.2b08fcf/1a818e3/1a8268d/d/2370/900/0/0/0/0/0/0/0/0/0/81/---aHR0=
+cHM6Ly9yb2cuYXN1cy5jb20vaW4vP3V0bV9zb3VyY2U9YXN1cy1lZG0mdXRtX21lZGl1bT1lbWF=
+pbCZ1dG1fY2FtcGFpZ249NjI5NTQtMjAyNjA5MjEtMjZRM19ST0dfRWNvc3lzdGVtJnV0bV9pZD=
+01MjY1MDQ3MzcxNzg5.htm">=0A=
+                        <img border=3D"0" width=3D"100%" src=3D"https://dlc=
+dnwebimgs.asus.com/files/media/202609/5e8b978c-f4af-41cd-ba21-8973419c0745/=
+.main-content-uploads/fa221e9e-09e1-4085-a4a5-b13ef018cf17/6cc03afa-3df3-41=
+e4-b1f1-8612347ba4f1.jpeg" alt=3D"" style=3D"border:0;display:block;outline=
+:none;">=0A=
+                      </a>=0A=
+                  </td>=0A=
+                </tr>=0A=
+                =0A=
+=0A=
+              =0A=
+=0A=
+              =0A=
+            </tbody>=0A=
+          </table>=0A=
+        </td>=0A=
+      </tr>=0A=
+    </tbody>=0A=
+  </table><table id=3D"id-58f87ecf-ccf6-465d-927f-623782112af0" class=3D"op=
+en-settings-on-click" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"700">=0A=
+    <tbody>=0A=
+      <tr>=0A=
+        <td width=3D"700" colspan=3D"2" style=3D"font-size:0px;word-break:b=
+reak-word;padding-top:20px;">=0A=
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+100%">=0A=
+            <tbody>=0A=
+              <tr align=3D"left" style=3D"font-size:0px;word-break:break-wo=
+rd;">=0A=
+                  <td width=3D"700">=0A=
+                    =0A=
+                      <a href=3D"https://omicard.asus.com/HL/?496b618/67fbd=
+0f8/0/8c24e.2b08fcf/1a818e3/1a8268d/d/2370/900/0/0/0/0/0/0/0/0/0/81/---aHR0=
+cHM6Ly9yb2cuYXN1cy5jb20vaW4vP3V0bV9zb3VyY2U9YXN1cy1lZG0mdXRtX21lZGl1bT1lbWF=
+pbCZ1dG1fY2FtcGFpZ249NjI5NTQtMjAyNjA5MjEtMjZRM19ST0dfRWNvc3lzdGVtJnV0bV9pZD=
+01MjY1MDQ3MzcxNzg5.htm">=0A=
+                        <img border=3D"0" width=3D"100%" src=3D"https://dlc=
+dnwebimgs.asus.com/files/media/202609/5e8b978c-f4af-41cd-ba21-8973419c0745/=
+.main-content-uploads/8f0fb9ae-e2bf-4575-8704-c7ff0439d7bc/d5b2fae0-d758-4c=
+cb-a5ed-40f59b74c848.jpeg" alt=3D"" style=3D"border:0;display:block;outline=
+:none;">=0A=
+                      </a>=0A=
+                  </td>=0A=
+                </tr>=0A=
+                =0A=
+=0A=
+              <tr class=3D"sectionBackground" align=3D"center" style=3D"fon=
+t-size:0px;word-break:break-word;">=0A=
+                  <td class=3D"title" style=3D"padding-top:20px;padding-lef=
+t:24px;padding-right:24px;font-family: SegoeUI, Arial, sans-serif;font-size=
+: 18px;font-weight:600;">=0A=
+                    ROG Ecosystem - Built for Every Way You Game! =F0=9F=8E=
+=AE=0A=
+                  </td>=0A=
+                </tr>=0A=
+=0A=
+                <tr class=3D"sectionBackground" align=3D"center" style=3D"f=
+ont-size:0px;word-break:break-word;">=0A=
+                  <td class=3D"description" style=3D"padding-left:24px;padd=
+ing-right:24px;padding-top:10px;font-family: SegoeUI, Arial, sans-serif;fon=
+t-size: 14px;line-height: 1.43;">=0A=
+                    <div><br>From powerful <strong>gaming laptops and PCs</=
+strong> to portable <strong>ROG Ally handhelds</strong> and gaming accessor=
+ies, ROG has a setup for every kind of gamer. Whether you=E2=80=99re chasin=
+g higher FPS, building your ultimate battlestation, or taking your games wh=
+erever you go, there=E2=80=99s a ROG device built to match your playstyle.<=
+br><br><strong>Laptop. PC. Handheld or Any Gaming gear.</strong><br>Whateve=
+r your way of gaming, <strong>ROG is ready to play along. =F0=9F=94=A5</str=
+ong></div>=0A=
+                  </td>=0A=
+                </tr>=0A=
+=0A=
+              <tr align=3D"center" style=3D"font-size:0px;word-break:break-=
+word;">=0A=
+                  <td class=3D"sectionBackground" style=3D"padding-top: 20p=
+x;padding-bottom:40px;padding-left:24px;padding-right:24px;">=0A=
+                    <table>=0A=
+                      <tbody>=0A=
+                        <tr class=3D"buttonTr" align=3D"center" style=3D"fo=
+nt-size:0px;word-break:break-word;">=0A=
+                          <td style=3D"padding-top:10px;padding-bottom:10px=
+;padding-left:20px;padding-right:20px;color:#ffffff;">=0A=
+=0A=
+                           <a href=3D"https://omicard.asus.com/HL/?496b618/=
+67fbd0f8/0/8c24e.2b08fcf/1a818e3/1a8268d/d/2370/900/0/0/0/0/0/0/0/0/0/81/--=
+-aHR0cHM6Ly9yb2cuYXN1cy5jb20vaW4vP3V0bV9zb3VyY2U9YXN1cy1lZG0mdXRtX21lZGl1bT=
+1lbWFpbCZ1dG1fY2FtcGFpZ249NjI5NTQtMjAyNjA5MjEtMjZRM19ST0dfRWNvc3lzdGVtJnV0b=
+V9pZD01MjY1MDQ3MzcxNzg5.htm" target=3D"_blank" class=3D"button" style=3D"co=
+lor:#ffffff;">=0A=
+                            Shop Now=0A=
+                          </a>=0A=
+                          </td>=0A=
+                        </tr>=0A=
+                      </tbody>=0A=
+                    </table>=0A=
+                  </td>=0A=
+                </tr>=0A=
+            </tbody>=0A=
+          </table>=0A=
+        </td>=0A=
+      </tr>=0A=
+    </tbody>=0A=
+  </table>=0A=
+      <table id=3D"id-d9346114-f131-4726-892a-be2d12960453" class=3D"open-s=
+ettings-on-click" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"700">=0A=
+        <tbody>=0A=
+          <tr>=0A=
+            <td width=3D"700" style=3D"font-size:0px;word-break:break-word;=
+padding-top:20px;">=0A=
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"700">=0A=
+                <tbody>=0A=
+                  <tr>=0A=
+                    <td class=3D"sectionBackground" width=3D"700" align=3D"=
+center" style=3D"font-size:0px;word-break:break-word;">=0A=
+                      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0">=0A=
+                        <tbody>=0A=
+                          <tr class=3D"sectionBackground" align=3D"center">=
+=0A=
+                            <td style=3D"font-size:0px;word-break:break-wor=
+d;padding-top:15px;padding-bottom:15px;">=0A=
+          <a href=3D"https://omicard.asus.com/HL/496b619/67fbd0f8/0/8c24e.2=
+b08fcf/1a818e3/1a8268d/d/370/800.htm" target=3D"_blank" class=3D"socialMedi=
+a">=0A=
+            <img border=3D"0" width=3D"40" height=3D"auto" src=3D"https://d=
+igitalmarketing.asus.com/edm/images/icons/social-facebook-icon.png" style=
+=3D"border:0;display:block;outline:none;width:40px;">=0A=
+          </a>=0A=
+        </td><td style=3D"font-size:0px;word-break:break-word;padding-top:1=
+5px;padding-bottom:15px;">=0A=
+          <a href=3D"https://omicard.asus.com/HL/496b61a/67fbd0f8/0/8c24e.2=
+b08fcf/1a818e3/1a8268d/d/370/800.htm" target=3D"_blank" class=3D"socialMedi=
+a">=0A=
+            <img border=3D"0" width=3D"40" height=3D"auto" src=3D"https://d=
+igitalmarketing.asus.com/edm/images/icons/social-instagram-icon.png" style=
+=3D"border:0;display:block;outline:none;width:40px;">=0A=
+          </a>=0A=
+        </td><td style=3D"font-size:0px;word-break:break-word;padding-top:1=
+5px;padding-bottom:15px;">=0A=
+          <a href=3D"https://omicard.asus.com/HL/496b61b/67fbd0f8/0/8c24e.2=
+b08fcf/1a818e3/1a8268d/d/370/800.htm" target=3D"_blank" class=3D"socialMedi=
+a">=0A=
+            <img border=3D"0" width=3D"40" height=3D"auto" src=3D"https://d=
+igitalmarketing.asus.com/edm/images/icons/social-twitter-icon.png" style=3D=
+"border:0;display:block;outline:none;width:40px;">=0A=
+          </a>=0A=
+        </td><td style=3D"font-size:0px;word-break:break-word;padding-top:1=
+5px;padding-bottom:15px;">=0A=
+          <a href=3D"https://omicard.asus.com/HL/496b61c/67fbd0f8/0/8c24e.2=
+b08fcf/1a818e3/1a8268d/d/370/800.htm" target=3D"_blank" class=3D"socialMedi=
+a">=0A=
+            <img border=3D"0" width=3D"40" height=3D"auto" src=3D"https://d=
+igitalmarketing.asus.com/edm/images/icons/social-youtube-icon.png" style=3D=
+"border:0;display:block;outline:none;width:40px;">=0A=
+          </a>=0A=
+        </td>=0A=
+                          </tr>=0A=
+                        </tbody>=0A=
+                      </table>=0A=
+                    </td>=0A=
+                  </tr>=0A=
+                </tbody>=0A=
+              </table>=0A=
+            </td>=0A=
+          </tr>=0A=
+        </tbody>=0A=
+      </table>=0A=
+=0A=
+=0A=
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"700" style=3D"max-width: 700px;">=0A=
+                  <tbody>=0A=
+                    <tr>=0A=
+                      <td align=3D"right" width=3D"700" colspan=3D"2" style=
+=3D"=0A=
+                          padding: 20px 0 60px;=0A=
+                          font-size: 0;=0A=
+                          word-break: break-word;=0A=
+">=0A=
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%">=0A=
+                          <tbody>=0A=
+                            <tr>=0A=
+                              <td style=3D"=0A=
+                                  margin: auto;=0A=
+                                  max-width: 700px;=0A=
+                                  font-family: SegoeUI, Arial, sans-serif;=
+=0A=
+                                  font-size: 12px;=0A=
+                                  text-align: right;=0A=
+                                  color: #b3b3b3;=0A=
+">=0A=
+                                =C2=A9ASUSTeK Computer Inc. All rights rese=
+rved.<br>If you wish to cancel your ASUS EDM subscription, please <a href=
+=3D"https://omicard.asus.com/HL/?496b61d/67fbd0f8/0/8c24e.2b08fcf/1a818e3/1=
+a8268d/d/2370/900/0/0/0/0/0/0/0/0/0/70/---aHR0cHM6Ly9hY2NvdW50LmFzdXMuY29tL=
+2NhbmNlbF9lZG0uYXNweD9tZWRtX2lkPTYyOTU0Jm1jb2RlPU01NjJBQjhCM0JFLUVGNTAxNi0z=
+NDVGMDAtQUJDRjA5LTc4QzU2NjQyNUQyQTgzNUUzQQ=3D=3D.htm" style=3D"color:#00a8f=
+f;">Click here</a>=0A=
+                              </td>=0A=
+                            </tr>=0A=
+                          </tbody>=0A=
+                        </table>=0A=
+                      </td>=0A=
+                    </tr>=0A=
+                  </tbody>=0A=
+                </table>=0A=
+              </td>=0A=
+            </tr>=0A=
+          </tbody>=0A=
+        </table>=0A=
+      </div>=0A=
+      <!--[if mso | IE]>=0A=
+            </td>=0A=
+          </tr>=0A=
+        </tbody>=0A=
+      </table>=0A=
+      <![endif]-->=0A=
+    </div>=0A=
+  <div><img src=3D"https://omicard.asus.com/HL/0/67fbd0f8/0/8c24e.2b08fcf/1=
+a818e3/1a8268d/d/370.jpg" alt=3D"op"></div></body>=0A=
+</html>=0A=
+
+
+--0004544261d-94e3-4840-914c-d7493fd3d96d--
+
+From - Thu Sep 24 16:38:23 2026
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Received: from SN7PR19MB6735.namprd19.prod.outlook.com (2603:10b6:806:264::16)
+ by SJ0PR19MB5415.namprd19.prod.outlook.com with HTTPS; Tue, 22 Sep 2026
+ 08:50:15 +0000
+Received: from BN0PR02CA0049.namprd02.prod.outlook.com (2603:10b6:408:e5::24)
+ by SN7PR19MB6735.namprd19.prod.outlook.com (2603:10b6:806:264::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.451.14; Tue, 22 Sep
+ 2026 08:50:14 +0000
+Received: from BN1PEPF0001854C.namprd05.prod.outlook.com
+ (2603:10b6:408:e5:cafe::48) by BN0PR02CA0049.outlook.office365.com
+ (2603:10b6:408:e5::24) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.21.451.14 via Frontend Transport; Tue,
+ 22 Sep 2026 08:50:14 +0000
+Authentication-Results: spf=pass (sender IP is 218.32.92.226)
+ smtp.mailfrom=nedm.asus.com; dkim=pass (signature was verified)
+ header.d=nedm.asus.com;dmarc=pass action=none
+ header.from=nedm.asus.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of nedm.asus.com designates
+ 218.32.92.226 as permitted sender) receiver=protection.outlook.com;
+ client-ip=218.32.92.226; helo=w226.neweredm.com; pr=C
+Received: from w226.neweredm.com (218.32.92.226) by
+ BN1PEPF0001854C.mail.protection.outlook.com (10.167.248.11) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.21.451.8
+ via Frontend Transport; Tue, 22 Sep 2026 08:50:13 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:3F9AC3347C84A64BC28224D905EA94C48A798FDDBE649495EAFD0AF92E1229DC;UpperCasedChecksum:EE8E7E24255B3A3D00ECADD37C3DF3E2966AEFED82F2C312FEAB0F933081411F;SizeAsReceived:950;Count:10
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; q=dns/txt;
+ d=nedm.asus.com; s=s1024;
+ h=From:Message-ID:MIME-Version;
+ bh=m1uST/bMlzoo53nY1W9WcpBY5oFyjic/xFKUFaZ6/1s=;
+ b=XQbO0j9PzkO7JSznXUs+R1m2+siHASp/3Rl0xpnAheX6B76ymlTA8fjOiN9qTRN6y4tn
+ 9ANfcbDB1uM6a77kWYSpAjaPmS+X3LZ8KxtDAFN0XhYKmaif2f+RCaYlZ+fts9iR7WFWRq
+ 0zKo4kSfZ8eNFOpAnHfTqCvY2zWrt7AZg=
+Date: Tue, 22 Sep 2026 16:50:07 +0800
+Message-ID: <0q683ae402q0q8c4a0.2b1688aq1a85615q1a823b9qdq370.0q683ae4@nedm.asus.com>
+Subject: =?utf-8?B?UHJlY2lzaW9uIE1lZXRzIFBlcmZvcm1hbmNlIOKAlCBBU1VTIFRVRiBHYW1pbmcgSzM=?=
+From: "=?utf-8?B?QVNVUyBJbmRpYQ==?="<noreply@nedm.asus.com>
+To: <inbavanans7484@outlook.com>
+List-Unsubscribe: <https://account.asus.com/cancel_edm.aspx?ECode=0q683ae402q0q8c4a0.2b1688aq1a85615q1a823b9qdq370>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Content-Type: multipart/alternative;
+	boundary="0003bdcb00c-9e3f-4910-ad0f-a4e4012852e1"
+X-IncomingHeaderCount: 10
+Return-Path: Return.EID683ae402.inbavanans7484@nedm.asus.com
+X-MS-Exchange-Organization-ExpirationStartTime: 22 Sep 2026 08:50:14.1350
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: fe6948f3-5507-40fe-c480-08df188684b9
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: BN1PEPF0001854C:EE_|SN7PR19MB6735:EE_|SJ0PR19MB5415:EE_
+X-MS-Exchange-Organization-AuthSource: BN1PEPF0001854C.namprd05.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 9/22/2026 6:44:38 AM
+X-MS-Office365-Filtering-Correlation-Id: fe6948f3-5507-40fe-c480-08df188684b9
+X-Sender-IP: 218.32.92.226
+X-MS-Exchange-EOPDirect: true
+X-SID-PRA: NOREPLY@NEDM.ASUS.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:2;ARA:1444111002|58200799025|29130799009|3069299007|5149299006|9400799043|1680799066|68400799013|5139299004|47200799027|10300799038|9000799056|260826003000599003|1290799033|3412199025|440099028|4302099013|26104999009|1360799030|1370799030|1380799030|1602099012|30041999003|5090599003|2607281247196008|2406899039;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 22 Sep 2026 08:50:13.3744
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: fe6948f3-5507-40fe-c480-08df188684b9
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: BN1PEPF0001854C.namprd05.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN7PR19MB6735
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.5287266
+X-MS-Exchange-Processed-By-BccFoldering: 15.21.0428.008
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000311)(920221119095)(90000117)(920221120095)(90012020)(91020020)(91040095)(9050020)(9100341)(944500132)(4810010)(4910033)(9575002)(10195002)(9320005)(120001);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?NGRxOTlMNDZGQXA2eWxGTXowV05vU1dOTjRPaW5RK3AxSHZ4UlhRTWo1eVNP?=
+ =?utf-8?B?THZtaXdUa1FEUWFyQ3I3WURxbnlPUVdLdklRUDlyL1o1TUc4SVR5K0xuQWJ5?=
+ =?utf-8?B?RFppb3RWMWV0RXZXT1dLRzdOOEtYQUJoTkovVTltMnQzWGd1S3hyd0EwQy94?=
+ =?utf-8?B?WHNuRnZab240ZGlQZ0xsbWUvMjkrMDgwcEg5b1crakZ0dUJjTk0yWTUvejVT?=
+ =?utf-8?B?azBxODNKbGJReE4yYjBtUFpsOWJ4TVc5YmxPTUJsUnRXTFJzbFRwVmwrRVQ2?=
+ =?utf-8?B?ZjViWlE4aUdZbjBuQ050Z01XNUNVbnhkSVExYU9jMjNjOHpPRE8xbXIxekt0?=
+ =?utf-8?B?TGVSYWlwY1p3QzVxeVBBMVByYkx3T29GNys0OFlEYVlZYU8xWGh2OEQ1Z1BE?=
+ =?utf-8?B?elQzSHgxMDRpSHR0KzI5eDQzMGtSUGlMVmdtY3JuamFlUTZUTWNJbnNiNVVT?=
+ =?utf-8?B?ZzdXeWtxdFNOTmN3UTJXeTlrS1hCWlZRQVdneDVSRVduNXN4M0E0dmR6WU1T?=
+ =?utf-8?B?dUZ1dThDT2tVSUU5Sy9pS2phWkRrRHJnb2d4OGVRcTIwSDBPU1N3VkhZdkgr?=
+ =?utf-8?B?UWs2N2JpUVQvZ20zbElNZDR4S2VtdWg3V3ZmOFlwSkZxY3hTb3lXZTMyQkVi?=
+ =?utf-8?B?L1VJN1VaT3BOWE9FQVhzWHZVTXF4WERyQ2ZyR1pyakFxWmNVM084c29WKzV5?=
+ =?utf-8?B?RWcweG0rWUZDUzlBTEY1NlFPRDRneURzU2hyc1lZb3ZHNnlnc290QVBxL3RF?=
+ =?utf-8?B?emVsT0h4YlMxWVk0RjlOUEFlaDF2MXc3cDVOb3Y4bkdOWEtTSFdlWWdYaENV?=
+ =?utf-8?B?NXhnbmFhWDlsQTNTUFJUVTdXYWNKSVpiMS9wZGNtdjhGMC9wMlRXNE1uZWFv?=
+ =?utf-8?B?TnVNbWVTWjJvbmgrNFAvNnlYQ0IxM1pBcDZtU1FpTXY4THBjU25rbVhoVmIz?=
+ =?utf-8?B?QnpUZ0dUR1haM0lJOWRaRHp5a2lUc3ZseTJUYVhYQkhaT0MxaDR2NitJaU1J?=
+ =?utf-8?B?UVRMQVAvTU1Sblh3NllmNkxkSXU3cW1MUWtkUWF3NVFuZERLZWZaNnBCb0RG?=
+ =?utf-8?B?Vy84OWVNcjN3d1JLZUI1N0VObXpaelRXSkVjZ2N1am9MK0tkMXVrZVFKWnpz?=
+ =?utf-8?B?SDVGdVlsbHUxS3RSQVNwRWJUUE9Vc0lIc2IwK3hpbkxXSk1vTnNic1JzdExp?=
+ =?utf-8?B?dk52dTk3bG9xQXh0ajdITVBRaE1NUGVPcENqOG1pYXJNbWMyamVKbTlPd3dU?=
+ =?utf-8?B?TmRrV3JmTVNsckthVHZFOUZDZ1kwYjRoeCtDNTNRWWJqUTdKVUZNZFlvL2d3?=
+ =?utf-8?B?ZVprNHFYek5ZK3RTUGFXZGd4K3Q3NHpLcGpWZ1FHUEg0UkF5QTlTcFFHYVZM?=
+ =?utf-8?B?dnRMdVZpTWFsSUtzMWVWd0xUWGx4dXFWK0tyUGRuRmxmUEpLWTgvWURQdkRH?=
+ =?utf-8?B?Qmd2NWFJUVBJdWZvR2tlSC95U1c3UFA1RitlSko1VVZaZGNpNmgvN1QwWmRP?=
+ =?utf-8?B?d1hHZjlxMGlUYXl5UXB4SWQ3bGIxS0toTjAreElwaEkvMmk4b3dSOEV5Nkhv?=
+ =?utf-8?B?RDhmMy90TDZpcjFzdmV4SUZLT0h2T3BXSG5memFmT3FDSUJRL2R5TUZ0OVhS?=
+ =?utf-8?B?SUd3RXh2WnpIVXRiQW9hc2twV2FkamM0OU9UNG1OU3FiWDlHNndhU1U3OEgr?=
+ =?utf-8?B?aThkbXEyWmo1ZjRkcmZIai82cCt0TXY4MVhTZmtQTkYxTVRmVWVTS2IvMDAz?=
+ =?utf-8?B?Yndza1kzN3Y1ak1zNk1SZzVRSUZsWnZiTEZiQ0w5S2FZWDRFbzh0RnJpL3N6?=
+ =?utf-8?B?NDJPeExOUStWNmcvNUpSNEQ5MDZyZU5TcFlNZlJtc3RzR0xJL0puOTFXQVRO?=
+ =?utf-8?B?dytKS0pqbkxrNXc5WTJ1bmo3dzhSOFRuRFJoaEFjZXpheks2clNCazlUUnlC?=
+ =?utf-8?B?eStyanU5cHEvMmtBaU5HVk5Rb2VOODFHYW9aQVlVU2I2b2RFSkhndWZxb3ZS?=
+ =?utf-8?B?YjMwOStoMGIxcW1aQWpmQm1jSmhLTkFxYjBJV3ZFa3Zlck8yMGlPdThHek1r?=
+ =?utf-8?B?Ung1TytOb1ZOY3d4U0RaL3o5dGs0US9qRkxrbFQrbGFVTlNENWdZNVFwRU5s?=
+ =?utf-8?B?SXRGbldobWZGRmhqaE5WVUVWcGUzU3RlSjRjakkvVGNwZGM3VUErOGZRUmxL?=
+ =?utf-8?B?RVVuemx6eGFmYjRad1NzRTZtRlpxUWtJcDFBd0o4K3huSEtEUlhneXFTWmpY?=
+ =?utf-8?B?SlpydTBVK01FMENUaXdCa3gxYmxoMS9QaU9lNUdJMjE3M283WlZQSW5hSXRL?=
+ =?utf-8?B?Z21zeTl0ZnlLQVB5QjZTZWJ2QTUzcXpnV0JNYlI2KzlDdVA2VDhkYWhMZ2xt?=
+ =?utf-8?B?aWhCUFJXbFAzdkdkR0xoZGFOZFh0bDBVeHp5Z3l5NHFqbFQzZTdjZkh4K1NZ?=
+ =?utf-8?B?cE9HZWFXL09pRjVtM2pYMGs0N1NpbW1INWZOSXFLYlFYTzVFWUh0OTZUUjFj?=
+ =?utf-8?B?cldSdndTUFFJMkExZEZsL0lmbzJiZ1YwMDErNlo5bXZqUG5QNnJ6MkFCMTVi?=
+ =?utf-8?B?cnMzbFZQMWN3SWZuSHV3cDRlRXpPd3JCSFp0UjV5QUNQZmgxNkxMTHRKREVE?=
+ =?utf-8?B?cXd3OUF5UDgxL1NpZ0lCdjcwU1dQUFV3TzVYTndMWDhiaWRLT2ZPUDBFYnZU?=
+ =?utf-8?B?dG16V1d3UDRkMi9YM3ZDSTQ5YTR1UWRSZjVrNGlQak5wd3hkNVZPSWtiSEh3?=
+ =?utf-8?B?ZldIVjcvM1FLUnBpaEJhaWxPNEEzQTdyUHJYWnNhSGFHT1hPc0IzNmE5SUdJ?=
+ =?utf-8?B?RFZBbDVSVXVuZ0Y3UDI1NWxGTTgzVFlmQ1ArclBtSE9zblJJcnAvWVY1ajZF?=
+ =?utf-8?Q?jVe/P5BrGSN1QPI1JDCfmUweG+1i8OnOIX5x9Afs=3D?=
+MIME-Version: 1.0
+
+--0003bdcb00c-9e3f-4910-ad0f-a4e4012852e1
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=0D=0AEngineered for gamers who demand more, the ASUS TUF Gaming=20=
+K3 RGB Mechanical Key=0D=0A=0D=0AHaving trouble reading this EDM?=
+ Click here to see it in your browser.=0D=0AThis is an automatica=
+lly generated e-mail. Please do not reply to this email.=0D=0A=0D=
+=0AHi, Inbavanan S=0D=0A=0D=0A =0D=0A=0D=0AElevate Your Gaming Ex=
+perience.=0D=0A=0D=0AMeet the ASUS TUF Gaming K3 RGB Mechanical K=
+eyboard =E2=80=94 engineered for precision,=0D=0Abuilt for perfor=
+mance, and designed to impress.=0D=0A=0D=0A=E2=9A=A1 N-Key Rollov=
+er=0D=0A=F0=9F=94=A5 8 Programmable Macro Keys=0D=0A=F0=9F=8C=88=20=
+Aura Sync RGB Lighting=0D=0A=F0=9F=9B=A1=EF=B8=8F Aluminum-Alloy=20=
+Top Cover=0D=0A=F0=9F=92=8E Premium Wrist Rest=0D=0A=F0=9F=94=8C=20=
+USB 2.0 Passthrough=0D=0A=0D=0AShop Now =0D=0A=0D=0A=C2=A9ASUSTeK=
+ Computer Inc. All rights reserved.=0D=0AIf you wish to cancel yo=
+ur ASUS EDM subscription, please Click here =0D=0A=0D=0A=0D=0ARef=
+erences:=0D=0A1: https://omicard.asus.com/HL/496b632/683ae402/0/8=
+c4a0.2b1688a/1a85615/1a823b9/d/370/800.htm=0D=0A2: https://omicar=
+d.asus.com/HL/?496b633/683ae402/0/8c4a0.2b1688a/1a85615/1a823b9/d=
+/2370/900/0/0/0/0/0/0/0/0/0/9a/---aHR0cHM6Ly9pbi5zdG9yZS5hc3VzLmN=
+vbS90dWYtZ2FtaW5nLWszLXJnYi1tZWNoYW5pY2FsLWtleWJvYXJkLmh0bWw/dXRt=
+X3NvdXJjZT1hc3VzLWVkbSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj02M=
+zAyOS0yMDI2MDkyMiZ1dG1faWQ9NTI2NTA0NzM3MTc4OQ=3D=3D.htm=0D=0A3: h=
+ttps://omicard.asus.com/HL/?496b634/683ae402/0/8c4a0.2b1688a/1a85=
+615/1a823b9/d/2370/900/0/0/0/0/0/0/0/0/0/70/---aHR0cHM6Ly9hY2NvdW=
+50LmFzdXMuY29tL2NhbmNlbF9lZG0uYXNweD9tZWRtX2lkPTYzMDI5Jm1jb2RlPU0=
+1NjJBQjhCM0JFLUVGNTAxNi0zNDVGMDAtQUJDRjA5LTc4QzU2NjQyNUQyQTgzNUUz=
+QQ=3D=3D.htm=0D=0A
+--0003bdcb00c-9e3f-4910-ad0f-a4e4012852e1
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><b=
+ase href=3D"https://omicard.asus.com/Var/Elite/81ab3040-7a67-439b-a1bd-bece=
+d8b19cb8/EXTRA/">=0A=
+    <title>EDM</title>=0A=
+    =0A=
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">=0A=
+    <meta name=3D"x-apple-disable-message-reformatting">=0A=
+    <!--[if !mso]><!-->=0A=
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=0A=
+    <!--<![endif]-->=0A=
+    <!--[if gte mso 9]>=0A=
+      <xml>=0A=
+        <o:OfficeDocumentSettings>=0A=
+          <o:AllowPNG />=0A=
+          <o:PixelsPerInch>96</o:PixelsPerInch>=0A=
+        </o:OfficeDocumentSettings>=0A=
+      </xml>=0A=
+    <![endif]-->=0A=
+    <style type=3D"text/css">=0A=
+      body {=0A=
+        padding: 0;=0A=
+        margin: 0;=0A=
+      }=0A=
+=0A=
+      table,=0A=
+      td {=0A=
+        border-collapse: collapse;=0A=
+        mso-table-lspace: 0;=0A=
+        mso-table-rspace: 0;=0A=
+        word-break: break-word;=0A=
+      }=0A=
+=0A=
+      img {=0A=
+        height: auto;=0A=
+        text-decoration: none;=0A=
+        border: 0;=0A=
+        outline: none;=0A=
+        line-height: 100%;=0A=
+        interpolation-mode: bicubic;=0A=
+      }=0A=
+=0A=
+      .link {=0A=
+        display: inline-block;=0A=
+        color: #006ce1;=0A=
+        cursor: pointer;=0A=
+      }=0A=
+=0A=
+      .calenderLink {=0A=
+        font-family: SegoeUI, Arial, sans-serif;=0A=
+        font-size: 14px;=0A=
+        color: #006ce1;=0A=
+        line-height: 1.43;=0A=
+      }=0A=
+=0A=
+      .socialMedia {=0A=
+        display: inline-block;=0A=
+        cursor: pointer;=0A=
+        margin-right: 5px;=0A=
+      }=0A=
+=0A=
+      .button {=0A=
+        display: inline-block;=0A=
+        font-family: Roboto, Arial, sans-serif;=0A=
+        font-size: 14px;=0A=
+        text-decoration: none;=0A=
+        color: #ffffff;=0A=
+        background: #006ce1;=0A=
+      }=0A=
+=0A=
+      .bodyBackground {=0A=
+        background: #f5f5f5;=0A=
+      }=0A=
+=0A=
+      .sectionBackground {=0A=
+        background: #ffffff;=0A=
+      }=0A=
+=0A=
+      .buttonTr {=0A=
+        background: #006ce1;=0A=
+      }=0A=
+=0A=
+      .title {=0A=
+        color: #181818;=0A=
+      }=0A=
+=0A=
+      .description {=0A=
+        color: #4d4d4d;=0A=
+      }=0A=
+=0A=
+      .dividerBorder {=0A=
+        border-top: solid 1px #cccccc;=0A=
+      }=0A=
+    </style>=0A=
+    <!--[if !mso]><!-->=0A=
+    <style type=3D"text/css">=0A=
+      @media only screen and (max-width: 480px) {=0A=
+        @viewport {=0A=
+          width: 320px;=0A=
+        }=0A=
+=0A=
+        @viewport {=0A=
+          width: 320px;=0A=
+        }=0A=
+      }=0A=
+    </style>=0A=
+    <!--<![endif]-->=0A=
+    <!--[if mso]>=0A=
+      <xml>=0A=
+        <o:OfficeDocumentSettings>=0A=
+          <o:AllowPNG />=0A=
+          <o:PixelsPerInch>96</o:PixelsPerInch>=0A=
+        </o:OfficeDocumentSettings>=0A=
+      </xml>=0A=
+    <![endif]-->=0A=
+    <!--[if lte mso 11]>=0A=
+      <style type=3D"text/css">=0A=
+        .outlook-group-fix {=0A=
+          width: 100% !important;=0A=
+        }=0A=
+      </style>=0A=
+    <![endif]-->=0A=
+    <!--[if !mso]><!-->=0A=
+=0A=
+    <!--<![endif]-->=0A=
+  </head>=0A=
+=0A=
+  <body bgcolor=3D"#ffffff"><div style=3D"display: none; max-height: 0px; o=
+verflow: hidden;">Engineered for gamers who demand more, the ASUS TUF Gamin=
+g K3 RGB Mechanical Key</div>&nbsp;&nbsp;=0A=
+    <div>=0A=
+      <!--[if mso | IE]>=0A=
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%" >=0A=
+        <tbody>=0A=
+          <tr>=0A=
+            <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule=
+:exactly;">=0A=
+      <![endif]-->=0A=
+      <div style=3D"margin: 0 auto; width: 100%;">=0A=
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"width: 100%;">=0A=
+          <tbody>=0A=
+            <tr>=0A=
+              <td bgcolor=3D"#f5f5f5" align=3D"center" width=3D"100%">=0A=
+                <!--=E6=8F=90=E7=A4=BAbanner-->=0A=
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"100%">=0A=
+                  <tbody>=0A=
+                    <tr>=0A=
+                      <td bgcolor=3D"#ffffff" align=3D"center" style=3D"=0A=
+                          padding-top: 10px;=0A=
+                          padding-bottom: 10px;=0A=
+                          font-size: 0;=0A=
+                          word-break: break-word;=0A=
+">=0A=
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"700">=0A=
+                          <tbody>=0A=
+                            <tr>=0A=
+                              <td width=3D"700" style=3D"=0A=
+                                  margin: auto;=0A=
+                                  font-family: SegoeUI, Arial, sans-serif;=
+=0A=
+                                  font-size: 12px;=0A=
+                                  text-align: right;=0A=
+                                  color: #4d4d4d;=0A=
+">=0A=
+                                Having trouble reading this EDM? <a href=3D=
+"https://omicard.asus.com/HL/496b632/683ae402/0/8c4a0.2b1688a/1a85615/1a823=
+b9/d/370/800.htm" style=3D"color:#00a8ff;">Click here</a> to see it in your=
+ browser.<br>This is an automatically generated e-mail. Please do not reply=
+ to this email.=0A=
+                              </td>=0A=
+                            </tr>=0A=
+                          </tbody>=0A=
+                        </table>=0A=
+                      </td>=0A=
+                    </tr>=0A=
+                  </tbody>=0A=
+                </table>=0A=
+                <!--=E6=8F=90=E7=A4=BAbanner end-->=0A=
+=0A=
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"700">=0A=
+                  <tbody>=0A=
+                    <tr>=0A=
+                      <td align=3D"center">=0A=
+                        <table width=3D"700" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0">=0A=
+                          <tbody>=0A=
+                            <tr>=0A=
+                              <td width=3D"700" style=3D"=0A=
+                                  padding-top: 10px;=0A=
+                                  padding-bottom: 10px;=0A=
+                                  font-size: 0;=0A=
+                                  word-break: break-word;=0A=
+">=0A=
+                                <img border=3D"0" width=3D"100" height=3D"a=
+uto" src=3D"https://digitalmarketing.asus.com/edm/images/icons/asus-logo_ed=
+m.png" style=3D"                                     display: block;       =
+                              width: 100px;                                =
+     border: 0;                                     outline: none; ">=0A=
+                                <img border=3D"0" height=3D"auto" src=3D"ht=
+tps://digitalmarketing.asus.com/edm/images/space.png" style=3D"            =
+                         display: block;                                   =
+  border: 0;                                     outline: none; ">=0A=
+                              </td>=0A=
+                            </tr>=0A=
+                          </tbody>=0A=
+                        </table>=0A=
+                      </td>=0A=
+                    </tr>=0A=
+                    <!--line-->=0A=
+                    <tr>=0A=
+                      <td width=3D"700" colspan=3D"2" style=3D"font-size: 0=
+; word-break: break-word;">=0A=
+                        <div style=3D"=0A=
+                            margin: 0 auto;=0A=
+                            width: 700px;=0A=
+                            font-size: 1;=0A=
+                            border-top: solid 1px #cccccc;=0A=
+"></div>=0A=
+                        <!--[if mso | IE]>=0A=
+                          <table=0A=
+                            align=3D"center"=0A=
+                            border=3D"0"=0A=
+                            cellpadding=3D"0"=0A=
+                            cellspacing=3D"0"=0A=
+                            style=3D"=0A=
+                              border-top: solid 1px #cccccc;=0A=
+                              font-size: 1;=0A=
+                              margin: 0px auto;=0A=
+                              width: 100%;=0A=
+                            "=0A=
+                            role=3D"presentation"=0A=
+                            width=3D"100%"=0A=
+                          >=0A=
+                            <tbody>=0A=
+                              <tr>=0A=
+                                <td style=3D"height: 0; line-height: 0">=0A=
+                                  &nbsp;=0A=
+                                </td>=0A=
+                              </tr>=0A=
+                            </tbody>=0A=
+                          </table>=0A=
+                        <![endif]-->=0A=
+                      </td>=0A=
+                    </tr>=0A=
+                    <!--line End-->=0A=
+                  </tbody>=0A=
+                </table>=0A=
+=0A=
+                =0A=
+    <table id=3D"2d91a426-fbea-488d-9859-fea4caf8154b" class=3D"open-settin=
+gs-on-click" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"700"=
+>=0A=
+      <tbody>=0A=
+        <tr>=0A=
+          <td width=3D"700" colspan=3D"2" class=3D"title" style=3D"font-siz=
+e:0px;word-break:break-word;padding-top:20px;font-family: SegoeUI, Arial, s=
+ans-serif;font-size: 14px;">=0A=
+            <div>Hi, Inbavanan S</div>=0A=
+          </td>=0A=
+        </tr>=0A=
+      </tbody>=0A=
+    </table>=0A=
+<table id=3D"id-0c9c809f-2e6e-4702-8a41-369c52adda0c" class=3D"open-setting=
+s-on-click" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"700">=
+=0A=
+    <tbody>=0A=
+      <tr>=0A=
+        <td width=3D"700" colspan=3D"2" style=3D"font-size:0px;word-break:b=
+reak-word;padding-top:20px;">=0A=
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+100%">=0A=
+            <tbody>=0A=
+              <tr align=3D"left" style=3D"font-size:0px;word-break:break-wo=
+rd;">=0A=
+                  <td width=3D"700">=0A=
+                    =0A=
+                      <a href=3D"https://omicard.asus.com/HL/?496b633/683ae=
+402/0/8c4a0.2b1688a/1a85615/1a823b9/d/2370/900/0/0/0/0/0/0/0/0/0/9a/---aHR0=
+cHM6Ly9pbi5zdG9yZS5hc3VzLmNvbS90dWYtZ2FtaW5nLWszLXJnYi1tZWNoYW5pY2FsLWtleWJ=
+vYXJkLmh0bWw/dXRtX3NvdXJjZT1hc3VzLWVkbSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYW=
+lnbj02MzAyOS0yMDI2MDkyMiZ1dG1faWQ9NTI2NTA0NzM3MTc4OQ=3D=3D.htm">=0A=
+                        <img border=3D"0" width=3D"100%" src=3D"https://dlc=
+dnwebimgs.asus.com/files/media/202609/ff749216-b186-4111-84fb-01f58222d89d/=
+.main-content-uploads/559f0ca2-8587-478a-af4f-91412d5212bf/332efdc9-174e-4b=
+2a-9216-9d74540ce22b.jpg" alt=3D"" style=3D"border:0;display:block;outline:=
+none;">=0A=
+                      </a>=0A=
+                  </td>=0A=
+                </tr>=0A=
+                =0A=
+=0A=
+              <tr class=3D"sectionBackground" align=3D"center" style=3D"fon=
+t-size:0px;word-break:break-word;">=0A=
+                  <td class=3D"title" style=3D"padding-top:20px;padding-lef=
+t:24px;padding-right:24px;font-family: SegoeUI, Arial, sans-serif;font-size=
+: 18px;font-weight:600;">=0A=
+                    Elevate Your Gaming Experience.=0A=
+                  </td>=0A=
+                </tr>=0A=
+=0A=
+                <tr class=3D"sectionBackground" align=3D"center" style=3D"f=
+ont-size:0px;word-break:break-word;">=0A=
+                  <td class=3D"description" style=3D"padding-left:24px;padd=
+ing-right:24px;padding-top:10px;font-family: SegoeUI, Arial, sans-serif;fon=
+t-size: 14px;line-height: 1.43;">=0A=
+                    <p class=3D"isSelectedEnd">Meet the <strong>ASUS TUF Ga=
+ming K3 RGB Mechanical Keyboard</strong> =E2=80=94 engineered for precision=
+, built for performance, and designed to impress.</p>=0A=
+<p class=3D"isSelectedEnd">=E2=9A=A1 N-Key Rollover<br>=F0=9F=94=A5 8 Progr=
+ammable Macro Keys<br>=F0=9F=8C=88 Aura Sync RGB Lighting<br>=F0=9F=9B=A1=
+=EF=B8=8F Aluminum-Alloy Top Cover<br>=F0=9F=92=8E Premium Wrist Rest<br>=
+=F0=9F=94=8C USB 2.0 Passthrough</p>=0A=
+                  </td>=0A=
+                </tr>=0A=
+=0A=
+              <tr align=3D"center" style=3D"font-size:0px;word-break:break-=
+word;">=0A=
+                  <td class=3D"sectionBackground" style=3D"padding-top: 20p=
+x;padding-bottom:40px;padding-left:24px;padding-right:24px;">=0A=
+                    <table>=0A=
+                      <tbody>=0A=
+                        <tr class=3D"buttonTr" align=3D"center" style=3D"fo=
+nt-size:0px;word-break:break-word;">=0A=
+                          <td style=3D"padding-top:10px;padding-bottom:10px=
+;padding-left:20px;padding-right:20px;color:#ffffff;">=0A=
+=0A=
+                           <a href=3D"https://omicard.asus.com/HL/?496b633/=
+683ae402/0/8c4a0.2b1688a/1a85615/1a823b9/d/2370/900/0/0/0/0/0/0/0/0/0/9a/--=
+-aHR0cHM6Ly9pbi5zdG9yZS5hc3VzLmNvbS90dWYtZ2FtaW5nLWszLXJnYi1tZWNoYW5pY2FsLW=
+tleWJvYXJkLmh0bWw/dXRtX3NvdXJjZT1hc3VzLWVkbSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jY=
+W1wYWlnbj02MzAyOS0yMDI2MDkyMiZ1dG1faWQ9NTI2NTA0NzM3MTc4OQ=3D=3D.htm" target=
+=3D"_blank" class=3D"button" style=3D"color:#ffffff;">=0A=
+                            Shop Now=0A=
+                          </a>=0A=
+                          </td>=0A=
+                        </tr>=0A=
+                      </tbody>=0A=
+                    </table>=0A=
+                  </td>=0A=
+                </tr>=0A=
+            </tbody>=0A=
+          </table>=0A=
+        </td>=0A=
+      </tr>=0A=
+    </tbody>=0A=
+  </table>=0A=
+=0A=
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"700" style=3D"max-width: 700px;">=0A=
+                  <tbody>=0A=
+                    <tr>=0A=
+                      <td align=3D"right" width=3D"700" colspan=3D"2" style=
+=3D"=0A=
+                          padding: 20px 0 60px;=0A=
+                          font-size: 0;=0A=
+                          word-break: break-word;=0A=
+">=0A=
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%">=0A=
+                          <tbody>=0A=
+                            <tr>=0A=
+                              <td style=3D"=0A=
+                                  margin: auto;=0A=
+                                  max-width: 700px;=0A=
+                                  font-family: SegoeUI, Arial, sans-serif;=
+=0A=
+                                  font-size: 12px;=0A=
+                                  text-align: right;=0A=
+                                  color: #4d4d4d;=0A=
+">=0A=
+                                =C2=A9ASUSTeK Computer Inc. All rights rese=
+rved.<br>If you wish to cancel your ASUS EDM subscription, please <a href=
+=3D"https://omicard.asus.com/HL/?496b634/683ae402/0/8c4a0.2b1688a/1a85615/1=
+a823b9/d/2370/900/0/0/0/0/0/0/0/0/0/70/---aHR0cHM6Ly9hY2NvdW50LmFzdXMuY29tL=
+2NhbmNlbF9lZG0uYXNweD9tZWRtX2lkPTYzMDI5Jm1jb2RlPU01NjJBQjhCM0JFLUVGNTAxNi0z=
+NDVGMDAtQUJDRjA5LTc4QzU2NjQyNUQyQTgzNUUzQQ=3D=3D.htm" style=3D"color:#00a8f=
+f;">Click here</a>=0A=
+                              </td>=0A=
+                            </tr>=0A=
+                          </tbody>=0A=
+                        </table>=0A=
+                      </td>=0A=
+                    </tr>=0A=
+                  </tbody>=0A=
+                </table>=0A=
+              </td>=0A=
+            </tr>=0A=
+          </tbody>=0A=
+        </table>=0A=
+      </div>=0A=
+      <!--[if mso | IE]>=0A=
+            </td>=0A=
+          </tr>=0A=
+        </tbody>=0A=
+      </table>=0A=
+      <![endif]-->=0A=
+    </div>=0A=
+  <div><img src=3D"https://omicard.asus.com/HL/0/683ae402/0/8c4a0.2b1688a/1=
+a85615/1a823b9/d/370.jpg" alt=3D"op"></div></body>=0A=
+</html>=0A=
+
+
+--0003bdcb00c-9e3f-4910-ad0f-a4e4012852e1--
+
+From - Sat Sep 26 09:50:10 2026
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Received: from CH8PR19MB034631.namprd19.prod.outlook.com
+ (2603:10b6:610:320::13) by SJ0PR19MB5415.namprd19.prod.outlook.com with
+ HTTPS; Sat, 26 Sep 2026 04:34:55 +0000
+Received: from ZR0P278CA0080.CHEP278.PROD.OUTLOOK.COM (2603:10a6:910:22::13)
+ by CH8PR19MB034631.namprd19.prod.outlook.com (2603:10b6:610:320::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.451.19; Sat, 26 Sep
+ 2026 04:34:54 +0000
+Received: from ZR1PEPF0000E6B9.eurprd07.prod.outlook.com
+ (2603:10a6:910:22:cafe::78) by ZR0P278CA0080.outlook.office365.com
+ (2603:10a6:910:22::13) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.21.451.19 via Frontend Transport; Sat,
+ 26 Sep 2026 04:34:53 +0000
+Authentication-Results: mx.microsoft.com 1; spf=pass (sender IP is
+ 218.32.92.242) smtp.mailfrom=nedm.asus.com; dkim=pass (signature was
+ verified) header.d=nedm.asus.com;dmarc=pass action=none
+ header.from=nedm.asus.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of nedm.asus.com designates
+ 218.32.92.242 as permitted sender) receiver=protection.outlook.com;
+ client-ip=218.32.92.242; helo=w242.neweredm.com; pr=C
+Received: from w242.neweredm.com (218.32.92.242) by
+ ZR1PEPF0000E6B9.mail.protection.outlook.com (10.167.241.72) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.21.451.8
+ via Frontend Transport; Sat, 26 Sep 2026 04:34:52 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:8758E5BDAA26ECC2F3CC19913886FEEAEA288B5603AFCC659BA9828D3D109330;UpperCasedChecksum:3E0A7C430ED6510EF98B1326A77263EAF5C8C53AB1AD57F76C207A0A2B7E6D28;SizeAsReceived:916;Count:10
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; q=dns/txt;
+ d=nedm.asus.com; s=s1024;
+ h=From:Message-ID:MIME-Version;
+ bh=QOkinM3PlPEBNYN4aQisRrROmgH/6rDTxHCTXwPV80w=;
+ b=W4EyymbxD+SlyHB0W5ExvynNQjL09SPMUyv342aZ4XXXw3Bp+W7jeWdQhfGoEr6aCrAu
+ /OVgrhEGNZ8ZUuHN5+0jfi4vJwCQ2PoiD7ctKve3gSpKSuRTNpwBFLYw9HIc1A3cDSv7du
+ JORS+u/fqF6hiU510LrjQ/Zkhw1DBVezE=
+Date: Sat, 26 Sep 2026 12:34:45 +0800
+Message-ID: <0J696fd9a7J0J8da3f.2b6950eJ1aa8ff7J1aa5ea1JdJ370.0J696fd9@nedm.asus.com>
+Subject: NEW LAUNCH - Meet the ROG Strix OLED XG27AQWMG
+From: "=?utf-8?B?QVNVUyBJbmRpYQ==?="<noreply@nedm.asus.com>
+To: <inbavanans7484@outlook.com>
+List-Unsubscribe: <https://account.asus.com/cancel_edm.aspx?ECode=0J696fd9a7J0J8da3f.2b6950eJ1aa8ff7J1aa5ea1JdJ370>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Content-Type: multipart/alternative;
+	boundary="0007798546b-3911-4ff9-bc30-cdb5de789415"
+X-IncomingHeaderCount: 10
+Return-Path: Return.EID696fd9a7.inbavanans7484@nedm.asus.com
+X-MS-Exchange-Organization-ExpirationStartTime: 26 Sep 2026 04:34:52.9737
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 19b1b6ba-c7cd-4809-1471-08df1b878241
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: ZR1PEPF0000E6B9:EE_|CH8PR19MB034631:EE_|SJ0PR19MB5415:EE_
+X-MS-Exchange-Organization-AuthSource: ZR1PEPF0000E6B9.eurprd07.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 9/25/2026 5:19:52 PM
+X-MS-Office365-Filtering-Correlation-Id: 19b1b6ba-c7cd-4809-1471-08df1b878241
+X-Sender-IP: 218.32.92.242
+X-MS-Exchange-EOPDirect: true
+X-SID-PRA: NOREPLY@NEDM.ASUS.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:2;ARA:1444111002|1290799033|5139299004|9000799056|1680799066|9400799043|5149299006|10300799038|47200799027|68400799013|3069299007|260826003000599003|58200799025|1602099012|5090599003|30041999003|2607281247196008|1380799030|1370799030|1360799030|4302099013|3412199025|440099028|26104999009|2406899039;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 26 Sep 2026 04:34:52.1208
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 19b1b6ba-c7cd-4809-1471-08df1b878241
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: ZR1PEPF0000E6B9.eurprd07.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CH8PR19MB034631
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.8782625
+X-MS-Exchange-Processed-By-BccFoldering: 15.21.0451.014
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000311)(920221119095)(90000117)(920221120095)(90012020)(91020020)(91040095)(9050020)(9100341)(944500132)(4810010)(4910033)(9575002)(10195002)(9320005)(120001);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?SG4xVTVrZUVoZ0MzSnU5SWMrZXZtaHFMaXlsK2UvRnZaV00rbDJNRWl6TmZv?=
+ =?utf-8?B?Z0hoOVd1ZlJDNUxmbmRrUHlORUdPWjFPam9nSkZRcUtyMStqbytDc2h6MlVy?=
+ =?utf-8?B?bVlyNVdjUHlpYnJPS09uQ1F1aDhKL1ZKOWhuT1VCWHM3NmJHeEJqY0N1MFky?=
+ =?utf-8?B?M2c4TndWODdZUm91TjlWVWFwc28yamVQUEVFOUFEYnpOTDBrVVBwd2l0V1RN?=
+ =?utf-8?B?Q2tBeFFDenNYbmVQblBPMlpQaGIxZlhGTlNmREpkVTZuNVhvS0QraDVKY0Er?=
+ =?utf-8?B?cXVrRi9EVk4zbzBpbi9aZkFudllHeEJGMkYybEY5VXhTQk1iRXZETVcvL3Ry?=
+ =?utf-8?B?RUVNUWJFWmp3alMxQjVWUEI3Y2RwWmphOUZEUS93QTFWelg0SndwUjhvZUg2?=
+ =?utf-8?B?cmowMmxLeXdLMnBUb3YyRk5BdmRZamVERXBnZzZkWDZFNVBNQlZMQWxEQ3Nh?=
+ =?utf-8?B?d0xRK2VSaExsdm1HeE5QaER0V3VKS2FIN3daRDZzd3JlYkpHQmFSZmtLaU4r?=
+ =?utf-8?B?QVJ1M0xxU2svN3dQR1hvK1djbkZXSzNmc29TNHVzNTlEU1VIbndTci9JRENw?=
+ =?utf-8?B?MDZ6K0FyUW5UWmNIK2JXNDRBTThXdUtzNHdTajM3ZEVvOENFQmFuajNpdzhu?=
+ =?utf-8?B?ZktmWEt2bytkS2JMOVM5VWtrbVJ3V2dPUlRzdFVzS1ZvYmRLWHJnM0o0Vnpn?=
+ =?utf-8?B?akE2WCtvbzhLWFFSN1hHU3RSeHFwTHg2bGFmVHlBWmlHenBzb25KYnBzcUZ0?=
+ =?utf-8?B?Y2dGV08yTXdvWGY2RnVKZXgxWEthT29SelMzVHZ0RllxZnAxdUpnTk1mcFVo?=
+ =?utf-8?B?ODByUUJLeVJOVUNJSzBBWlZseDdWN1BRVVlUNFRpRHN6Z0svK1dxS1pwVnRT?=
+ =?utf-8?B?YnFUcFBkcE54djNsVS91TGVXVEVJTGN5clp6ZVdua2IxTU4vTWhyOEYvcnFk?=
+ =?utf-8?B?ZTNBdExiZzYwQXZBMHhZSXpHT01TRWcwRkEwaDhRZlZaSTdpRUJ0L0xvakRm?=
+ =?utf-8?B?L1FobW9iREk0ZWJ6TW5abmZOa2lyWEhRYXNXMHBmd1hwL0h3a05QeThMdnJB?=
+ =?utf-8?B?Si9obUZObGdYUFdoMHpldjNzT0dFN2UreGM4MnV2eXJ5ZUUrZWZtSS9ieEFa?=
+ =?utf-8?B?aSt2cnh3Z21acm4weFJwaDVEelNCbG9IMlZ1N1JWdk1KblBFSGVpcDcxZmxy?=
+ =?utf-8?B?NG1TRnhiV29lalBUUzZXaGpPVisydVZoaW5NRXpRS2FnVXplcnlHS3BRdCs0?=
+ =?utf-8?B?cngwRU1aNWdBT3ZKazZYbGpSRWxSczA4Y1dlNXpWd3hualpDUzA3S01Id0JW?=
+ =?utf-8?B?c2VwdjR2MGJLakNNV0ZFbnpJUnVqTmtla1JYV3RlZDFQUks4alQ0WmJsM0hG?=
+ =?utf-8?B?MTROWllXdjNtZmZMMXhuU0dydDlKb2tlNEc2TEpyNGx4ZDRrb0poaHp2ZVpC?=
+ =?utf-8?B?NWVHRVNRVWkzUHZUVGc0eHl4Q0RRVTlEb3ZaUk1IZitqQXA2SkZ0K1hVSGpu?=
+ =?utf-8?B?WHhFV2V1a0tKUEtXU2lpKytxZHZaWGtMZUJmSWNCNEJud3pCRW9NckVjZFVE?=
+ =?utf-8?B?eTZ3bEhNU1BZY2ViQ2ZOZmpEOUNtNkZlNGxGUmRTUjR4eWx4VE0wWEdDbjIv?=
+ =?utf-8?B?NTdxY1g2MHU0RDM0T0ljMXBNRXFtNE5XdFB2MFNoVkVqdUN3eldiaFZsSzNR?=
+ =?utf-8?B?UCtsOUg2T2VaMWdDWXozbTFWK09jYU83R2twZE1OV3FMU2RrNVNsaXp2bGZj?=
+ =?utf-8?B?VEtKZm0vNHZhSDFycldaTE1QTXpUejFCODJjZ2cySDNxbDQyK3U2eWhRUEdY?=
+ =?utf-8?B?dUZ5MzNxS09IaWFXVlMrWUR5MEFReEI2WWpyWTZGM2tSU3NnVXJMZXFRUlk5?=
+ =?utf-8?B?ZmE1MHpqMFNBb09CbHFrRGJhM1R1eWhnYnFpRERGclExOGVGVVd2TmlGUFVl?=
+ =?utf-8?B?UmNSZHIxRzVsSUJkcXlPWnhWbWZjWkFOUmhTZXFzcnYrVktHeDdSbGlHdXhO?=
+ =?utf-8?B?L2F5OEJzZnIzOU42ajZsaEQwQ3Z3bGhrVHUvR1RMWXdnMTZHVm0xVWFFUnpX?=
+ =?utf-8?B?UUdnaU5Nck1XWWNUdmxUQXpaaHZLVWlocFloZ09rWmZwZytqMS9WOFNlVFc4?=
+ =?utf-8?B?NFZWT00vZ3BqUCtrK2VGaG9HZWs2cWNMR2ZtVmtBZzBUckIvTDg2eTZVWUUv?=
+ =?utf-8?B?NnpFSTcvc3JUY1Flblc2aDBUanhjNHhRVXYvWFNWRGJxL1F0bEdJbTdJc0tL?=
+ =?utf-8?B?SHJpb3lpTUIxR01WMnpDNnludEd5dUhYWjZtREpLdmU5YktodWtlbkY2T05t?=
+ =?utf-8?B?Z2RyVHNxcGpDckttako4OWVWZk91R2kwc2l3Wlc2c0wrVUdpOXRzMitJVHVi?=
+ =?utf-8?B?d0MwMU0wMHpvSmZqcUFBUDZKNmJRcjlydlJyc1c5NnhpWjFUUGxVbW9UK09n?=
+ =?utf-8?B?ZWl6UWZqTmxuZHdOTzhkWmJsVGFqWDdLUVlvcTl1UDFrM3Rnbnp6blFva29L?=
+ =?utf-8?B?OTRkbUMvSjZsVGY2WU9LckpqUVJTZG00QXNLOGZSNTljN3U3ME5ZQnAxM3gv?=
+ =?utf-8?B?dm9WQ0ZMQUdkdjY2S1hqVm15TDkyNDh6TjZHUXdybmNMRCtHNnN1R3JmVzZX?=
+ =?utf-8?B?ckRLZXF1ZVByL1pmaDY0QjlDVnNFeTZLUVM2Q1ovb2ZENEVBc3RwRUhxM0Ni?=
+ =?utf-8?B?TE03YW1mWXJCaWlaSWFrYWpnTGt0N202cXFkdG1EWFBKRDdVNDIvRSsydjFt?=
+ =?utf-8?B?M2JZMW54SkZCYlIwc0w5SFZrM2x4cU5mUUpXdEtIdXk0bi9ELyt5Y1krbjVY?=
+ =?utf-8?Q?n52kdoi+wpSPKZiLf+xIs=3D?=
+MIME-Version: 1.0
+
+--0007798546b-3911-4ff9-bc30-cdb5de789415
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=0D=0AIntroducing the ROG Strix OLED XG27AQWMG =E2=80=94 a 27-inc=
+h 1440p gaming monitor=0D=0A=0D=0AHaving trouble reading this EDM=
+? Click here to see it in your browser.=0D=0AThis is an automatic=
+ally generated e-mail. Please do not reply to this email.=0D=0A=0D=
+=0AHi, Inbavanan S=0D=0A=0D=0A =0D=0A=0D=0ATHE NEXT LEVEL OF GAMI=
+NG HAS ARRIVED.=0D=0A=0D=0A=0D=0AIntroducing the ROG Strix OLED X=
+G27AQWMG =E2=80=94 a 27-inch 1440p gaming monitor=0D=0Aengineered=
+ for speed, clarity, and immersive OLED visuals.=0D=0A=0D=0A=E2=9A=
+=A1 280Hz Refresh Rate=0D=0A=E2=8F=B1=EF=B8=8F 0.03ms Response Ti=
+me=0D=0A=F0=9F=96=A4 TrueBlack Glossy=E2=84=A2 Tandem OLED=0D=0A=F0=
+=9F=8E=A8 99% DCI-P3=0D=0A=F0=9F=94=A5 DisplayHDR=E2=84=A2 True B=
+lack 500=0D=0A=F0=9F=91=81=EF=B8=8F Neo Proximity Sensor=0D=0A=F0=
+=9F=9B=A1=EF=B8=8F ASUS OLED Care Pro=0D=0A=0D=0AFast enough for=20=
+the competition. Stunning enough to redefine it.=0D=0A=0D=0A=F0=9F=
+=8E=AE ROG Strix OLED XG27AQWMG =E2=80=94 Game beyond the limits.=
+=0D=0A=0D=0ALearn More =0D=0A=0D=0A=C2=A9ASUSTeK Computer Inc. Al=
+l rights reserved.=0D=0AIf you wish to cancel your ASUS EDM subsc=
+ription, please Click here =0D=0A=0D=0A=0D=0AReferences:=0D=0A1:=20=
+https://omicard.asus.com/HL/49d32a0/696fd9a7/0/8da3f.2b6950e/1aa8=
+ff7/1aa5ea1/d/370/800.htm=0D=0A2: https://omicard.asus.com/HL/?49=
+d32a1/696fd9a7/0/8da3f.2b6950e/1aa8ff7/1aa5ea1/d/2370/900/0/0/0/0=
+/0/0/0/0/0/a2/---aHR0cHM6Ly9yb2cuYXN1cy5jb20vaW4vbW9uaXRvcnMvMjct=
+dG8tMzEtNS1pbmNoZXMvcm9nLXN0cml4LW9sZWQteGcyN2Fxd21nLz91dG1fc291c=
+mNlPWFzdXMtZWRtJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTYzMDk4LT=
+IwMjYwOTI2JnV0bV9pZD01MjY1MDQ3MzcxNzg5.htm=0D=0A3: https://omicar=
+d.asus.com/HL/?49d32a2/696fd9a7/0/8da3f.2b6950e/1aa8ff7/1aa5ea1/d=
+/2370/900/0/0/0/0/0/0/0/0/0/70/---aHR0cHM6Ly9hY2NvdW50LmFzdXMuY29=
+tL2NhbmNlbF9lZG0uYXNweD9tZWRtX2lkPTYzMDk4Jm1jb2RlPU01NjJBQjhCM0JF=
+LUVGNTAxNi0zNDVGMDAtQUJDRjA5LTc4QzU2NjQyNUQyQTgzNUUzQQ=3D=3D.htm=0D=
+=0A
+--0007798546b-3911-4ff9-bc30-cdb5de789415
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><b=
+ase href=3D"https://omicard.asus.com/Var/Elite/711d05b0-1852-4a52-bbb0-384c=
+3d2cf18d/EXTRA/">=0A=
+    <title>EDM</title>=0A=
+    =0A=
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">=0A=
+    <meta name=3D"x-apple-disable-message-reformatting">=0A=
+    <!--[if !mso]><!-->=0A=
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=0A=
+    <!--<![endif]-->=0A=
+    <!--[if gte mso 9]>=0A=
+      <xml>=0A=
+        <o:OfficeDocumentSettings>=0A=
+          <o:AllowPNG />=0A=
+          <o:PixelsPerInch>96</o:PixelsPerInch>=0A=
+        </o:OfficeDocumentSettings>=0A=
+      </xml>=0A=
+    <![endif]-->=0A=
+    <style type=3D"text/css">=0A=
+      body {=0A=
+        padding: 0;=0A=
+        margin: 0;=0A=
+      }=0A=
+=0A=
+      table,=0A=
+      td {=0A=
+        border-collapse: collapse;=0A=
+        mso-table-lspace: 0;=0A=
+        mso-table-rspace: 0;=0A=
+        word-break: break-word;=0A=
+      }=0A=
+=0A=
+      img {=0A=
+        height: auto;=0A=
+        text-decoration: none;=0A=
+        border: 0;=0A=
+        outline: none;=0A=
+        line-height: 100%;=0A=
+        interpolation-mode: bicubic;=0A=
+      }=0A=
+=0A=
+      .link {=0A=
+        display: inline-block;=0A=
+        color: #e30017;=0A=
+        cursor: pointer;=0A=
+      }=0A=
+=0A=
+      .calenderLink {=0A=
+        font-family: SegoeUI, Arial, sans-serif;=0A=
+        font-size: 14px;=0A=
+        color: #e30017;=0A=
+        line-height: 1.43;=0A=
+      }=0A=
+=0A=
+      .socialMedia {=0A=
+        display: inline-block;=0A=
+        cursor: pointer;=0A=
+        margin-right: 5px;=0A=
+      }=0A=
+=0A=
+      .button {=0A=
+        display: inline-block;=0A=
+        font-family: Roboto, Arial, sans-serif;=0A=
+        font-size: 14px;=0A=
+        text-decoration: none;=0A=
+        color: #ffffff;=0A=
+        background: #e30017;=0A=
+      }=0A=
+=0A=
+      .bodyBackground {=0A=
+        background: #000000;=0A=
+      }=0A=
+=0A=
+      .sectionBackground {=0A=
+        background: #212121;=0A=
+      }=0A=
+=0A=
+      .buttonTr {=0A=
+        background: #e30017;=0A=
+      }=0A=
+=0A=
+      .title {=0A=
+        color: #ffffff;=0A=
+      }=0A=
+=0A=
+      .description {=0A=
+        color: #b3b3b3;=0A=
+      }=0A=
+=0A=
+      .dividerBorder {=0A=
+        border-top: solid 1px #424242;=0A=
+      }=0A=
+    </style>=0A=
+    <!--[if !mso]><!-->=0A=
+    <style type=3D"text/css">=0A=
+      @media only screen and (max-width: 480px) {=0A=
+        @viewport {=0A=
+          width: 320px;=0A=
+        }=0A=
+=0A=
+        @viewport {=0A=
+          width: 320px;=0A=
+        }=0A=
+      }=0A=
+    </style>=0A=
+    <!--<![endif]-->=0A=
+    <!--[if mso]>=0A=
+      <xml>=0A=
+        <o:OfficeDocumentSettings>=0A=
+          <o:AllowPNG />=0A=
+          <o:PixelsPerInch>96</o:PixelsPerInch>=0A=
+        </o:OfficeDocumentSettings>=0A=
+      </xml>=0A=
+    <![endif]-->=0A=
+    <!--[if lte mso 11]>=0A=
+      <style type=3D"text/css">=0A=
+        .outlook-group-fix {=0A=
+          width: 100% !important;=0A=
+        }=0A=
+      </style>=0A=
+    <![endif]-->=0A=
+    <!--[if !mso]><!-->=0A=
+=0A=
+    <!--<![endif]-->=0A=
+  </head>=0A=
+=0A=
+  <body bgcolor=3D"#212121"><div style=3D"display: none; max-height: 0px; o=
+verflow: hidden;">Introducing the ROG Strix OLED XG27AQWMG =E2=80=94 a 27-i=
+nch 1440p gaming monitor</div>&nbsp;&nbsp;=0A=
+    <div>=0A=
+      <!--[if mso | IE]>=0A=
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">=0A=
+        <tbody>=0A=
+          <tr>=0A=
+            <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule=
+:exactly;">=0A=
+      <![endif]-->=0A=
+      <div style=3D"margin: 0 auto; width: 100%;">=0A=
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"width: 100%;">=0A=
+          <tbody>=0A=
+            <tr>=0A=
+              <td bgcolor=3D"#000000" align=3D"center" width=3D"100%">=0A=
+                <!--=E6=8F=90=E7=A4=BAbanner-->=0A=
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"100%">=0A=
+                  <tbody>=0A=
+                    <tr>=0A=
+                      <td bgcolor=3D"#212121" align=3D"center" style=3D"=0A=
+                          padding-top: 10px;=0A=
+                          padding-bottom: 10px;=0A=
+                          font-size: 0;=0A=
+                          word-break: break-word;=0A=
+">=0A=
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"700">=0A=
+                          <tbody>=0A=
+                            <tr>=0A=
+                              <td width=3D"700" style=3D"=0A=
+                                  margin: auto;=0A=
+                                  font-family: SegoeUI, Arial, sans-serif;=
+=0A=
+                                  font-size: 12px;=0A=
+                                  text-align: right;=0A=
+                                  color: #b3b3b3;=0A=
+">=0A=
+                                Having trouble reading this EDM? <a href=3D=
+"https://omicard.asus.com/HL/49d32a0/696fd9a7/0/8da3f.2b6950e/1aa8ff7/1aa5e=
+a1/d/370/800.htm" style=3D"color:#00a8ff;">Click here</a> to see it in your=
+ browser.<br>This is an automatically generated e-mail. Please do not reply=
+ to this email.=0A=
+                              </td>=0A=
+                            </tr>=0A=
+                          </tbody>=0A=
+                        </table>=0A=
+                      </td>=0A=
+                    </tr>=0A=
+                  </tbody>=0A=
+                </table>=0A=
+                <!--=E6=8F=90=E7=A4=BAbanner end-->=0A=
+=0A=
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"700">=0A=
+                  <tbody>=0A=
+                    <tr>=0A=
+                      <td align=3D"center">=0A=
+                        <table width=3D"700" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0">=0A=
+                          <tbody>=0A=
+                            <tr>=0A=
+                              <td width=3D"700" style=3D"=0A=
+                                  padding-top: 10px;=0A=
+                                  padding-bottom: 10px;=0A=
+                                  font-size: 0;=0A=
+                                  word-break: break-word;=0A=
+">=0A=
+                                <img border=3D"0" width=3D"100" height=3D"a=
+uto" src=3D"https://digitalmarketing.asus.com/edm/images/icons/rog-logo_edm=
+.png" style=3D"                                     display: block;        =
+                             width: 100px;                                 =
+    border: 0;                                     outline: none; ">=0A=
+                                <img border=3D"0" height=3D"auto" src=3D"ht=
+tps://digitalmarketing.asus.com/edm/images/space.png" style=3D"            =
+                         display: block;                                   =
+  border: 0;                                     outline: none; ">=0A=
+                              </td>=0A=
+                            </tr>=0A=
+                          </tbody>=0A=
+                        </table>=0A=
+                      </td>=0A=
+                    </tr>=0A=
+                    <!--line-->=0A=
+                    <tr>=0A=
+                      <td width=3D"700" colspan=3D"2" style=3D"font-size: 0=
+; word-break: break-word;">=0A=
+                        <div style=3D"=0A=
+                            margin: 0 auto;=0A=
+                            width: 700px;=0A=
+                            font-size: 1;=0A=
+                            border-top: solid 1px #424242;=0A=
+"></div>=0A=
+                        <!--[if mso | IE]>=0A=
+                          <table=0A=
+                            align=3D"center"=0A=
+                            border=3D"0"=0A=
+                            cellpadding=3D"0"=0A=
+                            cellspacing=3D"0"=0A=
+                            style=3D"=0A=
+                              border-top: solid 1px #424242;=0A=
+                              font-size: 1;=0A=
+                              margin: 0px auto;=0A=
+                              width: 100%;=0A=
+                            "=0A=
+                            role=3D"presentation"=0A=
+                            width=3D"100%"=0A=
+                          >=0A=
+                            <tbody>=0A=
+                              <tr>=0A=
+                                <td style=3D"height: 0; line-height: 0">=0A=
+                                  &nbsp;=0A=
+                                </td>=0A=
+                              </tr>=0A=
+                            </tbody>=0A=
+                          </table>=0A=
+                        <![endif]-->=0A=
+                      </td>=0A=
+                    </tr>=0A=
+                    <!--line End-->=0A=
+                  </tbody>=0A=
+                </table>=0A=
+=0A=
+                =0A=
+    <table id=3D"d4a09be1-d2ac-4671-a911-9a1de527dce1" class=3D"open-settin=
+gs-on-click" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"700"=
+>=0A=
+      <tbody>=0A=
+        <tr>=0A=
+          <td width=3D"700" colspan=3D"2" class=3D"title" style=3D"font-siz=
+e:0px;word-break:break-word;padding-top:20px;font-family: SegoeUI, Arial, s=
+ans-serif;font-size: 14px;">=0A=
+            <div>Hi, Inbavanan S</div>=0A=
+          </td>=0A=
+        </tr>=0A=
+      </tbody>=0A=
+    </table>=0A=
+<table id=3D"id-a0ba6436-621b-49c0-83d9-aadfa7fbaf24" class=3D"open-setting=
+s-on-click" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"700">=
+=0A=
+    <tbody>=0A=
+      <tr>=0A=
+        <td width=3D"700" colspan=3D"2" style=3D"font-size:0px;word-break:b=
+reak-word;padding-top:20px;">=0A=
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+100%">=0A=
+            <tbody>=0A=
+              <tr align=3D"left" style=3D"font-size:0px;word-break:break-wo=
+rd;">=0A=
+                  <td width=3D"700">=0A=
+                    =0A=
+                      <a href=3D"https://omicard.asus.com/HL/?49d32a1/696fd=
+9a7/0/8da3f.2b6950e/1aa8ff7/1aa5ea1/d/2370/900/0/0/0/0/0/0/0/0/0/a2/---aHR0=
+cHM6Ly9yb2cuYXN1cy5jb20vaW4vbW9uaXRvcnMvMjctdG8tMzEtNS1pbmNoZXMvcm9nLXN0cml=
+4LW9sZWQteGcyN2Fxd21nLz91dG1fc291cmNlPWFzdXMtZWRtJnV0bV9tZWRpdW09ZW1haWwmdX=
+RtX2NhbXBhaWduPTYzMDk4LTIwMjYwOTI2JnV0bV9pZD01MjY1MDQ3MzcxNzg5.htm">=0A=
+                        <img border=3D"0" width=3D"100%" src=3D"https://dlc=
+dnwebimgs.asus.com/files/media/202609/2a218b0b-914e-4dc1-a01e-4a877c3d093f/=
+.main-content-uploads/043e0024-36b1-4273-ad25-d6c1888ce3f5/3d0bb679-fc61-49=
+ca-8f4b-2708e7394eb5.jpg" alt=3D"" style=3D"border:0;display:block;outline:=
+none;">=0A=
+                      </a>=0A=
+                  </td>=0A=
+                </tr>=0A=
+                =0A=
+=0A=
+              <tr class=3D"sectionBackground" align=3D"center" style=3D"fon=
+t-size:0px;word-break:break-word;">=0A=
+                  <td class=3D"title" style=3D"padding-top:20px;padding-lef=
+t:24px;padding-right:24px;font-family: SegoeUI, Arial, sans-serif;font-size=
+: 18px;font-weight:600;">=0A=
+                    THE NEXT LEVEL OF GAMING HAS ARRIVED.=0A=
+                  </td>=0A=
+                </tr>=0A=
+=0A=
+                <tr class=3D"sectionBackground" align=3D"center" style=3D"f=
+ont-size:0px;word-break:break-word;">=0A=
+                  <td class=3D"description" style=3D"padding-left:24px;padd=
+ing-right:24px;padding-top:10px;font-family: SegoeUI, Arial, sans-serif;fon=
+t-size: 14px;line-height: 1.43;">=0A=
+                    <div>&nbsp;=0A=
+<p class=3D"isSelectedEnd">Introducing the <strong>ROG Strix OLED XG27AQWMG=
+</strong> =E2=80=94 a 27-inch 1440p gaming monitor engineered for speed, cl=
+arity, and immersive OLED visuals.</p>=0A=
+<p class=3D"isSelectedEnd">=E2=9A=A1 <strong>280Hz</strong> Refresh Rate<br=
+>=E2=8F=B1=EF=B8=8F <strong>0.03ms</strong> Response Time<br>=F0=9F=96=A4 <=
+strong>TrueBlack Glossy=E2=84=A2 Tandem OLED</strong><br>=F0=9F=8E=A8 <stro=
+ng>99% DCI-P3</strong><br>=F0=9F=94=A5 <strong>DisplayHDR=E2=84=A2 True Bla=
+ck 500</strong><br>=F0=9F=91=81=EF=B8=8F <strong>Neo Proximity Sensor</stro=
+ng><br>=F0=9F=9B=A1=EF=B8=8F <strong>ASUS OLED Care Pro</strong></p>=0A=
+<p class=3D"isSelectedEnd"><strong>Fast enough for the competition. Stunnin=
+g enough to redefine it.</strong></p>=0A=
+<p>=F0=9F=8E=AE <strong>ROG Strix OLED XG27AQWMG =E2=80=94 Game beyond the =
+limits.</strong></p>=0A=
+</div>=0A=
+                  </td>=0A=
+                </tr>=0A=
+=0A=
+              <tr align=3D"center" style=3D"font-size:0px;word-break:break-=
+word;">=0A=
+                  <td class=3D"sectionBackground" style=3D"padding-top: 20p=
+x;padding-bottom:40px;padding-left:24px;padding-right:24px;">=0A=
+                    <table>=0A=
+                      <tbody>=0A=
+                        <tr class=3D"buttonTr" align=3D"center" style=3D"fo=
+nt-size:0px;word-break:break-word;">=0A=
+                          <td style=3D"padding-top:10px;padding-bottom:10px=
+;padding-left:20px;padding-right:20px;color:#ffffff;">=0A=
+=0A=
+                           <a href=3D"https://omicard.asus.com/HL/?49d32a1/=
+696fd9a7/0/8da3f.2b6950e/1aa8ff7/1aa5ea1/d/2370/900/0/0/0/0/0/0/0/0/0/a2/--=
+-aHR0cHM6Ly9yb2cuYXN1cy5jb20vaW4vbW9uaXRvcnMvMjctdG8tMzEtNS1pbmNoZXMvcm9nLX=
+N0cml4LW9sZWQteGcyN2Fxd21nLz91dG1fc291cmNlPWFzdXMtZWRtJnV0bV9tZWRpdW09ZW1ha=
+WwmdXRtX2NhbXBhaWduPTYzMDk4LTIwMjYwOTI2JnV0bV9pZD01MjY1MDQ3MzcxNzg5.htm" ta=
+rget=3D"_blank" class=3D"button" style=3D"color:#ffffff;">=0A=
+                            Learn More=0A=
+                          </a>=0A=
+                          </td>=0A=
+                        </tr>=0A=
+                      </tbody>=0A=
+                    </table>=0A=
+                  </td>=0A=
+                </tr>=0A=
+            </tbody>=0A=
+          </table>=0A=
+        </td>=0A=
+      </tr>=0A=
+    </tbody>=0A=
+  </table>=0A=
+=0A=
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"700" style=3D"max-width: 700px;">=0A=
+                  <tbody>=0A=
+                    <tr>=0A=
+                      <td align=3D"right" width=3D"700" colspan=3D"2" style=
+=3D"=0A=
+                          padding: 20px 0 60px;=0A=
+                          font-size: 0;=0A=
+                          word-break: break-word;=0A=
+">=0A=
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%">=0A=
+                          <tbody>=0A=
+                            <tr>=0A=
+                              <td style=3D"=0A=
+                                  margin: auto;=0A=
+                                  max-width: 700px;=0A=
+                                  font-family: SegoeUI, Arial, sans-serif;=
+=0A=
+                                  font-size: 12px;=0A=
+                                  text-align: right;=0A=
+                                  color: #b3b3b3;=0A=
+">=0A=
+                                =C2=A9ASUSTeK Computer Inc. All rights rese=
+rved.<br>If you wish to cancel your ASUS EDM subscription, please <a href=
+=3D"https://omicard.asus.com/HL/?49d32a2/696fd9a7/0/8da3f.2b6950e/1aa8ff7/1=
+aa5ea1/d/2370/900/0/0/0/0/0/0/0/0/0/70/---aHR0cHM6Ly9hY2NvdW50LmFzdXMuY29tL=
+2NhbmNlbF9lZG0uYXNweD9tZWRtX2lkPTYzMDk4Jm1jb2RlPU01NjJBQjhCM0JFLUVGNTAxNi0z=
+NDVGMDAtQUJDRjA5LTc4QzU2NjQyNUQyQTgzNUUzQQ=3D=3D.htm" style=3D"color:#00a8f=
+f;">Click here</a>=0A=
+                              </td>=0A=
+                            </tr>=0A=
+                          </tbody>=0A=
+                        </table>=0A=
+                      </td>=0A=
+                    </tr>=0A=
+                  </tbody>=0A=
+                </table>=0A=
+              </td>=0A=
+            </tr>=0A=
+          </tbody>=0A=
+        </table>=0A=
+      </div>=0A=
+      <!--[if mso | IE]>=0A=
+            </td>=0A=
+          </tr>=0A=
+        </tbody>=0A=
+      </table>=0A=
+      <![endif]-->=0A=
+    </div>=0A=
+  <div><img src=3D"https://omicard.asus.com/HL/0/696fd9a7/0/8da3f.2b6950e/1=
+aa8ff7/1aa5ea1/d/370.jpg" alt=3D"op"></div></body>=0A=
+</html>=0A=
+
+
+--0007798546b-3911-4ff9-bc30-cdb5de789415--
+

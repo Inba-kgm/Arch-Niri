@@ -1,0 +1,784 @@
+1790168440576	Sync.LogManager	DEBUG	Flushing file log
+1790168440577	FirefoxAccounts	INFO	Already fetching device list, return existing promise
+1790168440578	FirefoxAccounts	INFO	Already fetching device list, return existing promise
+1790168440578	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1790168440579	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1790168440580	Sync.LogManager	DEBUG	Log cleanup threshold time: 1789304440580
+1790168440581	Sync.LogManager	DEBUG	Done deleting files.
+1790168442374	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1790168443840	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1790168443902	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1790168443931	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1790168443937	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1790168444992	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790168444999	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790168445037	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1790168445052	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790168445056	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1790168447397	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1790168448973	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1790168449437	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1790168449465	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1790168449473	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1790168449990	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/attached_clients failed: 2152398862 - NS_ERROR_NET_TIMEOUT
+1790168449990	Hawk	WARN	hawk request error: [Exception... "NS_ERROR_NET_TIMEOUT"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478"  data: no] Stack trace: onStopRequest()@resource://services-common/rest.sys.mjs:478
+1790168449990	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 615"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:615
+request()@resource://services-common/hawkclient.sys.mjs:231
+1790168449990	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get statusText :: line 630"  data: no] Stack trace: get statusText()@resource://services-common/rest.sys.mjs:630
+request()@resource://services-common/hawkclient.sys.mjs:239
+1790168449990	Hawk	DEBUG	(Response) /account/attached_clients: code: null - Status text: null
+1790168449990	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 662"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:662
+_maybeNotifyBackoff()@resource://services-common/hawkclient.sys.mjs:308
+request()@resource://services-common/hawkclient.sys.mjs:247
+1790168449991	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 662"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:662
+_maybeNotifyBackoff()@resource://services-common/hawkclient.sys.mjs:308
+request()@resource://services-common/hawkclient.sys.mjs:248
+1790168449991	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get statusText :: line 630"  data: no] Stack trace: get statusText()@resource://services-common/rest.sys.mjs:630
+_constructError()@resource://services-common/hawkclient.sys.mjs:113
+request()@resource://services-common/hawkclient.sys.mjs:253
+1790168449991	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 615"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:615
+_constructError()@resource://services-common/hawkclient.sys.mjs:114
+request()@resource://services-common/hawkclient.sys.mjs:253
+1790168449991	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 615"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:615
+_constructError()@resource://services-common/hawkclient.sys.mjs:115
+request()@resource://services-common/hawkclient.sys.mjs:253
+1790168449991	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 662"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:662
+_constructError()@resource://services-common/hawkclient.sys.mjs:121
+request()@resource://services-common/hawkclient.sys.mjs:253
+1790168449991	FirefoxAccounts	ERROR	error GETing /account/attached_clients: {"error":{},"errorString":"[Exception... \"NS_ERROR_NET_TIMEOUT\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]","message":null,"code":null,"errno":null}
+1790168449991	FirefoxAccounts	ERROR	Could not update attached clients list : {"error":{},"errorString":"[Exception... \"NS_ERROR_NET_TIMEOUT\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]","message":null,"code":null,"errno":null}
+1790168451480	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1788354032392 failed: 2152398862 - NS_ERROR_NET_TIMEOUT
+1790168451480	Hawk	WARN	hawk request error: [Exception... "NS_ERROR_NET_TIMEOUT"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478"  data: no] Stack trace: onStopRequest()@resource://services-common/rest.sys.mjs:478
+1790168451480	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 615"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:615
+request()@resource://services-common/hawkclient.sys.mjs:231
+1790168451480	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get statusText :: line 630"  data: no] Stack trace: get statusText()@resource://services-common/rest.sys.mjs:630
+request()@resource://services-common/hawkclient.sys.mjs:239
+1790168451480	Hawk	DEBUG	(Response) /account/devices?filterIdleDevicesTimestamp=1788354032392: code: null - Status text: null
+1790168451480	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 662"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:662
+_maybeNotifyBackoff()@resource://services-common/hawkclient.sys.mjs:308
+request()@resource://services-common/hawkclient.sys.mjs:247
+1790168451480	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 662"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:662
+_maybeNotifyBackoff()@resource://services-common/hawkclient.sys.mjs:308
+request()@resource://services-common/hawkclient.sys.mjs:248
+1790168451480	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get statusText :: line 630"  data: no] Stack trace: get statusText()@resource://services-common/rest.sys.mjs:630
+_constructError()@resource://services-common/hawkclient.sys.mjs:113
+request()@resource://services-common/hawkclient.sys.mjs:253
+1790168451480	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 615"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:615
+_constructError()@resource://services-common/hawkclient.sys.mjs:114
+request()@resource://services-common/hawkclient.sys.mjs:253
+1790168451480	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 615"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:615
+_constructError()@resource://services-common/hawkclient.sys.mjs:115
+request()@resource://services-common/hawkclient.sys.mjs:253
+1790168451480	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 662"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:662
+_constructError()@resource://services-common/hawkclient.sys.mjs:121
+request()@resource://services-common/hawkclient.sys.mjs:253
+1790168451480	FirefoxAccounts	ERROR	error GETing /account/devices?filterIdleDevicesTimestamp=1788354032392: {"error":{},"errorString":"[Exception... \"NS_ERROR_NET_TIMEOUT\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]","message":null,"code":null,"errno":null}
+1790168451481	Sync.Browser	ERROR	Refreshing device list failed.: {"error":{},"errorString":"[Exception... \"NS_ERROR_NET_TIMEOUT\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]","message":null,"code":null,"errno":null}
+1790168451481	Sync.Browser	ERROR	Refreshing device list failed.: {"error":{},"errorString":"[Exception... \"NS_ERROR_NET_TIMEOUT\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]","message":null,"code":null,"errno":null}
+1790168451481	Sync.Browser	ERROR	Refreshing device list failed.: {"error":{},"errorString":"[Exception... \"NS_ERROR_NET_TIMEOUT\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]","message":null,"code":null,"errno":null}
+1790168451932	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790168451942	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1790168453775	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1790168453775	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790168453776	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1790168453777	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168454478	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1790168455995	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1790168456003	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1790168456015	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/attached_clients failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1790168456016	Hawk	WARN	hawk request error: [Exception... "NS_ERROR_UNKNOWN_HOST"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478"  data: no] Stack trace: onStopRequest()@resource://services-common/rest.sys.mjs:478
+1790168456016	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 615"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:615
+request()@resource://services-common/hawkclient.sys.mjs:231
+1790168456016	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get statusText :: line 630"  data: no] Stack trace: get statusText()@resource://services-common/rest.sys.mjs:630
+request()@resource://services-common/hawkclient.sys.mjs:239
+1790168456016	Hawk	DEBUG	(Response) /account/attached_clients: code: null - Status text: null
+1790168456016	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 662"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:662
+_maybeNotifyBackoff()@resource://services-common/hawkclient.sys.mjs:308
+request()@resource://services-common/hawkclient.sys.mjs:247
+1790168456016	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 662"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:662
+_maybeNotifyBackoff()@resource://services-common/hawkclient.sys.mjs:308
+request()@resource://services-common/hawkclient.sys.mjs:248
+1790168456016	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get statusText :: line 630"  data: no] Stack trace: get statusText()@resource://services-common/rest.sys.mjs:630
+_constructError()@resource://services-common/hawkclient.sys.mjs:113
+request()@resource://services-common/hawkclient.sys.mjs:253
+1790168456016	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 615"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:615
+_constructError()@resource://services-common/hawkclient.sys.mjs:114
+request()@resource://services-common/hawkclient.sys.mjs:253
+1790168456016	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 615"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:615
+_constructError()@resource://services-common/hawkclient.sys.mjs:115
+request()@resource://services-common/hawkclient.sys.mjs:253
+1790168456016	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 662"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:662
+_constructError()@resource://services-common/hawkclient.sys.mjs:121
+request()@resource://services-common/hawkclient.sys.mjs:253
+1790168456016	FirefoxAccounts	ERROR	error GETing /account/attached_clients: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]","message":null,"code":null,"errno":null}
+1790168456016	FirefoxAccounts	ERROR	Could not update attached clients list : {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]","message":null,"code":null,"errno":null}
+1790168461245	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1790168471222	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168472560	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1790168472560	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1790168472562	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168472562	Sync.Service	DEBUG	User-Agent: Firefox/156.0 (Linux x86_64) FxSync/1.158.0.20260915231823.desktop
+1790168472562	Sync.Service	INFO	Starting sync at 2026-09-23 13:01:12 in browser session HWbLNpqzPwLO
+1790168472562	Sync.Service	DEBUG	In sync: should login.
+1790168472563	Sync.Service	INFO	User logged in successfully - verifying login.
+1790168472563	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState already has (or can fetch) sync keys
+1790168472563	Sync.Status	DEBUG	Status.login: error.login.reason.network => success.status_ok
+1790168472563	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1790168472563	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1790168472563	Sync.SyncAuthManager	INFO	Getting sync key
+1790168472563	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'https://identity.mozilla.com/apps/oldsync'
+1790168472563	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1790168472563	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'https://identity.mozilla.com/apps/oldsync'
+1790168472563	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1790168472563	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1790168472563	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1790168472563	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1790168474428	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 200
+1790168474428	Services.Common.TokenServerClient	DEBUG	Got token response: 200
+1790168474428	Services.Common.TokenServerClient	DEBUG	Successful token response
+1790168474428	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for undefined
+1790168474428	Sync.Status	DEBUG	Status.login: success.status_ok => success.login
+1790168474428	Sync.Status	DEBUG	Status.service: error.login.failed => success.status_ok
+1790168474429	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790168474429	Sync.SyncAuthManager	DEBUG	_findCluster returning https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/
+1790168474429	Sync.SyncAuthManager	DEBUG	Cluster value = https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/
+1790168474429	Sync.SyncAuthManager	DEBUG	Setting cluster to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/
+1790168474429	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/
+1790168474429	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790168474431	FirefoxAccounts	INFO	fetching updated device list
+1790168474433	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1790168474434	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1788354074432
+1790168474720	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168474811	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/attached_clients 200
+1790168474811	Hawk	DEBUG	(Response) /account/attached_clients: code: 200 - Status text: 
+1790168474811	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -811
+1790168474931	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/info/collections
+1790168474931	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/info/configuration
+1790168474959	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1788354074432 200
+1790168474959	Hawk	DEBUG	(Response) /account/devices?filterIdleDevicesTimestamp=1788354074432: code: 200 - Status text: 
+1790168474959	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: 41
+1790168474959	FirefoxAccounts	INFO	Got new device list: 5b291d39a1752349edda917e00b5e857, 777887a0931d77a94adf272efaeab3d7, e2192c7d85b54dd8c545d7c037e5d984, e2733490ec86b8979a665eaaef93efdd, ec7582bfd060ac258ecba6006100bca7, f1c981f015f43980a02a932fdad2f72b
+1790168474960	FirefoxAccounts	DEBUG	FxAccountsPush loading service
+1790168474960	FirefoxAccounts	DEBUG	FxAccountsPush initialized
+1790168474961	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790168474961	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790168474961	FirefoxAccounts	TRACE	Our push subscription looks OK
+1790168474961	FirefoxAccounts	INFO	updating the cache
+1790168475269	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/info/configuration
+1790168475270	Sync.Service	DEBUG	Fetching global metadata record
+1790168475986	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/meta/global
+1790168475987	Sync.Service	DEBUG	Clearing cached meta record. metaModified is undefined, setting to 1765969149.33
+1790168476393	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/meta/global
+1790168476393	Sync.Service	DEBUG	Weave Version: 1.158.0 Local Storage: 5 Remote Storage: 5
+1790168476393	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1790168476393	Sync.Service	INFO	Testing info/collections: {"extension-storage":1790160366.16,"crypto":1765969138.63,"tabs":1790168027.36,"history":1790160267.92,"prefs":1790154503.53,"clients":1790168026.69,"meta":1765969149.33,"forms":1790160041.83,"bookmarks":1790154508.59,"passwords":1790061176.85,"addons":1790154039.91}
+1790168476393	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 0
+1790168476393	Sync.Service	INFO	collection keys reports that a key update is needed.
+1790168477005	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/crypto/keys
+1790168477005	Sync.CollectionKeyManager	INFO	Updating collection keys...
+1790168477006	Sync.CollectionKeyManager	INFO	Setting collection keys contents. Our last modified: 0, input modified: 1765969138.63.
+1790168477006	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for [default]
+1790168477006	Sync.CollectionKeyManager	INFO	Processing downloaded per-collection keys.
+1790168477006	Sync.CollectionKeyManager	INFO	Clearing collection keys...
+1790168477006	Sync.CollectionKeyManager	INFO	Saving downloaded keys.
+1790168477006	Sync.CollectionKeyManager	INFO	Bumping last modified to 1765969138.63
+1790168477006	Sync.CollectionKeyManager	INFO	Collection keys updated.
+1790168477006	Sync.Status	DEBUG	Status.login: success.login => success.login
+1790168477006	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1790168477006	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/
+1790168477006	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790168477008	Sync.Status	INFO	Resetting Status.
+1790168477008	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1790168477126	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1790168477945	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/info/collections
+1790168477945	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/info/configuration
+1790168478506	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/info/configuration
+1790168478506	Sync.Service	DEBUG	Fetching global metadata record
+1790168478506	Sync.Service	DEBUG	Weave Version: 1.158.0 Local Storage: 5 Remote Storage: 5
+1790168478506	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1790168478506	Sync.Service	INFO	Testing info/collections: {"history":1790160267.92,"forms":1790160041.83,"bookmarks":1790154508.59,"crypto":1765969138.63,"clients":1790168026.69,"addons":1790154039.91,"prefs":1790154503.53,"extension-storage":1790160366.16,"meta":1765969149.33,"passwords":1790061176.85,"tabs":1790168027.36}
+1790168478506	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1765969138.63
+1790168478506	Sync.Synchronizer	DEBUG	Refreshing client list.
+1790168478506	Sync.Engine.Clients	DEBUG	First sync, uploading all items
+1790168478507	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1790168494875	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168496075	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168509774	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168511651	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1790168511652	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790168511653	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1790168511654	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168517444	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1790168517444	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1790168517446	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168517446	Sync.Service	DEBUG	User-Agent: Firefox/156.0 (Linux x86_64) FxSync/1.158.0.20260915231823.desktop
+1790168517446	Sync.Service	INFO	Starting sync at 2026-09-23 13:01:57 in browser session HWbLNpqzPwLO
+1790168517446	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:128:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1397:6
+sync/<@service.sys.mjs:1371:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1372:7
+1790168517447	Sync.Service	INFO	Cannot start sync: already syncing?
+1790168519013	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168528468	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1790168530634	Sync.RemoteTabs	INFO	Generating tab list with filter
+1790168530635	Sync.Engine.Tabs	DEBUG	tabs storage db: opening database
+1790168530636	Sync.Engine.Tabs	DEBUG	tabs storage db: checking if initialization is necessary
+1790168530637	Sync.Engine.Tabs	DEBUG	tabs storage db: preparing
+1790168530638	Sync.Engine.Tabs	DEBUG	tabs storage db: finishing writable database open
+1790168530638	Sync.Engine.Tabs	DEBUG	tabs storage db: database open successful
+1790168530638	Sync.Engine.Tabs	INFO	tabs storage is opening an existing database
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: -h142T1LSMCR
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: 0dd0020f66d0ee9f32d044304515926d
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: 203cf3ead067ba1ec54b5d3dcf46469f
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: 40ede02c9bfea90141c0a4fa2d29309e
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: 5bda53602346a84495d04b753691dfc6
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: 6vQ9OTJnThBr
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: 75c2dc919a9ddd53efadfde5d7a58960
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: 91c1f11a5619129278312a84101e51c4
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: Bag-O0GJMMiu
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: TEtOf9f6fbXq
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: W3-aItwULDQT
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: Yb1xfWKFsD9W
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: _2aPRMLoxSa7
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: aTdEQ_mVUC7g
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: b47bfcd16bf44fad05396a21fbcae139
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: ca779e857a9872c3139c45b178832c11
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: fL8vWG8Oxznr
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: jN__1UH5kBg-
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: ssxT_HVJGiKi
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: th2adi8-NkRB
+1790168530638	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: wScmVL3YMZqn
+1790168530639	Sync.RemoteTabs	INFO	Final tab list has 0 clients with 0 tabs.
+1790168533536	Sync.Engine.Tabs	INFO	update_local_state has 2 tab entries
+1790168533536	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790168533536	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790168533578	Sync.Engine.Tabs	INFO	prepare_for_upload found 2 tabs
+1790168533579	Sync.Collection	DEBUG	POST Length: 939
+1790168534971	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/tabs
+1790168534971	Sync.Telemetry	INFO	Notification for engine tabs but it isn't current
+1790168535293	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1790168535298	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790168535350	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790168535691	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790168535696	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790168540296	Sync.Engine.Tabs	INFO	update_local_state has 2 tab entries
+1790168540296	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790168540296	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790168540357	Sync.Engine.Tabs	INFO	prepare_for_upload found 2 tabs
+1790168540358	Sync.Collection	DEBUG	POST Length: 939
+1790168540800	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/tabs
+1790168540800	Sync.Telemetry	INFO	Notification for engine tabs but it isn't current
+1790168546023	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1790168546211	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790168551077	Sync.Engine.Tabs	INFO	update_local_state has 3 tab entries
+1790168551078	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790168551078	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790168551110	Sync.Engine.Tabs	INFO	prepare_for_upload found 3 tabs
+1790168551112	Sync.Collection	DEBUG	POST Length: 1303
+1790168551433	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/tabs
+1790168551433	Sync.Telemetry	INFO	Notification for engine tabs but it isn't current
+1790168572243	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1790168573280	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1790168573280	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790168573281	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1790168573282	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168577249	Sync.Engine.Tabs	INFO	update_local_state has 3 tab entries
+1790168577249	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790168577249	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790168577289	Sync.Engine.Tabs	INFO	prepare_for_upload found 3 tabs
+1790168577291	Sync.Collection	DEBUG	POST Length: 1131
+1790168577294	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/tabs failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1790168577294	Sync.Engine.Tabs	WARN	quicksync sync failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1790168580031	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168581173	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1790168581173	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1790168581174	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168581175	Sync.Service	DEBUG	User-Agent: Firefox/156.0 (Linux x86_64) FxSync/1.158.0.20260915231823.desktop
+1790168581175	Sync.Service	INFO	Starting sync at 2026-09-23 13:03:01 in browser session HWbLNpqzPwLO
+1790168581175	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:128:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1397:6
+sync/<@service.sys.mjs:1371:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1372:7
+1790168581175	Sync.Service	INFO	Cannot start sync: already syncing?
+1790168582773	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168705634	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1790168705635	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790168705635	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1790168705637	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168710960	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1790168710960	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1790168710962	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168710962	Sync.Service	DEBUG	User-Agent: Firefox/156.0 (Linux x86_64) FxSync/1.158.0.20260915231823.desktop
+1790168710962	Sync.Service	INFO	Starting sync at 2026-09-23 13:05:10 in browser session HWbLNpqzPwLO
+1790168710962	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:128:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1397:6
+sync/<@service.sys.mjs:1371:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1372:7
+1790168710963	Sync.Service	INFO	Cannot start sync: already syncing?
+1790168712711	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168731779	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790168732380	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168732380	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168732380	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168732436	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168732436	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168732436	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168733905	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1790168733961	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790168735164	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168735164	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168735164	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168735165	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168735165	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168735165	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168735216	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168735216	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168735216	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168735270	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168735270	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168735270	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168736695	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168736695	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168736695	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168737404	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168737404	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168737405	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168738750	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168738908	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168738908	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168738908	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168738910	Sync.Engine.Tabs	INFO	update_local_state has 3 tab entries
+1790168738910	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790168738910	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790168738965	Sync.Engine.Tabs	INFO	prepare_for_upload found 3 tabs
+1790168738967	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790168738967	Sync.Collection	DEBUG	POST Length: 1303
+1790168740586	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168740587	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168740587	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168740587	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168740587	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168740587	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168742384	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168742384	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168742384	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168743952	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168743952	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168743953	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168743953	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168743953	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168743953	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168745046	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168745046	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168745046	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168745057	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168745057	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168745058	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168747404	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168747405	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168747405	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168749475	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168749475	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168749475	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168749475	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168749475	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168749475	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168751956	Hawk	WARN	hawk request error: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168751956	FirefoxAccounts	ERROR	error GETing /account/attached_clients: [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168751956	FirefoxAccounts	ERROR	Could not update attached clients list : [Exception... "Aborting due to channel inactivity."  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374"  data: no] Stack trace: abortTimeout()@resource://services-common/rest.sys.mjs:374
+notify()@resource://services-common/utils.sys.mjs:175
+1790168754776	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1790168754776	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790168754777	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1790168754777	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168755527	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/tabs failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1790168755527	Sync.Engine.Tabs	WARN	quicksync sync failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1790168755570	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1790168759213	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168760577	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1790168760578	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1790168760580	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168760581	Sync.Service	DEBUG	User-Agent: Firefox/156.0 (Linux x86_64) FxSync/1.158.0.20260915231823.desktop
+1790168760581	Sync.Service	INFO	Starting sync at 2026-09-23 13:06:00 in browser session HWbLNpqzPwLO
+1790168760581	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:128:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1397:6
+sync/<@service.sys.mjs:1371:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1372:7
+1790168760581	Sync.Service	INFO	Cannot start sync: already syncing?
+1790168760782	Sync.Engine.Tabs	INFO	update_local_state has 3 tab entries
+1790168760783	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790168760783	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790168760841	Sync.Engine.Tabs	INFO	prepare_for_upload found 3 tabs
+1790168760843	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790168760843	Sync.Collection	DEBUG	POST Length: 1131
+1790168761349	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/tabs
+1790168761349	Sync.Telemetry	INFO	Notification for engine tabs but it isn't current
+1790168762000	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168780128	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1790168781910	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168783036	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790168785191	Sync.Engine.Tabs	INFO	update_local_state has 3 tab entries
+1790168785191	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790168785191	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790168785249	Sync.Engine.Tabs	INFO	prepare_for_upload found 3 tabs
+1790168785251	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790168785251	Sync.Collection	DEBUG	POST Length: 1111
+1790168791255	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/tabs
+1790168791255	Sync.Telemetry	INFO	Notification for engine tabs but it isn't current
+1790168802468	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1790168802472	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790168804818	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790168807509	Sync.Engine.Tabs	INFO	update_local_state has 2 tab entries
+1790168807510	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790168807510	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790168807521	Sync.Engine.Tabs	INFO	prepare_for_upload found 2 tabs
+1790168807522	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790168807522	Sync.Collection	DEBUG	POST Length: 939
+1790168807956	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/tabs
+1790168807956	Sync.Telemetry	INFO	Notification for engine tabs but it isn't current
+1790168827784	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1790168832832	Sync.Engine.Tabs	INFO	update_local_state has 2 tab entries
+1790168832833	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790168832833	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790168832843	Sync.Engine.Tabs	INFO	prepare_for_upload found 2 tabs
+1790168832844	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790168832844	Sync.Collection	DEBUG	POST Length: 963
+1790168833246	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/tabs
+1790168833246	Sync.Telemetry	INFO	Notification for engine tabs but it isn't current
+1790168840829	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1790168840884	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790168840946	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1790168845832	Sync.Engine.Tabs	INFO	update_local_state has 2 tab entries
+1790168845833	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790168845833	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790168845842	Sync.Engine.Tabs	INFO	prepare_for_upload found 2 tabs
+1790168845844	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790168845859	Sync.Collection	DEBUG	POST Length: 899
+1790168846456	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/tabs
+1790168846456	Sync.Telemetry	INFO	Notification for engine tabs but it isn't current
+1790168876824	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1790168881826	Sync.Engine.Tabs	INFO	update_local_state has 2 tab entries
+1790168881826	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790168881826	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790168881874	Sync.Engine.Tabs	INFO	prepare_for_upload found 2 tabs
+1790168881875	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1790168881875	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1790168881876	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1790168881876	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1790168881876	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1790168881876	Sync.Collection	DEBUG	POST Length: 919
+1790168882203	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/tabs
+1790168882203	Sync.Telemetry	INFO	Notification for engine tabs but it isn't current
+1790168882291	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1790169091758	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169092885	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169271020	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1790169271021	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790169271021	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1790169271023	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169276034	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1790169276034	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1790169276037	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169276037	Sync.Service	DEBUG	User-Agent: Firefox/156.0 (Linux x86_64) FxSync/1.158.0.20260915231823.desktop
+1790169276037	Sync.Service	INFO	Starting sync at 2026-09-23 13:14:36 in browser session HWbLNpqzPwLO
+1790169276038	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:128:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1397:6
+sync/<@service.sys.mjs:1371:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1372:7
+1790169276038	Sync.Service	INFO	Cannot start sync: already syncing?
+1790169277120	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169327989	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169329040	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169362777	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1790169362777	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790169362777	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1790169362778	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169371057	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1790169371057	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1790169371059	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169371060	Sync.Service	DEBUG	User-Agent: Firefox/156.0 (Linux x86_64) FxSync/1.158.0.20260915231823.desktop
+1790169371060	Sync.Service	INFO	Starting sync at 2026-09-23 13:16:11 in browser session HWbLNpqzPwLO
+1790169371060	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:128:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1397:6
+sync/<@service.sys.mjs:1371:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1372:7
+1790169371060	Sync.Service	INFO	Cannot start sync: already syncing?
+1790169372507	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169374293	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169397775	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1790169397775	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790169397776	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1790169397777	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169402344	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1790169402344	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1790169402346	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169402346	Sync.Service	DEBUG	User-Agent: Firefox/156.0 (Linux x86_64) FxSync/1.158.0.20260915231823.desktop
+1790169402346	Sync.Service	INFO	Starting sync at 2026-09-23 13:16:42 in browser session HWbLNpqzPwLO
+1790169402347	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:128:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1397:6
+sync/<@service.sys.mjs:1371:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1372:7
+1790169402347	Sync.Service	INFO	Cannot start sync: already syncing?
+1790169404026	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169407517	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169409335	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169423774	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1790169423774	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790169423775	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1790169423776	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169430189	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169431707	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169442011	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1790169442011	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1790169442013	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169442013	Sync.Service	DEBUG	User-Agent: Firefox/156.0 (Linux x86_64) FxSync/1.158.0.20260915231823.desktop
+1790169442013	Sync.Service	INFO	Starting sync at 2026-09-23 13:17:22 in browser session HWbLNpqzPwLO
+1790169442013	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:128:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1397:6
+sync/<@service.sys.mjs:1371:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1372:7
+1790169442013	Sync.Service	INFO	Cannot start sync: already syncing?
+1790169443841	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169467933	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169469770	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169478040	Sync.Status	DEBUG	Status for engine clients: error.engine.reason.unknown_fail
+1790169478040	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed_partial
+1790169478040	Sync.ErrorHandler	DEBUG	clients failed: TypeError: Content-Length header of network response exceeds response Body. No traceback available
+1790169478041	Sync.Synchronizer	INFO	Updating enabled engines: 4 clients.
+1790169478041	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1790169478042	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790169478042	Sync.Engine.Prefs	INFO	Uploading 0 outgoing records
+1790169478042	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=prefs, subject=null
+1790169478080	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790169478080	Sync.Engine.Passwords	INFO	Uploading 0 outgoing records
+1790169478081	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=passwords, subject=null
+1790169478083	Sync.Engine.Tabs	INFO	update_local_state has 2 tab entries
+1790169478083	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790169478083	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790169478127	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1790169478127	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1790169478127	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1790169478127	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1790169478128	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1790169482774	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169488118	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169502976	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169505633	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1790169524776	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169525821	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1790169525821	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790169525822	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1790169525823	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1790169528410	Sync.Collection	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/tabs?newer=1790160365.33&full=1&limit=1000 failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1790169528411	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1790169528411	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => error.sync.failed
+1790169528411	Sync.Status	DEBUG	Status for engine tabs: error.engine.reason.unknown_fail
+1790169528411	Sync.Status	DEBUG	Status.service: error.sync.failed => error.sync.failed_partial
+1790169528411	Sync.ErrorHandler	DEBUG	tabs failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1790169528413	Sync.Engine.Bookmarks	DEBUG	Checking if server sync ID tjHFz770HLMT matches existing
+1790169528443	Sync.Engine.Bookmarks	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790169528443	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust
+1790169528446	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust took 2.855ms
+1790169528446	Sync.Engine.Bookmarks.Mirror	DEBUG	No changes detected in both mirror and Places
+1790169528446	Sync.Engine.Bookmarks	INFO	Uploading 0 outgoing records
+1790169528447	Sync.Engine.Bookmarks.BookmarkSyncUtils	DEBUG	pushChanges: Processed change records: {"weak":0,"skipped":0,"updated":0}
+1790169528448	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=bookmarks, subject=null
+1790169528448	Sync.Engine.Addons	DEBUG	Refreshing reconciler state
+1790169528448	Sync.AddonsReconciler	INFO	Refreshing global state from AddonManager.
+1790169528448	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Form Autofill (version=1.0.1, id=formautofill@mozilla.org)
+1790169528448	Sync.AddonsReconciler	DEBUG	Rectifying state for addon IPP Activator (version=0.3, id=ipp-activator@mozilla.com)
+1790169528448	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Picture-In-Picture (version=1.0.0, id=pictureinpicture@mozilla.org)
+1790169528448	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Add-ons Search Detection (version=3.0.0, id=addons-search-detection@mozilla.com)
+1790169528448	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Web Compatibility Interventions (version=156.1.0, id=webcompat@mozilla.org)
+1790169528448	Sync.AddonsReconciler	DEBUG	Rectifying state for addon System theme — auto (version=1.4.2, id=default-theme@mozilla.org)
+1790169528448	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Light (version=1.3.4, id=firefox-compact-light@mozilla.org)
+1790169528448	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark (version=1.3.4, id=firefox-compact-dark@mozilla.org)
+1790169528448	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Alpenglow (version=1.5.3, id=firefox-alpenglow@mozilla.org)
+1790169528448	Sync.AddonsReconciler	DEBUG	Rectifying state for addon AdGuard AdBlocker (version=5.5.2.3, id=adguardadblocker@adguard.com)
+1790169528448	Sync.AddonsReconciler	DEBUG	Rectifying state for addon TWP - Translate Web Pages (version=10.2.1.0, id={036a55b4-5e72-4d05-a06c-cba2dfcc134a})
+1790169528449	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark Reader (version=4.9.131, id=addon@darkreader.org)
+1790169528449	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Red (version=1.0, id={8de5f8c3-bfc2-443b-9913-7bbadbd1ba0d})
+1790169528449	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Violet (version=1.0, id={aab1adac-5449-47fd-b836-c2f43dc28f3f})
+1790169528449	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Full Black (version=1.0, id={c933beb8-06cc-4278-ac6a-d7b4552e487f})
+1790169528449	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Multi-Account Containers (version=8.3.8, id=@testpilot-containers)
+1790169528449	Sync.AddonsReconciler	DEBUG	Rectifying state for addon uBlock Origin (version=1.75.0, id=uBlock0@raymondhill.net)
+1790169528449	Sync.AddonsReconciler	DEBUG	Rectifying state for addon MYNT: Material You New Tab (version=3.3.802, id={c30c387e-cd01-42b4-b5c7-6af2d820535b})
+1790169528449	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Invert Colors (version=1.0, id=invert-colors@sugarpine.cafe)
+1790169528449	Sync.AddonsReconciler	DEBUG	Rectifying state for addon New Tab (version=158.0.20260913.220257, id=newtab@mozilla.org)
+1790169528449	Sync.AddonsReconciler	DEBUG	Rectifying state for addon h264ify (version=1.1.0, id=jid1-TSgSxBhncsPBWQ@jetpack)
+1790169528449	Sync.AddonsReconciler	DEBUG	Rectifying state for addon &udm=14 (version=2.10, id=url-modifier@example.com)
+1790169528449	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Yellow (version=1.0, id={cd6791f7-4b6d-47b4-8877-1d4c82c6699d})
+1790169528449	Sync.AddonsReconciler	DEBUG	Rectifying state for addon OpenH264 Video Codec provided by Cisco Systems, Inc. (version=2.6.0, id=gmp-gmpopenh264)
+1790169528449	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Widevine Content Decryption Module provided by Google Inc. (version=4.10.3050.0, id=gmp-widevinecdm)
+1790169528456	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1790169528458	Sync.Engine.Addons	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790169528458	Sync.Engine.Addons	INFO	Uploading 0 outgoing records
+1790169528458	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=addons, subject=null
+1790169528458	Sync.Engine.Addresses	DEBUG	First sync, uploading all items
+1790169528459	Sync.Engine.Addresses	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790169528459	Sync.Engine.Addresses	INFO	Uploading 0 outgoing records
+1790169528459	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=addresses, subject=null
+1790169528459	Sync.Engine.CreditCards	DEBUG	First sync, uploading all items
+1790169528460	Sync.Engine.CreditCards	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790169528460	Sync.Engine.CreditCards	INFO	Uploading 0 outgoing records
+1790169528460	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=creditcards, subject=null
+1790169528461	Sync.Engine.Forms	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790169528461	Sync.Engine.Forms	INFO	Uploading 2 outgoing records
+1790169528463	Sync.Engine.Forms	INFO	Posting 2 records of 635 bytes with batch=true
+1790169528463	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790169528464	Sync.Collection	DEBUG	POST Length: 635
+1790169528466	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/forms?batch=true&commit=true failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1790169528466	Sync.Status	DEBUG	Status.sync: error.login.reason.network => error.login.reason.network
+1790169528466	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => error.sync.failed
+1790169528466	Sync.Status	DEBUG	Status for engine forms: error.engine.reason.unknown_fail
+1790169528466	Sync.Status	DEBUG	Status.service: error.sync.failed => error.sync.failed_partial
+1790169528466	Sync.ErrorHandler	DEBUG	forms failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1790169528467	Sync.Engine.History	DEBUG	Checking if server sync ID Ij-618O1tqny matches existing
+1790169528468	Sync.Engine.History	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790169528469	Sync.Engine.History	INFO	Uploading 17 outgoing records
+1790169528483	Sync.Engine.History	INFO	Posting 17 records of 9471 bytes with batch=true
+1790169528483	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790169528484	Sync.Collection	DEBUG	POST Length: 9471
+1790169528486	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/storage/history?batch=true&commit=true failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1790169528486	Sync.Status	DEBUG	Status.sync: error.login.reason.network => error.login.reason.network
+1790169528486	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => error.sync.failed
+1790169528486	Sync.Status	DEBUG	Status for engine history: error.engine.reason.unknown_fail
+1790169528486	Sync.Status	DEBUG	Status.service: error.sync.failed => error.sync.failed_partial
+1790169528486	Sync.ErrorHandler	DEBUG	history failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1790169528487	Sync.Engine.Extension-Storage	DEBUG	Initializing sync temp tables
+1790169528489	Sync.Engine.Extension-Storage	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790169528489	Sync.Engine.Extension-Storage	DEBUG	get_outgoing found 0 items
+1790169528489	Sync.Engine.Extension-Storage	INFO	Uploading 0 outgoing records
+1790169528489	Sync.Engine.Extension-Storage	DEBUG	Initializing sync temp tables
+1790169528490	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=extension-storage, subject=null
+1790169528490	Sync.Doctor	INFO	Skipping check of prefs - disabled via preferences
+1790169528490	Sync.Doctor	INFO	Skipping check of passwords - disabled via preferences
+1790169528490	Sync.Doctor	INFO	Skipping check of tabs - disabled via preferences
+1790169528490	Sync.Doctor	INFO	Skipping check of bookmarks - disabled via preferences
+1790169528490	Sync.Doctor	INFO	Skipping check of addons - disabled via preferences
+1790169528490	Sync.Doctor	INFO	Skipping check of addresses - disabled via preferences
+1790169528490	Sync.Doctor	INFO	Skipping check of creditcards - disabled via preferences
+1790169528490	Sync.Doctor	INFO	Skipping check of forms - disabled via preferences
+1790169528490	Sync.Doctor	INFO	Skipping check of history - disabled via preferences
+1790169528490	Sync.Doctor	INFO	Skipping check of extension-storage - disabled via preferences
+1790169528490	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1790169528490	Sync.Synchronizer	INFO	Sync completed at 2026-09-23 13:18:48 after 1051.48 secs.
+1790169528491	Sync.Declined	DEBUG	Handling remote declined: []
+1790169528491	Sync.Declined	DEBUG	Handling local declined: []
+1790169528491	Sync.Declined	DEBUG	Declined changed? false
+1790169528491	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1790169528491	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+1790169528491	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)

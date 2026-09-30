@@ -1,0 +1,4 @@
+2026-09-25 18:55:52.950 [info] Log level: Info
+2026-09-25 18:56:18.249 [info] Log level: Info
+2026-09-25 18:56:34.578 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-09-25 18:56:39.200 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for Inba-kgm/Timer-Toggler: Error: No GitHub authentication session available.

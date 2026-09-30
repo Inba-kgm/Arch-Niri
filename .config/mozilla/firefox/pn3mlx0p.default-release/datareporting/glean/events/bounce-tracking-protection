@@ -1,0 +1,12 @@
+{"timestamp":3716199,"category":"bounce.tracking.protection","name":"purge_action","extra":{"site_host":"google.com","is_dry_run":"true","glean_timestamp":"1790683835581","success":"true","bounce_time":"1790611311"},"execution_counter":39}
+{"timestamp":7316172,"category":"bounce.tracking.protection","name":"purge_action","extra":{"is_dry_run":"true","bounce_time":"1790681466","success":"true","glean_timestamp":"1790687435554","site_host":"microsoftonline.com"},"execution_counter":39}
+{"timestamp":7316172,"category":"bounce.tracking.protection","name":"purge_action","extra":{"glean_timestamp":"1790687435554","site_host":"wa.me","success":"true","bounce_time":"1790681132","is_dry_run":"true"},"execution_counter":39}
+{"timestamp":7316172,"category":"bounce.tracking.protection","name":"purge_action","extra":{"is_dry_run":"true","glean_timestamp":"1790687435554","bounce_time":"1790683289","site_host":"mycamu.co.in","success":"true"},"execution_counter":39}
+{"timestamp":8077879,"category":"glean","name":"restarted","extra":{"glean_timestamp":"1790688197261","glean.startup.date":"2026-09-29T18:53+05:30"},"execution_counter":40}
+{"timestamp":9560283,"category":"glean","name":"restarted","extra":{"glean.startup.date":"2026-09-29T19:17+05:30","glean_timestamp":"1790689679665"},"execution_counter":41}
+{"timestamp":85379,"category":"glean","name":"restarted","extra":{"glean_timestamp":"1790696579150","glean.startup.date":"2026-09-29T21:12+05:30"},"execution_counter":42}
+{"timestamp":24173,"category":"glean","name":"restarted","extra":{"glean_timestamp":"1790697004008","glean.startup.date":"2026-09-29T21:20+05:30"},"execution_counter":43}
+{"timestamp":576819,"category":"glean","name":"restarted","extra":{"glean_timestamp":"1790697557057","glean.startup.date":"2026-09-29T21:29+05:30"},"execution_counter":44}
+{"timestamp":89154,"category":"glean","name":"restarted","extra":{"glean_timestamp":"1790707126917","glean.startup.date":"2026-09-30T00:08+05:30"},"execution_counter":45}
+{"timestamp":34725,"category":"glean","name":"restarted","extra":{"glean_timestamp":"1790733073472","glean.startup.date":"2026-09-30T07:21+05:30"},"execution_counter":46}
+{"timestamp":33905,"category":"glean","name":"restarted","extra":{"glean.startup.date":"2026-09-30T10:01+05:30","glean_timestamp":"1790742691675"},"execution_counter":47}

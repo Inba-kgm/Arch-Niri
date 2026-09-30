@@ -1,0 +1,95 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=account)(B9=junkscore)(BA=keywords)
+  (BB=dobayes.mailnews@mozilla.org#junk)(BC=ns:msg:db:row:scope:ops:all)
+  (BD=ns:msg:db:table:kind:ops)(BE=prevkeywords)(BF=storeToken)
+  (C0=gloda-id)(C1=gloda-dirty)(80=ns:msg:db:row:scope:msgs:all)
+  (81=subject)(82=sender)(83=message-id)(84=references)(85=recipients)
+  (86=date)(87=size)(88=flags)(89=priority)(8A=label)(8B=numLines)
+  (8C=ccList)(8D=bccList)(8E=msgThreadId)(8F=threadId)(90=threadFlags)
+  (91=threadNewestMsgDate)(92=children)(93=unreadChildren)
+  (94=threadSubject)(95=msgCharSet)(96=ns:msg:db:table:kind:msgs)
+  (97=ns:msg:db:table:kind:thread)(98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=highestModSeq)(AF=onlineName)
+  (B0=imapFlags)(B1=indexingPriority)(B2=highestRecordedUID)(B3=replyTo)
+  (B4=ns:msg:db:row:scope:pending:all)(B5=ns:msg:db:table:kind:pending)
+  (B6=dateReceived)(B7=ProtoThreadFlags)>
+<(80=1)(8F=fffffffe)(8C=68fdd7be)(81=0)>
+[1:m(^9B=1)(^8F^8F)(^91^8C)(^90=0)(^92=1)]
+<(95=8)(93=6906f887)>[2:m(^9B=8)(^8F=8)(^91^93)(^90=0)(^92=1)]
+<(86=b)>[3:m(^9B=b)(^8F=b)(^91^93)(^90=0)(^92=1)]
+
+<(88=<inbavanans7484@outlook.com>)(89
+    =Inbavanan S <inbavanans7484@outlook.com>)(97
+    =<dharanis25062008@gmail.com>)(91
+    =Inbavanan S shared "E Cluster Lab Manual (1\)" with you)(98
+    =Share-7956d5a1-60d9-0000-113d-6921ec38bb76,7956d5a1-60d9-0000-113d-6921ec\
+38bb76-a2610a32-7948-4445-ad2f-fd7bc7921984-r0-SendEmail-tid_9188040d-6c67-4c5\
+b-b112-36a304b66dad-rh_cae_notifyp-aid_d748e932-f708-4d6c-ba62-7987220ee049@od\
+spnotify)(87=)(99=d698)(8E=ffffffff)>
+{B:^80 {(k^97:c)(s=9)3:m } [B(^88=1)(^B3^88)(^82^89)(^85^97)(^81^91)(^83^98)
+    (^84=)(^B6^93)(^86^93)(^89=1)(^87^99)(^9A^8E)(^8E=b)(^B7=0)(^BE=)]}
+
+<(9C=81)(8A=Inbavanan S shared "myexperiments" with you)(8B
+    =Share-f81bd3a1-c0e0-0000-0935-4fa2078c39c3,f81bd3a1-c0e0-0000-0935-4fa207\
+8c39c3-5235541f-2fee-4b55-9de7-110ae27b46fa-r0-SendEmail-rh_cae-aid_419dd228-5\
+6e7-4118-adfd-5579f18f58d1@odspnotify)(9B=833e)(9D=8371)(9E=22c)(9F=46)
+  (90=<inbavanans7484@gmail.com>)(92
+    =Share-7956d5a1-60d9-0000-113d-6921ec38bb76,7956d5a1-60d9-0000-113d-6921ec\
+38bb76-e7026a5f-08b3-42c8-aced-087b7796698e-r0-SendEmail-tid_9188040d-6c67-4c5\
+b-b112-36a304b66dad-rh_cae_notifyp-aid_7c8ca099-af4b-4bfc-8bcf-68e8cd87e242@od\
+spnotify)(94=d664)>
+{1:^80 {(k^96:c)(s=9)} 
+  [1(^88=81)(^B3^88)(^82^89)(^85^88)(^81^8A)(^83^8B)(^84=)(^B6^8C)(^86^8C)
+    (^89=1)(^87^9B)(^9A^8E)(^8E^8F)(^B7=0)(^BE=)(^BF=0)(^9D^9D)(^8B^9E)
+    (^C0=46)]
+  [8(^88=1)(^B3^88)(^82^89)(^85^90)(^81^91)(^83^92)(^84=)(^B6^93)(^86^93)
+    (^89=1)(^87^94)(^9A^8E)(^8E=8)(^B7=0)(^BE=)]B }
+{FFFFFFFE:^80 {(k^97:c)(s=9)1:m } 1 }
+{8:^80 {(k^97:c)(s=9)2:m } 8 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [FFFFFFFE(^94^8A)]
+  [8(^94^91)]
+  [B(^94^91)]}
+
+<(82=Sent)(83=6000)(84=60)(85=8082214)(9A=3)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE=0)(^AF^82)(^B0^83)(^A7^82)(^B1=60)(^88^85)
+    (^A8=b)(^B2=b)(^A1=3)(^A6=b)]}
+
+@$${2{@
+<(A0=825f)(A1=33684)(A2=8292)(A3=22d)>
+[-8:^80(^88=81)(^B3^88)(^82^89)(^85^90)(^81^91)(^83^92)(^84=)(^B6^93)
+    (^86^93)(^89=1)(^87^A0)(^9A^8E)(^8E=8)(^B7=0)(^BE=)(^BF^A1)(^9D^A2)
+    (^8B^A3)]
+@$$}2}@
+
+@$${3{@
+<(A4=8261)(A5=67145)(A6=8294)>[-B:^80(^88=81)(^B3^88)(^82^89)(^85^97)
+    (^81^91)(^83^98)(^84=)(^B6^93)(^86^93)(^89=1)(^87^A4)(^9A^8E)(^8E=b)
+    (^B7=0)(^BE=)(^BF^A5)(^9D^A6)(^8B^A3)]
+@$$}3}@
+
+@$${4{@
+< <(a=c)> // (f=iso-8859-1)
+  (C2=useServerRetention)(C3=retainBy)(C4=daysToKeepHdrs)
+  (C5=numHdrsToKeep)(C6=useServerDefaults)(C7=applyToFlaggedMessages)>
+[1:^9F(^C2=1)]
+@$$}4}@
+
+@$${5{@
+@$$}5}@
+
+@$${9{@
+<(A7=47)>[8:^80(^C0=47)]
+<(A8=48)>[B:^80(^C0=48)]
+@$$}9}@
+
+@$${A{@
+@$$}A}@

@@ -1,0 +1,36 @@
+{
+  "favorites.tracks": [],
+  "favorites.albums": [
+    {
+      "addedAtIso": "2026-09-25T17:35:21.968Z",
+      "ref": {
+        "source": {
+          "id": "ytpl:PLVEWIxIKE6FCVFt5F3YC51iMsxIiYuVSR",
+          "provider": "omnisource-meta"
+        },
+        "title": "2017-2018 tamil melody hit songs"
+      }
+    },
+    {
+      "addedAtIso": "2026-09-25T17:36:59.292Z",
+      "ref": {
+        "source": {
+          "id": "ytpl:PL1Lj8gqn_yNFh-R4ra6nS6P9lKDHamd2c",
+          "provider": "omnisource-meta"
+        },
+        "title": "2000 melody tamil songs"
+      }
+    },
+    {
+      "addedAtIso": "2026-09-25T17:37:22.770Z",
+      "ref": {
+        "source": {
+          "id": "ytpl:PLvVhCQ7o6mqYHBKnb-NaLq8vXW81o5LgB",
+          "provider": "omnisource-meta"
+        },
+        "title": "2k Tamil melody songs"
+      }
+    }
+  ],
+  "favorites.artists": []
+}

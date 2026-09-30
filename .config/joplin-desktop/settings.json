@@ -1,0 +1,43 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"altInstanceId": "",
+	"editor.codeView": false,
+	"sync.target": 7,
+	"locale": "en_US",
+	"theme": 2,
+	"markdown.plugin.softbreaks": false,
+	"markdown.plugin.typographer": false,
+	"ui.layout": {
+		"key": "root",
+		"children": [
+			{
+				"key": "sideBar",
+				"width": 250,
+				"visible": true
+			},
+			{
+				"key": "noteList",
+				"width": 250,
+				"visible": true
+			},
+			{
+				"key": "editor",
+				"flexible": true,
+				"visible": true
+			},
+			{
+				"key": "chatPanel",
+				"width": 340,
+				"visible": false
+			}
+		],
+		"visible": true
+	},
+	"noteVisiblePanes": [
+		"editor"
+	],
+	"api.token": "f1d36a1de833d0c9c72dae237c344fbfa93c0e22fb352d54ad2b7ce1706f1ff21c7ccb953488134dea6fda3099d0963ae3a52d26b2c2f7b710f2166dea214d2f",
+	"spellChecker.languages": [
+		"en-US"
+	]
+}

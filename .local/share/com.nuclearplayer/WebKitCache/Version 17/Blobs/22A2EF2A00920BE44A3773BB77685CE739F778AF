@@ -1,0 +1,381 @@
+{
+  "$schema": "./schema/plugins.schema.json",
+  "plugins": [
+    {
+      "id": "nuclear-plugin-discogs",
+      "name": "Discogs",
+      "description": "Fetch artist and album metadata from Discogs",
+      "author": "nukeop",
+      "repo": "NuclearPlayer/nuclear-plugin-discogs",
+      "category": "metadata",
+      "categories": [
+        "metadata"
+      ],
+      "tags": [
+        "discogs",
+        "metadata"
+      ],
+      "version": "0.2.0",
+      "downloadUrl": "https://github.com/NuclearPlayer/nuclear-plugin-discogs/releases/download/v0.2.0/plugin.zip",
+      "addedAt": "2026-01-27T00:00:00Z"
+    },
+    {
+      "id": "nuclear-plugin-youtube",
+      "name": "YouTube",
+      "description": "A streaming provider plugin that plays audio from Youtube using yt-dlp",
+      "author": "nukeop",
+      "repo": "NuclearPlayer/nuclear-plugin-youtube",
+      "category": "streaming",
+      "categories": [
+        "streaming"
+      ],
+      "tags": [
+        "youtube",
+        "streaming",
+        "yt-dlp"
+      ],
+      "version": "0.1.2",
+      "downloadUrl": "https://github.com/NuclearPlayer/nuclear-plugin-youtube/releases/download/v0.1.2/plugin.zip",
+      "addedAt": "2026-01-28T00:00:00Z"
+    },
+    {
+      "id": "nuclear-plugin-bandcamp",
+      "name": "Bandcamp",
+      "description": "Browse and play music from Bandcamp",
+      "author": "nukeop",
+      "repo": "NuclearPlayer/nuclear-plugin-bandcamp",
+      "category": "metadata",
+      "categories": [
+        "metadata",
+        "streaming"
+      ],
+      "tags": [
+        "bandcamp",
+        "metadata",
+        "streaming"
+      ],
+      "version": "1.1.2",
+      "downloadUrl": "https://github.com/NuclearPlayer/nuclear-plugin-bandcamp/releases/download/v1.1.2/plugin.zip",
+      "addedAt": "2026-02-12T00:00:00Z"
+    },
+    {
+      "id": "nuclear-plugin-soundcloud",
+      "name": "SoundCloud",
+      "description": "Browse and play music from SoundCloud",
+      "author": "nukeop",
+      "repo": "NuclearPlayer/nuclear-plugin-soundcloud",
+      "category": "streaming",
+      "categories": [
+        "metadata",
+        "streaming"
+      ],
+      "tags": [
+        "soundcloud",
+        "metadata",
+        "streaming"
+      ],
+      "version": "0.3.0",
+      "downloadUrl": "https://github.com/NuclearPlayer/nuclear-plugin-soundcloud/releases/download/v0.3.0/plugin.zip",
+      "addedAt": "2026-02-15T00:00:00Z"
+    },
+    {
+      "id": "nuclear-plugin-something",
+      "name": "Spotify",
+      "description": "Fetch artist, album, and track metadata from Spotify",
+      "author": "nukeop",
+      "repo": "NuclearPlayer/nuclear-plugin-something",
+      "category": "metadata",
+      "categories": [
+        "metadata",
+        "playlists"
+      ],
+      "tags": [
+        "metadata"
+      ],
+      "version": "0.3.0",
+      "downloadUrl": "https://github.com/NuclearPlayer/nuclear-plugin-something/releases/download/v0.3.0/plugin.zip",
+      "addedAt": "2026-02-15T00:00:00Z"
+    },
+    {
+      "id": "nuclear-plugin-deezer-dashboard",
+      "name": "Deezer Dashboard",
+      "description": "Charts, trending artists, editorial playlists, and new releases from Deezer",
+      "author": "nukeop",
+      "repo": "NuclearPlayer/nuclear-plugin-deezer-dashboard",
+      "category": "dashboard",
+      "categories": [
+        "dashboard",
+        "playlists"
+      ],
+      "tags": [
+        "deezer",
+        "dashboard",
+        "charts"
+      ],
+      "version": "0.2.0",
+      "downloadUrl": "https://github.com/NuclearPlayer/nuclear-plugin-deezer-dashboard/releases/download/v0.2.0/plugin.zip",
+      "addedAt": "2026-02-19T00:00:00Z"
+    },
+    {
+      "id": "nuclear-plugin-musicbrainz",
+      "name": "MusicBrainz",
+      "description": "Search, artist pages, and album details from MusicBrainz with Wikipedia bios and Cover Art Archive artwork",
+      "author": "nukeop",
+      "repo": "NuclearPlayer/nuclear-plugin-musicbrainz",
+      "category": "metadata",
+      "categories": [
+        "metadata"
+      ],
+      "tags": [
+        "musicbrainz",
+        "metadata",
+        "wikipedia"
+      ],
+      "version": "0.1.0",
+      "downloadUrl": "https://github.com/NuclearPlayer/nuclear-plugin-musicbrainz/releases/download/v0.1.0/plugin.zip",
+      "addedAt": "2026-02-22T00:00:00Z"
+    },
+    {
+      "id": "nuclear-plugin-listenbrainz-dashboard",
+      "name": "ListenBrainz Dashboard",
+      "description": "Charts, trending artists, top albums, and new releases from ListenBrainz",
+      "author": "nukeop",
+      "repo": "NuclearPlayer/nuclear-plugin-listenbrainz-dashboard",
+      "category": "dashboard",
+      "categories": [
+        "dashboard"
+      ],
+      "tags": [
+        "listenbrainz",
+        "dashboard",
+        "charts"
+      ],
+      "version": "0.1.0",
+      "downloadUrl": "https://github.com/NuclearPlayer/nuclear-plugin-listenbrainz-dashboard/releases/download/v0.1.0/plugin.zip",
+      "addedAt": "2026-02-22T00:00:00Z"
+    },
+    {
+      "id": "nuclear-plugin-lastfm",
+      "name": "Last.fm",
+      "description": "Scrobble tracks and update Now Playing on your Last.fm profile",
+      "author": "nukeop",
+      "repo": "NuclearPlayer/nuclear-plugin-lastfm",
+      "category": "scrobbling",
+      "categories": [
+        "discovery",
+        "scrobbling"
+      ],
+      "tags": [
+        "lastfm",
+        "scrobbling"
+      ],
+      "version": "0.2.2",
+      "downloadUrl": "https://github.com/NuclearPlayer/nuclear-plugin-lastfm/releases/download/v0.2.2/plugin.zip",
+      "addedAt": "2026-03-04T00:00:00Z"
+    },
+    {
+      "id": "nuclear-plugin-youtube-playlists",
+      "name": "YouTube Playlists",
+      "description": "Import YouTube playlists by URL",
+      "author": "nukeop",
+      "repo": "NuclearPlayer/nuclear-plugin-youtube-playlists",
+      "category": "other",
+      "categories": [
+        "playlists"
+      ],
+      "tags": [
+        "youtube",
+        "playlists",
+        "yt-dlp"
+      ],
+      "version": "0.1.0",
+      "downloadUrl": "https://github.com/NuclearPlayer/nuclear-plugin-youtube-playlists/releases/download/v0.1.0/plugin.zip",
+      "addedAt": "2026-03-07T00:00:00Z"
+    },
+    {
+      "id": "nuclear-plugin-khinsider",
+      "name": "KHInsider",
+      "description": "Browse and play video game soundtracks from KHInsider",
+      "author": "nukeop",
+      "repo": "NuclearPlayer/nuclear-plugin-khinsider",
+      "category": "metadata",
+      "categories": [
+        "metadata",
+        "streaming"
+      ],
+      "tags": [
+        "khinsider",
+        "vgm",
+        "game-soundtracks",
+        "metadata",
+        "streaming"
+      ],
+      "version": "0.1.0",
+      "downloadUrl": "https://github.com/NuclearPlayer/nuclear-plugin-khinsider/releases/download/v0.1.0/plugin.zip",
+      "addedAt": "2026-04-08T00:00:00Z"
+    },
+    {
+      "id": "nuclear-plugin-omnisource",
+      "name": "OmniSource",
+      "description": "Multi-source streaming and metadata: fans out searches to YouTube, SoundCloud, Bandcamp, and MusicBrainz in parallel with automatic scoring. Includes YouTube playlist search in the Albums tab.",
+      "author": "chrislueders",
+      "repo": "chrislueders/nuclear-plugin-omnisource",
+      "category": "streaming",
+      "categories": [
+        "streaming",
+        "metadata"
+      ],
+      "tags": [
+        "youtube",
+        "soundcloud",
+        "bandcamp",
+        "musicbrainz",
+        "streaming",
+        "metadata",
+        "playlists",
+        "multi-source"
+      ],
+      "version": "1.0.1",
+      "downloadUrl": "https://github.com/chrislueders/nuclear-plugin-omnisource/releases/download/v1.0.1/plugin.zip",
+      "addedAt": "2026-05-12T00:00:00Z"
+    },
+    {
+      "id": "nuclear-plugin-bandcamp-dashboard",
+      "name": "Bandcamp Dashboard",
+      "description": "Browse Bandcamp's Album of the Day, New & Notable releases, and Bandcamp Weekly radio shows",
+      "author": "chrislueders",
+      "repo": "chrislueders/nuclear-plugin-bandcamp-dashboard",
+      "category": "dashboard",
+      "categories": [
+        "dashboard"
+      ],
+      "tags": [
+        "bandcamp",
+        "dashboard",
+        "discovery",
+        "radio",
+        "album-of-the-day"
+      ],
+      "version": "0.1.1",
+      "downloadUrl": "https://github.com/chrislueders/nuclear-plugin-bandcamp-dashboard/releases/download/v0.1.1/plugin-bandcamp-dashboard-0.1.1.zip",
+      "addedAt": "2026-05-13T00:00:00Z"
+    },
+    {
+      "id": "nuclear-plugin-mediasession",
+      "name": "MediaSession",
+      "description": "Exposes Nuclear's playback to your desktop's media controls.",
+      "author": "rkben",
+      "repo": "rkben/nuclear-plugin-mediasession",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [],
+      "version": "0.1.0",
+      "downloadUrl": "https://github.com/rkben/nuclear-plugin-mediasession/releases/download/v0.1.0/plugin.zip",
+      "addedAt": "2026-06-15T00:00:00Z"
+    },
+    {
+      "id": "nuclear-plugin-youtube-liked-songs-sync",
+      "name": "Youtube Liked Songs Sync",
+      "description": "Syncs YouTube Music Liked Songs to Nuclear local playlists",
+      "author": "esershnr",
+      "repo": "esershnr/nuclear-plugin-youtube-liked-songs-sync",
+      "category": "playlists",
+      "categories": [
+        "playlists"
+      ],
+      "tags": [],
+      "version": "0.1.0",
+      "downloadUrl": "https://github.com/esershnr/nuclear-plugin-youtube-liked-songs-sync/releases/download/v0.1.0/plugin.zip",
+      "addedAt": "2026-07-29T00:00:00Z"
+    },
+    {
+      "id": "nuclear-plugin-soundcloud-dashboard",
+      "name": "SoundCloud Dashboard",
+      "description": "Charts and editorial picks from SoundCloud, or your own likes, follows, listening history and personalised recommendations",
+      "author": "dasim427",
+      "repo": "dasim427/nuclear-plugin-soundcloud-dashboard",
+      "category": "dashboard",
+      "categories": [
+        "dashboard",
+        "playlists"
+      ],
+      "tags": [
+        "soundcloud",
+        "dashboard",
+        "charts",
+        "recommendations",
+        "playlists"
+      ],
+      "version": "0.6.0",
+      "downloadUrl": "https://github.com/dasim427/nuclear-plugin-soundcloud-dashboard/releases/download/v0.6.0/plugin.zip",
+      "addedAt": "2026-08-02T00:00:00Z"
+    },
+    {
+      "id": "nuclear-plugin-netease",
+      "name": "NetEase Cloud Music",
+      "description": "Search, browse, and stream music from NetEase Cloud Music using yt-dlp",
+      "author": "nukeop",
+      "repo": "NuclearPlayer/nuclear-plugin-netease",
+      "categories": [
+        "metadata",
+        "streaming"
+      ],
+      "tags": [
+        "netease",
+        "chinese",
+        "metadata",
+        "streaming",
+        "yt-dlp"
+      ],
+      "version": "0.1.1",
+      "downloadUrl": "https://github.com/NuclearPlayer/nuclear-plugin-netease/releases/download/v0.1.1/plugin.zip",
+      "addedAt": "2026-08-15T00:00:00Z"
+    },
+    {
+      "id": "nucleartube",
+      "name": "NuclearTube",
+      "description": "High-performance YouTube music search, playlist extraction, and streaming provider for Nuclear utilizing yt-dlp",
+      "author": "iJonyDev",
+      "repo": "JonyDevProjects/yt-provider",
+      "category": "streaming",
+      "categories": [
+        "streaming",
+        "metadata"
+      ],
+      "tags": [
+        "youtube",
+        "streaming",
+        "metadata",
+        "yt-dlp",
+        "audio"
+      ],
+      "version": "1.1.0",
+      "downloadUrl": "https://github.com/JonyDevProjects/yt-provider/releases/download/v1.1.0/plugin.zip",
+      "addedAt": "2026-08-21T00:00:00Z"
+    },
+    {
+      "id": "nuclear-mini-player",
+      "name": "Mini Player",
+      "description": "Floating mini player with synced lyrics from LRCLib, Netease, Kugou, Genius, and OVH, plus resizable UI, ambient artwork glow, and media key support",
+      "author": "visadaking",
+      "repo": "visadaking/nuclear-mini-player",
+      "categories": [
+        "lyrics",
+        "other"
+      ],
+      "tags": [
+        "lyrics",
+        "mini-player",
+        "synced-lyrics",
+        "lrclib",
+        "media-controls"
+      ],
+      "version": "1.7.10",
+      "downloadUrl": "https://github.com/visadaking/nuclear-mini-player/releases/download/v1.7.10/plugin.zip",
+      "addedAt": "2026-09-06T00:00:00Z"
+    }
+  ],
+  "version": 1
+}

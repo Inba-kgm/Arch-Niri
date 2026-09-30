@@ -1,0 +1,112 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "ecb7166b1b0598d0597223e1862fb8ff091669d802cb44818e7fda10a9614f19",
+    "telemetry.devDeviceId": "94b9ae16-5b98-4a90-9e1f-e7b42b8947bd",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///run/media/Inba/PublicSpace/Home/Documents/git/Timer-Toggler/fastpwm"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1790688662552"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/Inba/Downloads": "__default__profile__",
+            "file:///run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler": "__default__profile__",
+            "file:///run/media/Inba/PublicSpace/Home/Iqube/Level%201/Project%201": "__default__profile__",
+            "file:///run/media/Inba/PublicSpace/Home/Documents/test/fastpwm": "__default__profile__",
+            "file:///run/media/Inba/PublicSpace/Home/Documents/git/Timer-Toggler/fastpwm": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1790688662552": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "panelBackground": "#191a1b",
+            "editorGroupBorder": "rgba(255, 255, 255, 0.09)",
+            "agentsPanelBackground": "#191a1b",
+            "agentsPanelBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false,
+            "modernUI": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///run/media/Inba/PublicSpace/Home/Documents/git/Timer-Toggler/fastpwm",
+            "backupPath": "/home/Inba/.config/VSCodium/Backups/4982818cebef064ae52e8ed3453df928",
+            "uiState": {
+                "mode": 1,
+                "x": 16,
+                "y": 10,
+                "width": 1529,
+                "height": 822
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "8904f03e6d1ed054881d3ab1ad194892": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "f2571b6f694a21311c30e6cbe75903c4": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "9308d23df5ea7bcb51729d06757eab4c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "6d502ad943e989efeeb30500459a887c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "e07e33c33d436f3bab3906d9a0f18287": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "b4e511f6b19c36f30c30aa0b7dd34404": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

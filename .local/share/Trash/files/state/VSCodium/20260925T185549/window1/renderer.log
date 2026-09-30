@@ -1,0 +1,12 @@
+2026-09-25 18:55:51.515 [info] Started local extension host with pid 8355.
+2026-09-25 18:55:52.992 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-25 18:55:54.861 [info] [perf] Render performance baseline is 47ms
+2026-09-25 18:55:58.029 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-25 18:56:16.666 [info] Started local extension host with pid 10333.
+2026-09-25 18:56:17.369 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-25 18:56:19.584 [info] [perf] Render performance baseline is 46ms
+2026-09-25 18:56:22.370 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-25 18:59:45.440 [warning] [File Watcher ('parcel')] Watcher shutdown because watched path got deleted (path: /run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler)
+2026-09-25 18:59:45.441 [error] [File Watcher (node.js)] Failed to watch /run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/.git/refs/remotes/origin/main for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/.git/refs/remotes/origin/main')
+2026-09-25 18:59:45.457 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-09-25 18:59:46.237 [error] [File Watcher (node.js)] Failed to watch /run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/.git/refs/remotes/origin/main for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/.git/refs/remotes/origin/main')

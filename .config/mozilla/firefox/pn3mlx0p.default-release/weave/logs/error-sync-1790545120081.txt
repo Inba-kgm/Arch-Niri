@@ -1,0 +1,18 @@
+1790545034624	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1790545119468	Sync.Service	DEBUG	User-Agent: Firefox/156.0.1 (Linux x86_64) FxSync/1.158.0.20260923055157.desktop
+1790545119468	Sync.Service	INFO	Starting sync at 2026-09-28 03:08:39 in browser session B6LhuGV64HXy
+1790545119468	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790545119470	Sync.Status	INFO	Resetting Status.
+1790545119470	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1790545119471	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790545119805	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/info/collections
+1790545119805	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/info/configuration
+1790545119806	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790545119976	FirefoxAccounts	DEBUG	CommandQueue shutdown is flushing the queue with a timer=false
+1790545120078	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278653032/info/configuration failed: [Exception... "The connection was established, but no data was ever received"  nsresult: "0x804b0014 (NS_ERROR_NET_RESET)"  location: "<unknown>"  data: no] No traceback available
+1790545120078	Sync.Service	WARN	Failed to fetch info/configuration: [Exception... "The connection was established, but no data was ever received"  nsresult: "0x804b0014 (NS_ERROR_NET_RESET)"  location: "<unknown>"  data: no] No traceback available
+1790545120078	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1790545120078	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1790545120079	Sync.ErrorHandler	ERROR	Sync encountered an error: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13
+1790545120080	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1790545120081	Sync.Service	DEBUG	Exception calling anonymous function: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13

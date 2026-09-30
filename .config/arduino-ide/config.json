@@ -1,0 +1,25 @@
+{
+	"windowstate": {
+		"isFullScreen": false,
+		"isMaximized": false,
+		"width": 1529,
+		"height": 822,
+		"x": 0,
+		"y": 0,
+		"frame": true,
+		"screenLayout": "0:0:1536:864",
+		"backgroundColor": "rgb(255, 255, 255)"
+	},
+	"workspaces": [
+		{
+			"x": 0,
+			"y": 0,
+			"width": 1529,
+			"height": 822,
+			"isMaximized": false,
+			"isFullScreen": false,
+			"file": "/run/media/Inba/PublicSpace/Home/Documents/Arduino/sketch_sep29a",
+			"time": 1790702119810
+		}
+	]
+}

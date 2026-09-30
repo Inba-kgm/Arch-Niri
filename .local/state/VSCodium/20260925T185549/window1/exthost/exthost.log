@@ -1,0 +1,22 @@
+2026-09-25 18:55:52.441 [info] Extension host with pid 8355 started
+2026-09-25 18:55:52.556 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-25 18:55:52.610 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-25 18:55:52.698 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-09-25 18:55:52.830 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-25 18:55:52.878 [info] Eager extensions activated
+2026-09-25 18:55:52.880 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-25 18:55:52.884 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-25 18:56:15.671 [info] Extension host terminating: received terminate message from renderer
+2026-09-25 18:56:15.675 [info] Extension host with pid 8355 exiting with code 0
+2026-09-25 18:56:17.797 [info] Extension host with pid 10333 started
+2026-09-25 18:56:17.797 [info] Skipping acquiring lock for /home/Inba/.config/VSCodium/User/workspaceStorage/f2571b6f694a21311c30e6cbe75903c4.
+2026-09-25 18:56:17.864 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-25 18:56:17.915 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-25 18:56:18.106 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-09-25 18:56:18.181 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-25 18:56:18.230 [info] Eager extensions activated
+2026-09-25 18:56:18.252 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-25 18:56:18.256 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-25 18:56:34.083 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-09-25 19:00:17.326 [info] Extension host terminating: received terminate message from renderer
+2026-09-25 19:00:17.333 [info] Extension host with pid 10333 exiting with code 0

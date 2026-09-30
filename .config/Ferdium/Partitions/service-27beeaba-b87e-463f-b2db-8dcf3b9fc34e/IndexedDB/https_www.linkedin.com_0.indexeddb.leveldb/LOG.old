@@ -1,0 +1,3 @@
+2026/09/28-01:54:09.719 22c1 Reusing MANIFEST /home/Inba/.config/Ferdium/Partitions/service-27beeaba-b87e-463f-b2db-8dcf3b9fc34e/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/28-01:54:09.719 22c1 Recovering log #3
+2026/09/28-01:54:09.720 22c1 Reusing old log /home/Inba/.config/Ferdium/Partitions/service-27beeaba-b87e-463f-b2db-8dcf3b9fc34e/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb/000003.log 

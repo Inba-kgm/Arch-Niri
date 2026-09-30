@@ -1,0 +1,56 @@
+2026-09-25 18:56:34.361 [info] [main] Log level: Info
+2026-09-25 18:56:34.361 [info] [main] Validating found git in: "git"
+2026-09-25 18:56:34.361 [info] [main] Using git "2.55.0" from "git"
+2026-09-25 18:56:34.361 [info] [Model][doInitialScan] Initial repository scan started
+2026-09-25 18:56:34.361 [info] > git rev-parse --show-toplevel [16ms]
+2026-09-25 18:56:34.378 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2026-09-25 18:56:34.403 [info] [Model][openRepository] Opened repository (path): /run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler
+2026-09-25 18:56:34.403 [info] [Model][openRepository] Opened repository (real path): /run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler
+2026-09-25 18:56:34.403 [info] [Model][openRepository] Opened repository (kind): repository
+2026-09-25 18:56:34.444 [info] > git config --get commit.template [16ms]
+2026-09-25 18:56:34.444 [info] > git config --get --local core.virtualfilesystem [28ms]
+2026-09-25 18:56:34.444 [warning] [Git][config] git config failed: Failed to execute git
+2026-09-25 18:56:34.449 [info] > git rev-parse --show-toplevel [12ms]
+2026-09-25 18:56:34.470 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2026-09-25 18:56:34.472 [info] > git rev-parse --show-toplevel [4ms]
+2026-09-25 18:56:34.506 [info] > git status -z -uall [14ms]
+2026-09-25 18:56:34.508 [info] > git rev-parse --show-toplevel [27ms]
+2026-09-25 18:56:34.509 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-09-25 18:56:34.567 [info] > git config --get commit.template [4ms]
+2026-09-25 18:56:34.567 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2026-09-25 18:56:34.577 [info] > git rev-parse --show-toplevel [22ms]
+2026-09-25 18:56:34.596 [info] > git config --get --local branch.main.vscode-merge-base [20ms]
+2026-09-25 18:56:34.596 [warning] [Git][config] git config failed: Failed to execute git
+2026-09-25 18:56:34.606 [info] > git rev-parse --show-toplevel [10ms]
+2026-09-25 18:56:34.606 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-09-25 18:56:34.607 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2026-09-25 18:56:34.635 [info] > git status -z -uall [19ms]
+2026-09-25 18:56:34.635 [info] > git reflog main --grep-reflog=branch: Created from *. [31ms]
+2026-09-25 18:56:34.644 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [19ms]
+2026-09-25 18:56:34.652 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [9ms]
+2026-09-25 18:56:34.663 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2026-09-25 18:56:34.675 [info] > git config --add --local branch.main.vscode-merge-base origin/main [3ms]
+2026-09-25 18:56:34.694 [info] > git config --get commit.template [10ms]
+2026-09-25 18:56:34.697 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-09-25 18:56:34.715 [info] > git status -z -uall [9ms]
+2026-09-25 18:56:34.718 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-09-25 18:56:34.744 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2026-09-25 18:56:34.754 [info] > git merge-base refs/heads/main refs/remotes/origin/main [13ms]
+2026-09-25 18:56:34.766 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% b374cefa3420576746bcf129a2067bc413c1fbe4...refs/remotes/origin/main -- [12ms]
+2026-09-25 18:56:34.768 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% b374cefa3420576746bcf129a2067bc413c1fbe4...refs/remotes/origin/main -- [6ms]
+2026-09-25 18:56:34.961 [info] > git check-ignore -v -z --stdin [3ms]
+2026-09-25 18:56:35.787 [info] > git config --get commit.template [11ms]
+2026-09-25 18:56:35.790 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-09-25 18:56:35.810 [info] > git status -z -uall [10ms]
+2026-09-25 18:56:35.813 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-09-25 18:56:38.972 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [22ms]
+2026-09-25 18:56:39.292 [info] > git merge-base main origin/main [4ms]
+2026-09-25 18:56:39.634 [info] > git check-ignore -v -z --stdin [3ms]
+2026-09-25 18:59:39.275 [info] > git config --get commit.template [11ms]
+2026-09-25 18:59:39.277 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-09-25 18:59:39.298 [info] > git status -z -uall [10ms]
+2026-09-25 18:59:39.301 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-09-25 18:59:46.754 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/.git/config'
+2026-09-25 18:59:46.771 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/.git/HEAD'
+2026-09-25 18:59:46.806 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/.git/HEAD'
+2026-09-25 18:59:46.825 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/.git/config'

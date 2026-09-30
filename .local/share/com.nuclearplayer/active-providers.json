@@ -1,0 +1,8 @@
+{
+  "active": {
+    "dashboard": "soundcloud-dashboard",
+    "metadata": "omnisource-meta",
+    "playlists": "soundcloud-system-playlists",
+    "streaming": "omnisource-stream"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "plugins.nuclear-plugin-omnisource": {
+    "enabled": true,
+    "id": "nuclear-plugin-omnisource",
+    "installationMethod": "store",
+    "installedAt": "2026-09-25T17:31:22.138Z",
+    "lastUpdatedAt": "2026-09-25T17:31:22.729Z",
+    "path": "/home/Inba/.local/share/com.nuclearplayer/plugins/nuclear-plugin-omnisource/1.0.0",
+    "version": "1.0.0",
+    "warnings": []
+  },
+  "plugins.nuclear-plugin-something": {
+    "enabled": false,
+    "id": "nuclear-plugin-something",
+    "installationMethod": "store",
+    "installedAt": "2026-09-25T17:31:38.738Z",
+    "lastUpdatedAt": "2026-09-25T17:31:40.662Z",
+    "path": "/home/Inba/.local/share/com.nuclearplayer/plugins/nuclear-plugin-something/0.3.0",
+    "version": "0.3.0",
+    "warnings": []
+  },
+  "plugins.nuclear-plugin-soundcloud-dashboard": {
+    "enabled": true,
+    "id": "nuclear-plugin-soundcloud-dashboard",
+    "installationMethod": "store",
+    "installedAt": "2026-09-25T17:31:34.478Z",
+    "lastUpdatedAt": "2026-09-25T17:31:34.743Z",
+    "path": "/home/Inba/.local/share/com.nuclearplayer/plugins/nuclear-plugin-soundcloud-dashboard/0.6.0",
+    "version": "0.6.0",
+    "warnings": []
+  },
+  "plugins.nucleartube": {
+    "enabled": false,
+    "id": "nucleartube",
+    "installationMethod": "store",
+    "installedAt": "2026-09-25T17:31:25.134Z",
+    "lastUpdatedAt": "2026-09-25T17:31:25.143Z",
+    "path": "/home/Inba/.local/share/com.nuclearplayer/plugins/nucleartube/1.1.0",
+    "version": "1.1.0",
+    "warnings": []
+  },
+  "plugins.nuclear-plugin-soundcloud": {
+    "enabled": false,
+    "id": "nuclear-plugin-soundcloud",
+    "installationMethod": "store",
+    "installedAt": "2026-09-25T17:31:17.470Z",
+    "lastUpdatedAt": "2026-09-25T17:31:17.792Z",
+    "path": "/home/Inba/.local/share/com.nuclearplayer/plugins/nuclear-plugin-soundcloud/0.3.0",
+    "version": "0.3.0",
+    "warnings": []
+  },
+  "plugins.nuclear-plugin-youtube": {
+    "enabled": false,
+    "id": "nuclear-plugin-youtube",
+    "installationMethod": "store",
+    "installedAt": "2026-09-25T17:31:15.777Z",
+    "lastUpdatedAt": "2026-09-25T17:31:16.286Z",
+    "path": "/home/Inba/.local/share/com.nuclearplayer/plugins/nuclear-plugin-youtube/0.1.2",
+    "version": "0.1.2",
+    "warnings": []
+  },
+  "plugins.nuclear-plugin-youtube-playlists": {
+    "enabled": true,
+    "id": "nuclear-plugin-youtube-playlists",
+    "installationMethod": "store",
+    "installedAt": "2026-09-25T17:31:42.761Z",
+    "lastUpdatedAt": "2026-09-25T17:31:42.922Z",
+    "path": "/home/Inba/.local/share/com.nuclearplayer/plugins/nuclear-plugin-youtube-playlists/0.1.0",
+    "version": "0.1.0",
+    "warnings": []
+  }
+}

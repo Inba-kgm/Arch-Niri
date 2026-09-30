@@ -1,0 +1,60 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=account)(B9=junkscore)(BA=keywords)(BB=X-GM-MSGID)(BC=X-GM-THRID)
+  (BD=X-GM-LABELS)(BE=dobayes.mailnews@mozilla.org#junk)(BF=preview)
+  (C0=ns:msg:db:row:scope:ops:all)(C1=ns:msg:db:table:kind:ops)
+  (C2=storeToken)(C3=gloda-id)(C4=gloda-dirty)(C5=columnStates)
+  (C6=sortType)(C7=sortOrder)(C8=viewFlags)(C9=viewType)(CA=sortColumns)
+  (CB=customSortCol)(CC=imageSize)(CD=sender_name)
+  (CE=remoteContentPolicy)(CF=useServerRetention)(D0=retainBy)
+  (D1=daysToKeepHdrs)(D2=numHdrsToKeep)(D3=useServerDefaults)
+  (D4=applyToFlaggedMessages)(D5=replyTo)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=highestModSeq)(AF=onlineName)
+  (B0=imapFlags)(B1=MRUTime)(B2=highestRecordedUID)
+  (B3=ns:msg:db:row:scope:pending:all)(B4=ns:msg:db:table:kind:pending)
+  (B5=dateReceived)(B6=ProtoThreadFlags)(B7=folderName)>
+<(105=312)(81=0)>[9:m(^9B=312)(^8F=312)(^91=0)(^90=0)(^92=0)]
+<(10E=313)(10C=6ab97b42)(80=1)>[A:m(^9B=313)(^8F=313)(^91^10C)(^90=0)
+    (^92=1)(^93=1)]
+<(E0=30e)>[6:m(^9B^E0)(^8F^E0)(^91=0)(^90=0)(^92=0)]
+<(E9=30f)>[7:m(^9B^E9)(^8F^E9)(^91=0)(^90=0)(^92=0)(^93=0)]
+<(FA=311)>[8:m(^9B^FA)(^8F^FA)(^91=0)(^90=0)(^92=0)(^93=0)]
+
+<(107=LinkedIn <security-noreply@linkedin.com>)(108
+    =Inbavanan S <inbavanans7484@gmail.com>)(109
+    =New device registration for Remember me)(10A
+    =822835199.202269.1790540610686@lva2-app67208.prod.linkedin.com)
+  (D0=)(10B=6ab97b43)(10D=6cd1)(D6=ffffffff)(110=1877517911875136342)
+  (111=1877511059261519903)(D8="\\\\Inbox")>
+{1:^80 {(k^96:c)(s=9)} 
+  [313(^88=0)(^82^107)(^85^108)(^81^109)(^83^10A)(^84=)(^B5^10B)(^86^10C)
+    (^89=1)(^87^10D)(^9A^D6)(^8E=313)(^B6=0)(^BB^110)(^BC^111)(^BD^D8)]}
+{313:^80 {(k^97:c)(s=9)A:m } 313 }[311:^80]
+[312:^80]
+{FFFFFFFD:^99 {(k^98:c)(s=9)} 
+  [313(^94^109)]}
+<(E5
+    ==?utf-8?q?Hi_Inbavanan=2C_we_noticed_a_new_sign_in_to_your_Dropbox_accoun\
+t?=)>[311:^99(^94^E5)]
+<(FF=Verify your profile)>[312:^99(^94^FF)]
+
+<(F2=303021)(83=[Gmail]/Important)(84=e000)(10F=1790540643)(86=8082014)
+  (87=9)(BE=12)(9A=2)(BF=$122)(F5=1975d)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^F2)(^AF^83)(^B0^84)(^AA=0)(^A7^83)(^B1^10F)
+    (^88^86)(^A8=9)(^B2=313)(^A1=1)(^A6=313)(^A2=1)(^C6=12)(^C7=2)(^C8=1)
+    (^C9=0)(^CA^BF)(^A4^F5)(^CF=1)]}

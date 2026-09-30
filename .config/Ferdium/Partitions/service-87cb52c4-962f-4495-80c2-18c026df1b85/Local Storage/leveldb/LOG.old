@@ -1,0 +1,5 @@
+2026/09/28-01:31:15.119 22c4 Creating DB /home/Inba/.config/Ferdium/Partitions/service-87cb52c4-962f-4495-80c2-18c026df1b85/Local Storage/leveldb since it was missing.
+2026/09/28-01:31:15.137 22c4 Reusing MANIFEST /home/Inba/.config/Ferdium/Partitions/service-87cb52c4-962f-4495-80c2-18c026df1b85/Local Storage/leveldb/MANIFEST-000001
+2026/09/28-02:57:06.752 22c4 Level-0 table #5: started
+2026/09/28-02:57:06.762 22c4 Level-0 table #5: 20161 bytes OK
+2026/09/28-02:57:06.768 22c4 Delete type=0 #3

@@ -1,0 +1,37 @@
+# Global Settings
+font=monospace 11
+background-color=#1e1e2e
+text-color=#cdd6f4
+border-color=#89b4fa
+border-size=2
+border-radius=8
+progress-color=source #313244
+
+# Layout & Positioning
+margin=20
+padding=15
+width=350
+height=110
+anchor=top-right
+max-visible=5
+sort=-time
+
+# Behavior
+default-timeout=6000
+# ignore-borders=0
+text-alignment=left
+
+# Urgency Overrides
+
+[urgency=low]
+background-color=#1e1e2e
+text-color=#a6adc8
+border-color=#313244
+default-timeout=4000
+
+[urgency=high]
+background-color=#1e1e2e
+text-color=#f38ba8
+border-color=#f38ba8
+default-timeout=0
+

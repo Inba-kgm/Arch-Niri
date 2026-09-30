@@ -1,0 +1,197 @@
+
+//@theme "/usr/share/rofi/themes/DarkBlue.rasi"
+
+//@theme "/usr/share/rofi/themes/fullscreen-preview.rasi"
+
+//@theme "/usr/share/rofi/themes/material.rasi"
+
+configuration {
+    modes: "drun,run,window";
+    show-icons: true;
+    display-drun: "APPS";
+    display-run: "RUN";
+    display-window: "WINDOW";
+    drun-display-format: "{name}";
+    seperator-style: "none";
+}
+
+@import "shared/colors.rasi"
+@import "shared/fonts.rasi"
+
+/* This forces a clean slate and overrides default Rofi theme styling */
+* {
+    background-color: #000000DF;
+    
+}
+
+window {
+    transparency: "real";
+    location: center;
+    anchor: center;
+    fullscreen: false;
+    width: 800px;
+    x-offset: 0px;
+    y-offset: 0px;
+
+    enabled: true;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: @border-color;
+    cursor: "default";
+    background-color: @background-color;
+}
+
+mainbox {
+    enabled: true;
+    spacing: 20px;
+    margin: 0px;
+    padding: 20px;
+    background-color: transparent;
+    children: [ "inputbar", "message", "listview", "mode-switcher" ];
+}
+
+inputbar {
+    enabled: true;
+    spacing: 10px;
+    margin: 0px;
+    padding: 12px 16px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: @changed-color;
+    background-color: @background-color;
+    text-color: @foreground-color;
+    children: [ "prompt", "entry" ];
+}
+
+prompt {
+    enabled: true;
+    text-color: @foreground-color;
+}
+
+entry {
+    enabled: true;
+    text-color: @foreground-color;
+    cursor: text;
+//    placeholder: "Search...";
+    placeholder-color: @background-color;
+}
+
+listview {
+    enabled: true;
+    columns: 2;
+    lines: 7;
+    cycle: true;
+    dynamic: true;
+    scrollbar: false; /* Disabled scrollbar to prevent default white styling */
+    layout: vertical;
+    reverse: false;
+    fixed-height: true;
+    fixed-columns: true;
+    
+    spacing: 5px;
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+    text-color: @foreground-color;
+}
+
+/* Stripping any alternate item properties explicitly */
+element {
+    enabled: true;
+    spacing: 10px;
+    margin: 0px;
+    padding: 8px;
+    border: 0px solid;
+    border-radius: 8px;
+    text-color: @foreground-color;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+element normal.normal,
+element alternate.normal,
+element normal.urgent,
+element alternate.urgent,
+element normal.active,
+element alternate.active {
+    background-color: transparent;
+    text-color: @foreground-color;
+}
+
+element selected.normal,
+element selected.urgent,
+element selected.active {
+    border: 1px solid;
+    border-color: @background-alt;
+    background-color: @border-color;
+    text-color: @foreground-color;
+/*    text-color:#7b1817; */
+}
+
+element-icon {
+    size: 24px;
+    cursor: inherit;
+    text-color: inherit;
+}
+
+element-text {
+    text-color: inherit;
+    highlight: inherit;
+    cursor: inherit;
+    vertical-align: 0.5;
+    horizontal-align: 0.0;
+}
+
+mode-switcher {
+    enabled: true;
+    spacing: 10px;
+}
+
+button {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: @background-color;
+    text-color: @foreground-color;
+    cursor: pointer;
+}
+
+button selected {
+    background-color: @border-color;
+    text-color: @background-color;
+//    border: 1px solid;
+//    border-color: @changed-color;
+}
+
+message {
+    enabled: true;
+    margin: 0px;
+    padding: 0px;
+    border: 0px solid;
+    border-radius: 0px;
+    border-color: @border-color;
+    background-color: transparent;
+    text-color: @foreground-color;
+}
+
+textbox {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: @background-alt;
+    text-color: @foreground-color;
+    vertical-align: 0.5;
+    horizontal-align: 0.0;
+    highlight: none;
+    blink: true;
+    markup: true;
+}
+
+error-message {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: @border-color;
+    background-color: @background-color;
+    text-color: @foreground-color;
+}

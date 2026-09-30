@@ -1,0 +1,4 @@
+2026-09-24 17:41:49.700 [info] Started local extension host with pid 13799.
+2026-09-24 17:41:49.764 [info] Started initializing default profile extensions in extensions installation folder. file:///home/Inba/.vscode-oss/extensions
+2026-09-24 17:41:50.057 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/Inba/.vscode-oss/extensions
+2026-09-24 17:41:50.461 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false

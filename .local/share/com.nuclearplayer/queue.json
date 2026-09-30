@@ -1,0 +1,58 @@
+{
+  "queue.currentIndex": 0,
+  "queue.items": [
+    {
+      "addedAtIso": "2026-09-25T17:37:55.416Z",
+      "id": "9cc0c5a4-10cb-43b6-bc9e-b4d1c63bc262",
+      "status": "success",
+      "track": {
+        "album": {
+          "source": {
+            "id": "ytpl:PLVEWIxIKE6FCVFt5F3YC51iMsxIiYuVSR",
+            "provider": "omnisource-meta",
+            "url": "https://www.youtube.com/playlist?list=PLVEWIxIKE6FCVFt5F3YC51iMsxIiYuVSR"
+          },
+          "title": "2017-2018 tamil melody hit songs"
+        },
+        "artists": [
+          {
+            "name": "Ondraga Entertainment",
+            "roles": [],
+            "source": {
+              "id": "yt:PiL5UTTTrxk",
+              "provider": "omnisource-meta"
+            }
+          }
+        ],
+        "source": {
+          "id": "yt:PiL5UTTTrxk",
+          "provider": "omnisource-meta"
+        },
+        "streamCandidates": [
+          {
+            "failed": false,
+            "id": "yt:PiL5UTTTrxk",
+            "lastResolvedAtIso": "2026-09-25T17:37:57.780Z",
+            "source": {
+              "id": "yt:PiL5UTTTrxk",
+              "provider": "omnisource-stream"
+            },
+            "stream": {
+              "codec": "mp4a.40.2",
+              "container": "m4a",
+              "durationMs": 304000,
+              "protocol": "https",
+              "source": {
+                "id": "yt:PiL5UTTTrxk",
+                "provider": "omnisource-stream"
+              },
+              "url": "https://rr1---sn-5pgqxnpbo-jwce.googlevideo.com/videoplayback?expire=1790379476&ei=dLG2auTnLN6677APkcavuQM&ip=2401%3Afa40%3A6000%3A86d2%3Ab8f0%3A1362%3A52a2%3A2e0c&id=o-AJjyIms0bG2PI5F1cyC5odopPDKiFiXWuK0NHtotNobc&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=730&met=1790357876%2C&mh=ae&mm=18%2C29&mn=sn-5pgqxnpbo-jwce%2Csn-h557sns7&ms=aub%2Crdu&mv=m&mvi=1&pl=36&rms=aub%2Caub&initcwndbps=1655375&bui=AWzQHwoa1mR4MzxVk89_jTR_BinbqQOVQlUwM02RFvC7cZyGqpMJDU5A0wADDGi4FoaJNg-7I6EK1Lb1&spc=I-rgISDGflX_dsYkK8p95SLkylXyt1jt3ft7Vqgh6FAqLaplYUAy30_SoA&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=4914424&dur=303.600&lmt=1789287603784478&mt=1790357346&fvip=3&keepalive=yes&fexp=51565116%2C52112904%2C52178456&c=VISIONOS&txp=5532234&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AE0s2JYwRAIgHrNUuwDbpYWgAZrEJOaM0v-NHHHkZWyaMVMjZBG-fOoCIDymO1C-1tINrsH-YtzmCYy847UNR5t6Gf-Kbn6KVF0d&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhAImg86VaNyeRUoIqy1ZLw0KTPnowdb7WGZ4EJETcoq62AiAuXLtDMCN0q9gwxKXCPLyhKsifpPXk7YQPC5xI4mNjIg%3D%3D"
+            },
+            "title": "Thalli Pogathey - Video Song | Achcham Yenbadhu Madamaiyada | A R Rahman | STR | Gautham"
+          }
+        ],
+        "title": "Thalli Pogathey - Video Song | Achcham Yenbadhu Madamaiyada | A R Rahman | STR | Gautham"
+      }
+    }
+  ]
+}

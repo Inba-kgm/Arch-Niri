@@ -1,0 +1,15 @@
+1790153999068	Sync.LogManager	DEBUG	Flushing file log
+1790153999068	Sync.Service	DEBUG	User-Agent: Firefox/156.0 (Linux x86_64) FxSync/1.158.0.20260915231823.desktop
+1790153999068	Sync.Service	INFO	Starting sync at 2026-09-23 08:59:59 in browser session lAtpdiZtejxW
+1790153999068	Sync.Service	DEBUG	In sync: should login.
+1790153999068	Sync.Service	INFO	User logged in successfully - verifying login.
+1790153999068	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790153999068	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState has an unverified user
+1790153999068	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.account
+1790153999068	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => error.login.failed
+1790153999068	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1790153999068	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1790153999069	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790153999069	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1066:15) JS Stack trace: onNotify@service.sys.mjs:1066:15
+1790153999069	Sync.Service	DEBUG	Not syncing: login returned false.
+1790153999069	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent

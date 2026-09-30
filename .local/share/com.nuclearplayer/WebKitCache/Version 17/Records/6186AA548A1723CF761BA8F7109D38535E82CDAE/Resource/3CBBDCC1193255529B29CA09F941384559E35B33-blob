@@ -1,0 +1,429 @@
+{
+  "version": 2,
+  "themes": [
+    {
+      "id": "bauhaus",
+      "name": "Bauhaus",
+      "description": "Hard corners, saturated colors. No gradients allowed.",
+      "author": "nukeop",
+      "tags": [
+        "bauhaus",
+        "geometric",
+        "poster",
+        "primary-colors",
+        "showcase"
+      ],
+      "palette": [
+        "oklch(0.955 0.012 85)",
+        "oklch(0.58 0.20 32)",
+        "oklch(0.82 0.16 85)",
+        "oklch(0.44 0.16 262)"
+      ],
+      "path": "v2/themes/bauhaus.json"
+    },
+    {
+      "id": "blacktheme",
+      "name": "Spotify Dark Theme",
+      "description": "amoled/black theme based around spotify's colours.",
+      "author": "visa",
+      "tags": [
+        "amoled",
+        "black",
+        "spotify"
+      ],
+      "palette": [
+        "#000000",
+        "#121212",
+        "#1db954",
+        "#ffffff"
+      ],
+      "path": "v2/themes/blacktheme.json"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "description": "Warm, understated tones inspired by Anthropic's Claude",
+      "author": "nukeop",
+      "tags": [
+        "warm",
+        "minimal",
+        "clean"
+      ],
+      "palette": [
+        "oklch(0.97 0.009 100)",
+        "oklch(0.31 0.003 107)",
+        "oklch(0.68 0.145 40)",
+        "oklch(0.51 0.126 257)"
+      ],
+      "path": "v2/themes/claude.json"
+    },
+    {
+      "id": "cotton-candy",
+      "name": "Cotton Candy",
+      "description": "Soft pastels in baby pink and baby blue",
+      "author": "nukeop",
+      "tags": [
+        "pastel",
+        "pink",
+        "cute"
+      ],
+      "palette": [
+        "oklch(0.975 0.012 350)",
+        "oklch(0.230 0.025 280)",
+        "oklch(0.665 0.100 250)",
+        "oklch(0.720 0.130 350)"
+      ],
+      "path": "v2/themes/cotton-candy.json"
+    },
+    {
+      "id": "daydream",
+      "name": "Daydream",
+      "description": "Deep velvet tones for late nights",
+      "author": "xoteqh",
+      "tags": [
+        "light",
+        "dark",
+        "bloom",
+        "minimal"
+      ],
+      "palette": [
+        "oklch(96% 0.01 0)",
+        "oklch(45% 0.02 0)",
+        "oklch(8% 0.01 0)",
+        "oklch(35% 0.015 0)"
+      ],
+      "path": "v2/themes/daydream.json"
+    },
+    {
+      "id": "deep-black",
+      "name": "Deep Black",
+      "description": "Premium pitch-black theme with high contrast elements.",
+      "author": "xoteqh",
+      "tags": [
+        "dark",
+        "black"
+      ],
+      "palette": [
+        "oklch(6% 0 0)",
+        "oklch(12% 0 0)",
+        "oklch(98% 0 0)",
+        "oklch(30% 0 0)"
+      ],
+      "path": "v2/themes/deep-black.json"
+    },
+    {
+      "id": "dracula",
+      "name": "Dracula",
+      "description": "The famous dark theme by Zeno Rocha, with Alucard light mode",
+      "author": "nukeop",
+      "tags": [
+        "dark",
+        "light",
+        "purple",
+        "pink",
+        "vibrant"
+      ],
+      "palette": [
+        "#282a36",
+        "#f8f8f2",
+        "#bd93f9",
+        "#ff79c6"
+      ],
+      "path": "v2/themes/dracula.json"
+    },
+    {
+      "id": "everforest",
+      "name": "Everforest",
+      "description": "Warm greens and soft earth tones, easy on the eyes",
+      "author": "nukeop",
+      "tags": [
+        "green",
+        "warm",
+        "forest",
+        "earth-tone",
+        "low-contrast",
+        "nature"
+      ],
+      "palette": [
+        "#2d353b",
+        "#d3c6aa",
+        "#a7c080",
+        "#83c092"
+      ],
+      "path": "v2/themes/everforest.json"
+    },
+    {
+      "id": "green-machine",
+      "name": "Green Machine",
+      "description": "The familiar dark music player with green accents",
+      "author": "nukeop",
+      "tags": [
+        "dark",
+        "minimal",
+        "green"
+      ],
+      "palette": [
+        "oklch(0.182 0.000 0.0)",
+        "oklch(0.689 0.187 148.9)",
+        "oklch(0.277 0.000 0.0)",
+        "oklch(0.767 0.000 0.0)"
+      ],
+      "path": "v2/themes/green-machine.json"
+    },
+    {
+      "id": "gruvbox",
+      "name": "Gruvbox",
+      "description": "Retro groove color scheme. Based on the classic Vim theme.",
+      "author": "nukeop",
+      "tags": [
+        "retro",
+        "warm",
+        "earth-tone",
+        "vim"
+      ],
+      "palette": [
+        "#282828",
+        "#ebdbb2",
+        "#fe8019",
+        "#fabd2f"
+      ],
+      "path": "v2/themes/gruvbox.json"
+    },
+    {
+      "id": "neon-violet-pink",
+      "name": "Neon Violet-Pink Duo",
+      "description": "Dual-mode theme: soft pastel light version and smooth dark version with reduced brightness for comfortable viewing.",
+      "author": "xoteqh",
+      "tags": [
+        "duo",
+        "light",
+        "dark",
+        "purple",
+        "pink",
+        "violet",
+        "neon"
+      ],
+      "palette": [
+        "oklch(95% 0.02 320)",
+        "oklch(65% 0.12 340)",
+        "oklch(10% 0.03 290)",
+        "oklch(45% 0.18 340)"
+      ],
+      "path": "v2/themes/neon-violet-pink.json"
+    },
+    {
+      "id": "nord",
+      "name": "Nord",
+      "description": "The official Nord palette.",
+      "author": "DarkWister",
+      "tags": [
+        "dark",
+        "light",
+        "blue",
+        "minimal"
+      ],
+      "palette": [
+        "#2e3440",
+        "#d8dee9",
+        "#88c0d0",
+        "#a3be8c"
+      ],
+      "path": "v2/themes/nord.json"
+    },
+    {
+      "id": "ocean-glow",
+      "name": "Ocean Glow",
+      "description": "Soft pastel blue meets deep neon vibes",
+      "author": "xoteqh",
+      "tags": [
+        "light",
+        "dark",
+        "blue",
+        "ocean",
+        "glow"
+      ],
+      "palette": [
+        "oklch(91% 0.04 210)",
+        "oklch(48% 0.16 208)",
+        "oklch(8% 0.03 235)",
+        "oklch(55% 0.20 210)"
+      ],
+      "path": "v2/themes/ocean-glow.json"
+    },
+    {
+      "id": "oceanbubble",
+      "name": "OceanBubble",
+      "description": "i took solarized and made it circles :0",
+      "author": "Beanie",
+      "tags": [
+        "dark",
+        "light",
+        "green",
+        "blue",
+        "solarized"
+      ],
+      "palette": [
+        "#002b36",
+        "#fdf6e3",
+        "#268bd2",
+        "#b58900"
+      ],
+      "path": "v2/themes/oceanbubble.json"
+    },
+    {
+      "id": "one-dark",
+      "name": "One Dark",
+      "description": "Atom editor's original dark theme.",
+      "author": "nukeop",
+      "tags": [
+        "dark",
+        "blue",
+        "atom",
+        "editor"
+      ],
+      "palette": [
+        "#282c34",
+        "#abb2bf",
+        "#528bff",
+        "#c678dd"
+      ],
+      "path": "v2/themes/one-dark.json"
+    },
+    {
+      "id": "onedarkblue",
+      "name": "One Dark Blue",
+      "description": "Dark blue modern theme for Nuclear",
+      "author": "dervarex",
+      "tags": [
+        "dark",
+        "blue",
+        "modern"
+      ],
+      "palette": [
+        "oklch(0.22 0.02 260)",
+        "oklch(0.62 0.12 250)",
+        "oklch(0.70 0.16 310)",
+        "oklch(0.78 0.12 140)"
+      ],
+      "path": "v2/themes/onedarkblue.json"
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "description": "A grayscale theme with pixel art fonts. Requires 'Able 5' and 'Pixel Digivolve Italic' fonts installed on the system.",
+      "author": "aitorllj93",
+      "tags": [
+        "minimal",
+        "monochrome",
+        "grayscale",
+        "pixel-art"
+      ],
+      "palette": [
+        "oklch(0.9112 0.0325 95.42)",
+        "oklch(0.3102 0.0113 84.59)",
+        "oklch(0.6303 0.0168 90.30)",
+        "oklch(0.4058 0.0186 90.39)"
+      ],
+      "path": "v2/themes/pixel.json"
+    },
+    {
+      "id": "purple-void",
+      "name": "Purple Void",
+      "description": "Pure darkness meeting a sharp, neon-purple void.",
+      "author": "xoteqh",
+      "tags": [
+        "dark",
+        "violet",
+        "neon",
+        "glow",
+        "void"
+      ],
+      "palette": [
+        "oklch(4% 0.02 290)",
+        "oklch(45% 0.25 290)",
+        "oklch(92% 0.05 300)",
+        "oklch(55% 0.30 285)"
+      ],
+      "path": "v2/themes/purple-void.json"
+    },
+    {
+      "id": "rose-pine",
+      "name": "Rosé Pine",
+      "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
+      "author": "nukeop",
+      "tags": [
+        "dark",
+        "light",
+        "muted",
+        "warm",
+        "pastel"
+      ],
+      "palette": [
+        "#191724",
+        "#e0def4",
+        "#eb6f92",
+        "#31748f"
+      ],
+      "path": "v2/themes/rose-pine.json"
+    },
+    {
+      "id": "ruby-glow",
+      "name": "Ruby Glow",
+      "description": "Minimalist Ruby design featuring sharp borders, and high readability.",
+      "author": "xoteqh",
+      "tags": [
+        "duo",
+        "light",
+        "dark",
+        "ruby",
+        "rose"
+      ],
+      "palette": [
+        "oklch(96% 0.03 20)",
+        "oklch(68% 0.15 15)",
+        "oklch(12% 0.04 10)",
+        "oklch(55% 0.18 10)"
+      ],
+      "path": "v2/themes/ruby-glow.json"
+    },
+    {
+      "id": "solarized",
+      "name": "Solarized",
+      "description": "Precision colors for machines and people.",
+      "author": "Ethan Schoonover",
+      "tags": [
+        "dark",
+        "light",
+        "blue",
+        "green",
+        "yellow",
+        "cyan",
+        "solarized"
+      ],
+      "palette": [
+        "#002b36",
+        "#839496",
+        "#268bd2",
+        "#b58900"
+      ],
+      "path": "v2/themes/solarized.json"
+    },
+    {
+      "id": "yorha",
+      "name": "YoRHa",
+      "description": "Inspired by the UI of NieR:Automata.",
+      "author": "nukeop",
+      "tags": [
+        "minimal",
+        "monochrome"
+      ],
+      "palette": [
+        "oklch(0.9112 0.0325 95.42)",
+        "oklch(0.3102 0.0113 84.59)",
+        "oklch(0.6303 0.0168 90.30)",
+        "oklch(0.4058 0.0186 90.39)"
+      ],
+      "path": "v2/themes/yorha.json"
+    }
+  ]
+}

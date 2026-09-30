@@ -1,0 +1,41 @@
+{
+  "name": "nuclear-plugin-youtube-playlists",
+  "version": "0.1.0",
+  "description": "YouTube playlist provider plugin for Nuclear music player",
+  "author": "nukeop",
+  "license": "AGPL-3.0-only",
+  "main": "src/index.ts",
+  "type": "module",
+  "nuclear": {
+    "displayName": "YouTube Playlists",
+    "category": "playlists",
+    "icon": {
+      "type": "link",
+      "link": "https://www.youtube.com/s/desktop/b3c0bfa0/img/favicon_96x96.png"
+    },
+    "permissions": []
+  },
+  "keywords": [
+    "nuclear",
+    "plugin",
+    "youtube",
+    "playlists"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NuclearPlayer/nuclear-plugin-youtube-playlists.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NuclearPlayer/nuclear-plugin-youtube-playlists/issues"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "dependencies": {
+    "@nuclearplayer/plugin-sdk": "^2.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

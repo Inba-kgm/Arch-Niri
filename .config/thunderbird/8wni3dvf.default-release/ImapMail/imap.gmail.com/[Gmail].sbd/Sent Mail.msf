@@ -1,0 +1,72 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=daysToKeepHdrs)(B9=numHdrsToKeep)(BA=useServerDefaults)
+  (BB=applyToFlaggedMessages)(BC=ns:msg:db:row:scope:pending:all)
+  (BD=ns:msg:db:table:kind:pending)(BE=dateReceived)(BF=ProtoThreadFlags)
+  (C0=account)(C1=junkscore)(C2=keywords)(C3=X-GM-MSGID)(C4=X-GM-THRID)
+  (C5=X-GM-LABELS)(C6=storeToken)(C7=gloda-id)(C8=gloda-dirty)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=highestModSeq)(AF=onlineName)
+  (B0=imapFlags)(B1=indexingPriority)(B2=highestRecordedUID)
+  (B3=dobayes.mailnews@mozilla.org#junk)(B4=ns:msg:db:row:scope:ops:all)
+  (B5=ns:msg:db:table:kind:ops)(B6=useServerRetention)(B7=retainBy)>
+<(92=13b)(AE=6ab81649)(81=0)(87=5)>
+[1:m(^9B^92)(^8F^92)(^91^AE)(^90=0)(^92=5)]
+<(B7=145)(B5=6ab816e9)(80=1)>[2:m(^9B^B7)(^8F^B7)(^91^B5)(^90=0)(^92=1)]
+
+<(BA=83)(89=Inbavanan S <inbavanans7484@gmail.com>)(8A
+    =inbinbain2081@gmail.com)(8B=Wifi)(8C
+    =BB288530-30CD-428A-96D6-D3E122A66A59@gmail.com)(8D=)(8E=6ab815b6)
+  (8F=6ab815af)(90=486)(93=ffffffff)(94=1877421932961499103)(BB=4b9)
+  (BC=20)(CA=5c)(BE=91)(96=34DF5A63-1F01-493B-808A-285A734FECC8@gmail.com)
+  (97=<BB288530-30CD-428A-96D6-D3E122A66A59@gmail.com>)(98=6ab815f6)
+  (99=6ab815df)(9A=6f6)(9E=1877421999765882968)(BD=1244)(BF=729)(C0=2c)
+  (CB=5d)(9F=9894B065-ED0F-4399-B525-A29810980E7A@gmail.com)(A0=6ab81620)
+  (A1=6ab8161b)(A2=6f2)(A4=1877422044341139435)(C1=3112)(C2=725)(CC=5e)
+  (A5=72187F81-2FA7-4572-9DE4-E18BA8895443@gmail.com)(A6=6ab81637)(A7
+    =6ab81631)(A8=6f3)(AB=1877422068291084922)(C3=4976)(C4=726)(CD=5f)
+  (AC=8BAAC9FA-01BB-4FC6-8328-B052702E30BC@gmail.com)(AD=6ab8164f)(AF=6f7)
+  (B1=1877422092744274701)(C5=6841)(C6=72a)(85=60)(C8=81)(B2=Must Install)
+  (B3=28999998-802B-4BBF-B985-66ABE9EA5EC3@gmail.com)(B4=6ab816f0)(B6=570)
+  (B9=1877422262275985266)(C7=8710)(C9=5a3)(CE=61)>
+{1:^80 {(k^96:c)(s=9)} 
+  [13B(^88=83)(^82^89)(^85^8A)(^81^8B)(^83^8C)(^84=)(^BE^8E)(^86^8F)
+    (^89=1)(^87^90)(^9A^93)(^8E^92)(^BF=0)(^C3^94)(^C4^94)(^C5=)(^C6=0)
+    (^9D^BB)(^8B=20)(^C7=5c)]
+  [13D(^88=91)(^82^89)(^85^8A)(^81^8B)(^83^96)(^84^97)(^BE^98)(^86^99)
+    (^89=1)(^87^9A)(^9A^92)(^8E^92)(^BF=0)(^C3^9E)(^C4^94)(^C5=)(^C6^BD)
+    (^9D^BF)(^8B=2c)(^C7=5d)]
+  [13F(^88=91)(^82^89)(^85^8A)(^81^8B)(^83^9F)(^84^97)(^BE^A0)(^86^A1)
+    (^89=1)(^87^A2)(^9A^92)(^8E^92)(^BF=0)(^C3^A4)(^C4^94)(^C5=)(^C6^C1)
+    (^9D^C2)(^8B=2c)(^C7=5e)]
+  [141(^88=91)(^82^89)(^85^8A)(^81^8B)(^83^A5)(^84^97)(^BE^A6)(^86^A7)
+    (^89=1)(^87^A8)(^9A^92)(^8E^92)(^BF=0)(^C3^AB)(^C4^94)(^C5=)(^C6^C3)
+    (^9D^C4)(^8B=2c)(^C7=5f)]
+  [143(^88=91)(^82^89)(^85^8A)(^81^8B)(^83^AC)(^84^97)(^BE^AD)(^86^AE)
+    (^89=1)(^87^AF)(^9A^92)(^8E^92)(^BF=0)(^C3^B1)(^C4^94)(^C5=)(^C6^C5)
+    (^9D^C6)(^8B=2c)(^C7=60)]
+  [145(^88=81)(^82^89)(^85^8A)(^81^B2)(^83^B3)(^84=)(^BE^B4)(^86^B5)
+    (^89=1)(^87^B6)(^9A^93)(^8E^B7)(^BF=0)(^C3^B9)(^C4^B9)(^C5=)(^C6^C7)
+    (^9D^C9)(^8B=2c)(^C7=61)]}
+{145:^80 {(k^97:c)(s=9)2:m } 145 }
+{13B:^80 {(k^97:c)(s=9)1:m } 13B 13D 13F 141 143 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [13B(^94^8B)]
+  [145(^94^B2)]}
+
+<(88=303021)(83=[Gmail]/Sent Mail)(84=e000)(86=8082214)(B8=6)>
+{1:^9F {(k^A0:c)(s=9u)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^88)(^AF^83)(^B0^84)(^A7^83)(^B1=60)(^88^86)
+    (^A8=5)(^B2^B7)(^B6=1)(^A1=6)(^A6^B7)]}

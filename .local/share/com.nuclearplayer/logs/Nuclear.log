@@ -1,0 +1,96 @@
+[INFO][app_lib::stream_server] Stream proxy listening on http://127.0.0.1:9100
+[INFO][app_lib::stream_server] Stream server ready on port 9100
+[INFO][app_lib::history] History database initialized
+[INFO][webview] [queue] Loaded 0 items from disk
+[INFO][app_lib::ytdlp_setup] [yt-dlp] Not found, downloading...
+[INFO][webview] [plugins] Checking for plugin updates...
+[INFO][app_lib::ytdlp_setup] [yt-dlp] Downloaded https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/latest/download/yt-dlp_linux.zip to "/home/Inba/.local/share/com.nuclearplayer/ytdlp/.download.zip"
+[INFO][app_lib::ytdlp_setup] [yt-dlp] Extracted "/home/Inba/.local/share/com.nuclearplayer/ytdlp/.download.zip" to "/home/Inba/.local/share/com.nuclearplayer/ytdlp"
+[INFO][app_lib::ytdlp_setup] [yt-dlp] Installed to "/home/Inba/.local/share/com.nuclearplayer/ytdlp/yt-dlp_linux"
+[INFO][app_lib::commands] Downloading https://github.com/NuclearPlayer/nuclear-plugin-youtube/releases/download/v0.1.2/plugin.zip to "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-youtube.zip"
+[INFO][app_lib::commands] Download complete: "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-youtube.zip"
+[INFO][app_lib::commands] Extracted "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-youtube.zip" to "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-youtube"
+[INFO][webview] [plugins] Loading plugin from path: /home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-youtube
+[INFO][webview:load@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:19411] [plugins] Plugin nuclear-plugin-youtube@0.1.2 loaded successfully
+[INFO][webview] [plugins] Plugin nuclear-plugin-youtube@0.1.2 loaded successfully
+[INFO][webview] [plugins] Plugin nuclear-plugin-youtube enabled
+[INFO][app_lib::commands] Downloading https://github.com/NuclearPlayer/nuclear-plugin-soundcloud/releases/download/v0.3.0/plugin.zip to "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-soundcloud.zip"
+[INFO][app_lib::commands] Download complete: "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-soundcloud.zip"
+[INFO][app_lib::commands] Extracted "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-soundcloud.zip" to "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-soundcloud"
+[INFO][webview] [plugins] Loading plugin from path: /home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-soundcloud
+[INFO][webview:load@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:19411] [plugins] Plugin nuclear-plugin-soundcloud@0.3.0 loaded successfully
+[INFO][webview] [plugins] Plugin nuclear-plugin-soundcloud@0.3.0 loaded successfully
+[INFO][webview] [plugins] Plugin nuclear-plugin-soundcloud enabled
+[INFO][app_lib::commands] Downloading https://github.com/chrislueders/nuclear-plugin-omnisource/releases/download/v1.0.1/plugin.zip to "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-omnisource.zip"
+[INFO][app_lib::commands] Download complete: "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-omnisource.zip"
+[INFO][app_lib::commands] Extracted "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-omnisource.zip" to "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-omnisource"
+[INFO][webview] [plugins] Loading plugin from path: /home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-omnisource
+[INFO][webview:load@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:19411] [plugins] Plugin nuclear-plugin-omnisource@1.0.0 loaded successfully
+[INFO][webview] [plugins] Plugin nuclear-plugin-omnisource@1.0.0 loaded successfully
+[INFO][webview] [plugins] Plugin nuclear-plugin-omnisource enabled
+[INFO][app_lib::commands] Downloading https://github.com/JonyDevProjects/yt-provider/releases/download/v1.1.0/plugin.zip to "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nucleartube.zip"
+[INFO][app_lib::commands] Download complete: "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nucleartube.zip"
+[INFO][app_lib::commands] Extracted "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nucleartube.zip" to "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nucleartube"
+[INFO][webview] [plugins] Loading plugin from path: /home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nucleartube
+[INFO][webview:load@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:19411] [plugins] Plugin nucleartube@1.1.0 loaded successfully
+[INFO][webview] [plugins] Plugin nucleartube@1.1.0 loaded successfully
+[INFO][webview] [plugins] Plugin nucleartube enabled
+[INFO][app_lib::commands] Downloading https://github.com/dasim427/nuclear-plugin-soundcloud-dashboard/releases/download/v0.6.0/plugin.zip to "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-soundcloud-dashboard.zip"
+[INFO][app_lib::commands] Download complete: "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-soundcloud-dashboard.zip"
+[INFO][app_lib::commands] Extracted "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-soundcloud-dashboard.zip" to "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-soundcloud-dashboard"
+[INFO][webview] [plugins] Loading plugin from path: /home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-soundcloud-dashboard
+[INFO][webview:load@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:19411] [plugins] Plugin nuclear-plugin-soundcloud-dashboard@0.6.0 loaded successfully
+[INFO][webview] [plugins] Plugin nuclear-plugin-soundcloud-dashboard@0.6.0 loaded successfully
+[INFO][webview] [plugins] Plugin nuclear-plugin-soundcloud-dashboard enabled
+[INFO][app_lib::commands] Downloading https://github.com/NuclearPlayer/nuclear-plugin-something/releases/download/v0.3.0/plugin.zip to "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-something.zip"
+[INFO][app_lib::commands] Download complete: "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-something.zip"
+[INFO][app_lib::commands] Extracted "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-something.zip" to "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-something"
+[INFO][webview] [plugins] Loading plugin from path: /home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-something
+[INFO][webview:log@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:4405] [plugin:nuclear-plugin-soundcloud-dashboard] 24 recommended playlists from 3 selections (generic): Artists to watch out for, Curated by SoundCloud, Trending by genre
+[INFO][webview:log@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:4405] [plugin:nuclear-plugin-soundcloud-dashboard] ranked 20 artists from 50 entries
+[INFO][webview:log@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:4405] [plugin:nuclear-plugin-soundcloud-dashboard] trending chart: 50 tracks
+[INFO][webview:load@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:19411] [plugins] Plugin nuclear-plugin-something@0.3.0 loaded successfully
+[INFO][webview] [plugins] Plugin nuclear-plugin-something@0.3.0 loaded successfully
+[INFO][webview] [plugins] Plugin nuclear-plugin-something enabled
+[INFO][app_lib::commands] Downloading https://github.com/NuclearPlayer/nuclear-plugin-youtube-playlists/releases/download/v0.1.0/plugin.zip to "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-youtube-playlists.zip"
+[INFO][app_lib::commands] Download complete: "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-youtube-playlists.zip"
+[INFO][app_lib::commands] Extracted "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-youtube-playlists.zip" to "/home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-youtube-playlists"
+[INFO][webview] [plugins] Loading plugin from path: /home/Inba/.local/share/com.nuclearplayer/plugins/.downloads/nuclear-plugin-youtube-playlists
+[INFO][webview:load@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:19411] [plugins] Plugin nuclear-plugin-youtube-playlists@0.1.0 loaded successfully
+[INFO][webview] [plugins] Plugin nuclear-plugin-youtube-playlists@0.1.0 loaded successfully
+[INFO][webview] [plugins] Plugin nuclear-plugin-youtube-playlists enabled
+[INFO][webview] [plugins] Plugin nuclear-plugin-youtube disabled
+[INFO][webview] [plugins] Plugin nuclear-plugin-omnisource disabled
+[INFO][webview] [plugins] Plugin nuclear-plugin-something disabled
+[INFO][webview] [plugins] Plugin nuclear-plugin-youtube-playlists disabled
+[INFO][webview] [plugins] Plugin nuclear-plugin-youtube enabled
+[INFO][webview] [plugins] Plugin nuclear-plugin-youtube-playlists enabled
+[INFO][webview] [plugins] Plugin nuclear-plugin-youtube-playlists disabled
+[INFO][webview] [plugins] Plugin nuclear-plugin-youtube-playlists enabled
+[INFO][webview] [plugins] Plugin nuclear-plugin-youtube-playlists disabled
+[INFO][webview] [plugins] Plugin nuclear-plugin-soundcloud disabled
+[INFO][webview] [plugins] Plugin nucleartube disabled
+[INFO][webview] [plugins] Plugin nuclear-plugin-youtube disabled
+[INFO][webview] [plugins] Plugin nuclear-plugin-youtube-playlists enabled
+[INFO][webview] [plugins] Plugin nuclear-plugin-omnisource enabled
+[ERROR][http] GET https://musicbrainz.org/ws/2/artist?query=tamil%20melody%20hits&limit=10&dismax=true&fmt=json -> 503 headers={"x-ratelimit-who": "search-shed", "content-type": "application/json", "date": "Fri, 25 Sep 2026 17:34:56 GMT", "retry-after": "0", "x-ratelimit-zone": "search", "x-mb-rate-limiter": "lua", "x-ratelimit-limit": "1900", "access-control-allow-origin": "*", "x-ratelimit-reset": "1790357696", "x-ratelimit-remaining": "426", "server": "openresty", "x-mb-gateway": "rex"} [BODY length=83]
+[ERROR][http] GET https://musicbrainz.org/ws/2/release-group?query=tamil%20melody%20hits&limit=10&dismax=true&fmt=json -> 503 headers={"x-ratelimit-remaining": "1375", "x-ratelimit-who": "search-shed", "x-mb-gateway": "rex", "x-ratelimit-limit": "1900", "access-control-allow-origin": "*", "content-type": "application/json", "x-ratelimit-reset": "1790357698", "x-mb-rate-limiter": "lua", "retry-after": "0", "date": "Fri, 25 Sep 2026 17:34:57 GMT", "x-ratelimit-zone": "search", "server": "openresty"} [BODY length=83]
+[WARN][webview:log@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:4405] [plugin:nuclear-plugin-omnisource] MB album search failed: Error: MusicBrainz error: 503 
+[ERROR][http] GET https://musicbrainz.org/ws/2/recording?query=tamil%20melody%20hits&limit=10&dismax=true&fmt=json -> 503 headers={"x-mb-rate-limiter": "lua", "x-ratelimit-remaining": "383", "x-ratelimit-zone": "search", "x-mb-gateway": "rex", "retry-after": "0", "date": "Fri, 25 Sep 2026 17:34:58 GMT", "server": "openresty", "x-ratelimit-reset": "1790357698", "access-control-allow-origin": "*", "x-ratelimit-limit": "1900", "content-type": "application/json", "x-ratelimit-who": "search-shed"} [BODY length=83]
+[WARN][webview:log@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:4405] [plugin:nuclear-plugin-omnisource] MB track search failed: Error: MusicBrainz error: 503 
+[WARN][webview:log@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:4405] [plugin:nuclear-plugin-omnisource] MB artist search failed: Error: MusicBrainz error: 503 
+[WARN][webview:log@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:4405] [plugin:nuclear-plugin-omnisource] Bandcamp album search failed: Error: Source timed out after 8000ms
+[WARN][webview:log@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:4405] [plugin:nuclear-plugin-omnisource] Bandcamp track search failed: Error: Source timed out after 8000ms
+[INFO][webview:onClick@tauri://localhost/assets/react-CxZ7Ygkg.js:77:54208] [queue] Cleared queue (0 items removed)
+[INFO][webview:onPlayAll@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:104:100123] [queue] Cleared queue (1 items removed)
+[INFO][webview:onClick@tauri://localhost/assets/react-CxZ7Ygkg.js:77:54208] [queue] Cleared queue (77 items removed)
+[INFO][webview:onPlayAll@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:104:100123] [queue] Cleared queue (1 items removed)
+[ERROR][http] GET https://musicbrainz.org/ws/2/artist?query=tamil%20melody%20hits&limit=10&dismax=true&fmt=json -> 503 headers={"retry-after": "0", "x-ratelimit-zone": "search", "content-type": "application/json", "x-ratelimit-reset": "1790357809", "x-mb-gateway": "rex", "x-ratelimit-remaining": "1168", "x-mb-rate-limiter": "lua", "x-ratelimit-who": "search-shed", "date": "Fri, 25 Sep 2026 17:36:47 GMT", "access-control-allow-origin": "*", "x-ratelimit-limit": "1900", "server": "openresty"} [BODY length=83]
+[WARN][webview:log@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:4405] [plugin:nuclear-plugin-omnisource] MB artist search failed: Error: MusicBrainz error: 503 
+[ERROR][http] GET https://musicbrainz.org/ws/2/release-group?query=tamil%20melody%20hits&limit=10&dismax=true&fmt=json -> 503 headers={"x-ratelimit-zone": "search", "content-type": "application/json", "x-mb-gateway": "rex", "x-ratelimit-limit": "1900", "access-control-allow-origin": "*", "x-mb-rate-limiter": "lua", "x-ratelimit-remaining": "268", "server": "openresty", "retry-after": "0", "x-ratelimit-reset": "1790357809", "x-ratelimit-who": "search-shed", "date": "Fri, 25 Sep 2026 17:36:48 GMT"} [BODY length=83]
+[WARN][webview:log@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:4405] [plugin:nuclear-plugin-omnisource] MB album search failed: Error: MusicBrainz error: 503 
+[ERROR][http] GET https://musicbrainz.org/ws/2/recording?query=tamil%20melody%20hits&limit=10&dismax=true&fmt=json -> 503 headers={"content-type": "application/json", "x-mb-gateway": "rex", "x-ratelimit-zone": "search", "server": "openresty", "x-ratelimit-remaining": "177", "date": "Fri, 25 Sep 2026 17:37:04 GMT", "access-control-allow-origin": "*", "x-ratelimit-limit": "1900", "x-ratelimit-reset": "1790357825", "x-ratelimit-who": "search-shed", "retry-after": "0", "x-mb-rate-limiter": "lua"} [BODY length=83]
+[WARN][webview:log@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:4405] [plugin:nuclear-plugin-omnisource] MB track search failed: Error: MusicBrainz error: 503 
+[ERROR][http] GET https://musicbrainz.org/ws/2/artist?query=tamil%20melody%20hits&limit=10&dismax=true&fmt=json -> 503 headers={"x-ratelimit-zone": "search", "x-ratelimit-limit": "1900", "x-mb-rate-limiter": "lua", "access-control-allow-origin": "*", "date": "Fri, 25 Sep 2026 17:37:14 GMT", "retry-after": "0", "x-ratelimit-who": "search-shed", "content-type": "application/json", "server": "openresty", "x-ratelimit-remaining": "349", "x-ratelimit-reset": "1790357835", "x-mb-gateway": "rex"} [BODY length=83]
+[WARN][webview:log@tauri://localhost/assets/initPlayerApp-hLeSXvk_.js:63:4405] [plugin:nuclear-plugin-omnisource] MB artist search failed: Error: MusicBrainz error: 503 
+[INFO][webview:onClick@tauri://localhost/assets/react-CxZ7Ygkg.js:77:54208] [queue] Cleared queue (77 items removed)

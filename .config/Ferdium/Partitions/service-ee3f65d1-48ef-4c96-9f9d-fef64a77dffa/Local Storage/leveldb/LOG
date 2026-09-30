@@ -1,0 +1,6 @@
+2026/09/29-09:33:04.150 5f5 Reusing MANIFEST /home/Inba/.config/Ferdium/Partitions/service-ee3f65d1-48ef-4c96-9f9d-fef64a77dffa/Local Storage/leveldb/MANIFEST-000001
+2026/09/29-09:33:04.150 5f5 Recovering log #4
+2026/09/29-09:33:04.151 5f5 Reusing old log /home/Inba/.config/Ferdium/Partitions/service-ee3f65d1-48ef-4c96-9f9d-fef64a77dffa/Local Storage/leveldb/000004.log 
+2026/09/29-09:35:04.931 5ca Level-0 table #8: started
+2026/09/29-09:35:04.941 5ca Level-0 table #8: 11899 bytes OK
+2026/09/29-09:35:04.948 5ca Delete type=0 #4

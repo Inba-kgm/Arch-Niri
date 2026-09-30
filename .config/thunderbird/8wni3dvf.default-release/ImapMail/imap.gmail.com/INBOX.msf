@@ -1,0 +1,115 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=keywords)(B9=X-GM-MSGID)(BA=X-GM-THRID)(BB=X-GM-LABELS)(BC=MRUTime)
+  (BD=replyTo)(BE=dobayes.mailnews@mozilla.org#junk)(BF=storeToken)
+  (C0=gloda-id)(C1=gloda-dirty)(C2=columnStates)(C3=sortType)
+  (C4=sortOrder)(C5=viewFlags)(C6=viewType)(C7=sortColumns)
+  (C8=customSortCol)(C9=imageSize)(CA=sender_name)
+  (CB=ns:msg:db:row:scope:ops:all)(CC=ns:msg:db:table:kind:ops)
+  (CD=remoteContentPolicy)(CE=notAPhishMessage)(CF=op)(D0=msgKey)
+  (D1=opFlags)(D2=newFlags)(D3=moveDest)(D4=msgSize)(D5=inPlayback)
+  (D6=useServerRetention)(D7=retainBy)(D8=daysToKeepHdrs)
+  (D9=numHdrsToKeep)(DA=useServerDefaults)(DB=applyToFlaggedMessages)
+  (DC=preview)(80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)
+  (83=message-id)(84=references)(85=recipients)(86=date)(87=size)
+  (88=flags)(89=priority)(8A=label)(8B=numLines)(8C=ccList)(8D=bccList)
+  (8E=msgThreadId)(8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)
+  (92=children)(93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=highestModSeq)(AF=onlineName)
+  (B0=imapFlags)(B1=highestRecordedUID)
+  (B2=ns:msg:db:row:scope:pending:all)(B3=ns:msg:db:table:kind:pending)
+  (B4=dateReceived)(B5=ProtoThreadFlags)(B6=account)(B7=junkscore)>
+<(188=798)(81=0)>[14:m(^9B=798)(^8F=798)(^91=0)(^90=0)(^92=0)(^93=0)]
+<(1A9=799)>[15:m(^9B=799)(^8F=799)(^91=0)(^90=0)(^92=0)(^93=0)]
+<(1B4=79a)>[16:m(^9B=79a)(^8F=79a)(^91=0)(^90=0)(^92=0)(^93=0)]
+<(1C4=79b)>[17:m(^9B=79b)(^8F=79b)(^91=0)(^90=0)(^92=0)(^93=0)]
+<(1DB=7a0)>[18:m(^9B=7a0)(^8F=7a0)(^91=0)(^90=0)(^92=0)(^93=0)]
+<(1E3=7a1)>[19:m(^9B=7a1)(^8F=7a1)(^91=0)(^90=0)(^92=0)(^93=0)]
+<(1E9=7a2)>[1A:m(^9B=7a2)(^8F=7a2)(^91=0)(^90=0)(^92=0)(^93=0)]
+<(1EF=7a3)>[1B:m(^9B=7a3)(^8F=7a3)(^91=0)(^90=0)(^92=0)(^93=0)]
+<(1F5=7a4)>[1C:m(^9B=7a4)(^8F=7a4)(^91=0)(^90=0)(^92=0)(^93=0)]
+<(1FD=7a5)>[1D:m(^9B=7a5)(^8F=7a5)(^91=0)(^90=0)(^92=0)(^93=0)]
+<(202=7a6)>[1E:m(^9B=7a6)(^8F=7a6)(^91=0)(^90=0)(^92=0)]
+<(208=7a7)>[1F:m(^9B=7a7)(^8F=7a7)(^91=0)(^90=0)(^92=0)(^93=0)]
+<(211=7a8)>[20:m(^9B=7a8)(^8F=7a8)(^91=0)(^90=0)(^92=0)(^93=0)]
+<(219=7a9)>[21:m(^9B=7a9)(^8F=7a9)(^91=0)(^90=0)(^92=0)(^93=0)]
+<(168=795)>[11:m(^9B=795)(^8F=795)(^91=0)(^90=0)(^92=0)(^93=0)]
+<(174=796)>[12:m(^9B=796)(^8F=796)(^91=0)(^90=0)(^92=0)(^93=0)]
+<(17F=797)>[13:m(^9B=797)(^8F=797)(^91=0)(^90=0)(^92=0)(^93=0)]
+<(80=1)>[7A0:^80(^88=1)]
+[7A1:^80(^88=1)]
+[7A2:^80(^88=1)]
+[7A3:^80(^88=1)]
+[7A4:^80(^88=1)]
+[7A5:^80(^88=1)]
+[7A7:^80(^88=1)]
+[7A8:^80(^88=1)]
+
+<(1CD=302946)(83=INBOX)(84=e000)(124=8083014)(1DC=1790539718)(136=12)
+  (137=2)(138=$122)(250=ae5c9)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^1CD)(^AF^83)(^B0^84)(^A7^83)(^88^124)
+    (^A8=1)(^B1=7a9)(^A1=0)(^A6=7a9)(^A2=0)(^BC^1DC)(^C3=12)(^C4=2)
+    (^C5=1)(^C6=0)(^C7^138)(^A4^250)(^D6=1)]}
+{1:^CB {(k^CC:c)(s=9)} }
+[7A5:^CB]
+[7A6:^CB]
+[7A7:^CB]
+[7A8:^CB]
+[7A9:^CB]
+[7A0:^CB]
+[7A1:^CB]
+[7A2:^CB]
+[7A3:^CB]
+[7A4:^CB]
+
+@$${40{@
+@$$}40}@
+
+@$${41{@
+<(255=7aa)(253=6ab97b42)>[-22:m(^9B=7aa)(^8F=7aa)(^91^253)(^90=0)(^92=1)
+    (^93=1)]
+
+<(20B=LinkedIn <security-noreply@linkedin.com>)(16D
+    =Inbavanan S <inbavanans7484@gmail.com>)(20C
+    =New device registration for Remember me)(251
+    =822835199.202269.1790540610686@lva2-app67208.prod.linkedin.com)
+  (164=)(252=6ab97b43)(254=6cd1)(169=ffffffff)>
+{-1:^80 {(k^96:c)(s=9)} 
+  [-7AA(^88=0)(^82^20B)(^85^16D)(^81^20C)(^83^251)(^84=)(^B4^252)(^86^253)
+    (^89=1)(^87^254)(^9A^169)(^8E=7aa)(^B5=0)]}
+{-7AA:^80 {(k^97:c)(s=9)22:m } 7AA }
+{-FFFFFFFD:^99 {(k^98:c)(s=9)} [-7AA(^94^20C)]}
+<(256=1790540629)>[-1:^9F(^AB=1)(^AC=0)(^AD=1)(^AE^1CD)(^AF^83)(^B0^84)
+    (^A7^83)(^88^124)(^A8=1)(^B1=7aa)(^A1=1)(^A6=7aa)(^A2=1)(^BC^256)
+    (^C3=12)(^C4=2)(^C5=1)(^C6=0)(^C7^138)(^A4^250)(^D6=1)]
+@$$}41}@
+
+@$${42{@
+<(191=80)(257=1877517911875136342)(213=1877511059261519903)(176
+    ="\\\\Important")(21C=0|LinkedIn <security-noreply@linkedin.com>)
+  (258=715340)(259=6d04)(25A=18b)>
+[-7AA:^80(^88=80)(^82^20B)(^85^16D)(^81^20C)(^83^251)(^84=)(^B4^252)
+    (^86^253)(^89=1)(^87^254)(^9A^169)(^8E=7aa)(^B5=0)(^B9^257)(^BA^213)
+    (^BB^176)(^CA^21C)(^BF^258)(^9D^259)(^8B=18b)]
+@$$}42}@
+
+@$${43{@
+<(25B=62)>[7AA:^80(^C0=62)]
+@$$}43}@
+
+@$${44{@
+[7AA:^80(^DC=)]
+@$$}44}@
+
+@$${45{@
+@$$}45}@

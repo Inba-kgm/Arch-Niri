@@ -1,0 +1,10 @@
+
+				.joplin-youtube-player-rendered {
+					width: 100%;
+					max-width: 100%;
+				}
+				.joplin-youtube-player-rendered iframe {
+					width: 100%;
+					aspect-ratio: 16 / 9;
+				}
+			

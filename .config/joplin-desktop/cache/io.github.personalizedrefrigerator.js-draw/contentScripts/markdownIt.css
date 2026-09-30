@@ -1,0 +1,24 @@
+.jsdraw--editButton {
+	display: inline-block;
+	opacity: 0;
+	overflow: hidden;
+	z-index: 1;
+	position: relative;
+
+	align-self: flex-end;
+	justify-self: right;
+
+	transition: opacity 0.2s ease;
+}
+
+.jsdraw--editButton.-show,
+.jsdraw--editButton:hover {
+	opacity: 0.9;
+	overflow: visible;
+}
+
+.jsdraw--editButton > button {
+	width: min-content;
+	max-height: 50px;
+	position: absolute;
+}

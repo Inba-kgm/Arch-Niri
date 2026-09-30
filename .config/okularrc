@@ -1,0 +1,18 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=/run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/README.md
+File2[$e]=/run/media/Inba/PublicSpace/Home/Iqube/ARDUINO/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
+Name1[$e]=README.md
+Name2[$e]=Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
+
+[UiSettings]
+ColorScheme=BreezeDark

@@ -1,0 +1,8 @@
+{
+  "core.playback.discoveryVariety": 0,
+  "core.appearance.framelessWindow": true,
+  "core.theme.active.id": "onedarkblue",
+  "core.playback.shuffle": true,
+  "core.theme.active.type": "marketplace",
+  "core.appearance.titleBarStyle": "windows"
+}

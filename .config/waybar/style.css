@@ -1,0 +1,139 @@
+/* ==========================================================================
+   COLOR PALETTE (Change these variables easily to update the color scheme!)
+   ========================================================================== */
+
+@define-color bg-bar        rgba(26, 27, 38, 0.95);   /* Dark bar background */
+@define-color border-color  rgba(115, 122, 164, 0.4); /* Light subtle border edge */
+@define-color text-main     #c0caf5;                  /* Default text color */
+@define-color accent        #7aa2f7;                  /* Workspaces / Focus accents */
+@define-color alert         #f7768e;                  /* Battery critical / Muted */
+
+/* ========================================================================== */
+/* ==========================================================================
+   STRUCTURE & LAYOUT (Noctalia Shell Look)
+   ========================================================================== */
+
+/* Main Bar Container pinned completely to the top */
+window#waybar {
+/*
+    background-color: @bg-bar;
+*/  
+    background-color: @background;
+    border-bottom: 2px solid @border-color;
+    /* Soft rounding on bottom-left and bottom-right corners */
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    color: @text-main;
+    font-family: "JetBrainsMono NF", "Noto Sans ExtraBold", sans-serif;
+    font-size: 13px;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+/* Base style for every standalone element or group module */
+.modules-left, .modules-center, .modules-right {
+    margin: 2px 8px;
+}
+
+#clock,
+#workspaces,
+#window,
+#network,
+#backlight,
+#pulseaudio,
+#cpu,
+#memory,
+#battery,
+#bluetooth {
+    padding: 0 12px;
+    background-color: transparent;
+}
+
+/* ==========================================================================
+   MODULE-SPECIFIC RICE TWEAKS
+   ========================================================================== */
+
+/* Left Group */
+#clock {
+    font-weight: bold;
+}
+
+/* Center Group: Niri Workspaces */
+#workspaces button {
+    padding: 0 3px;
+    color: @text-main;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    margin: 2px 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Elongated Pill/Ellipse for the active workspace button */
+#workspaces button.focused {
+    color: #ffffff;               /* Text color inside the active button */
+    background-color: #7AA2F7;    /* Background color of the pill */
+    padding: 0 10px;              /* Elongates the circle horizontally */
+    border-radius: 20px;          /* Perfectly rounds out the elongated pill */
+    font-weight: bold;
+}
+
+#workspaces button:hover {
+    color: @accent;
+}
+
+
+/* Target the main waybar container */
+window#waybar {
+    background-color: #000000; /* Dark notch background */
+    border-radius: 0px 0px 15px 15px; /* iOS rounded bottom corners */
+    
+    /* Hook up the notch expansion animation */
+    animation: notchExpand 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+/* Individual modules - smooth fade-in so text doesn't look squished */
+#workspaces, #clock, #battery, #network, #pulseaudio {
+    animation: fadeInText 1s ease-out 0.4s forwards;
+    opacity: 0; /* Hidden at start until the bar finishes expanding */
+}
+
+/* iOS Notch Expansion Logic - EXACT PIXEL TRANSLATION FOR GTK */
+@keyframes notchExpand {
+    from {
+        /* Start tightly condensed as a center pill (adjust px if needed) */
+        margin-left: 600px;
+        margin-right: 600px;
+        padding-left: 0px;
+        padding-right: 0px;
+        opacity: 0;
+    }
+    30% {
+        /* Pop into view vertically first */
+        opacity: 1;
+        margin-left: 550px;
+        margin-right: 550px;
+    }
+    to {
+        /* Smoothly stretch wide into the full horizontal bar */
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        opacity: 1;
+    }
+}
+
+/* Text Fade-in Logic */
+@keyframes fadeInText {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+* {
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+}

@@ -1,0 +1,7 @@
+2026-09-24 21:44:24.270 [info] StorageMainService: creating application shared storage
+2026-09-24 21:44:24.418 [info] [shared storage] Creating shared storage database at '/home/Inba/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-09-24 21:44:24.421 [info] [shared storage] Initializing fallback application storage (path: /home/Inba/.config/VSCodium/User/globalStorage/state.vscdb)
+2026-09-24 21:44:24.441 [info] [shared storage] Fallback application storage initialized with 57 items
+2026-09-24 21:44:24.443 [info] update#setState disabled
+2026-09-24 21:44:24.443 [info] update#ctor - updates are disabled as there is no update URL
+2026-09-24 21:44:48.555 [info] Extension host with pid 94096 exited with code: 0, signal: unknown.

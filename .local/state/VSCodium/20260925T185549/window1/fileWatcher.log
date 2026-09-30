@@ -1,0 +1,4 @@
+2026-09-25 18:59:45.442 [warning] [File Watcher ('parcel')] Watcher shutdown because watched path got deleted (path: /run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler)
+2026-09-25 18:59:45.442 [error] [File Watcher (node.js)] Failed to watch /run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/.git/refs/remotes/origin/main for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/.git/refs/remotes/origin/main')
+2026-09-25 18:59:45.456 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-09-25 18:59:46.236 [error] [File Watcher (node.js)] Failed to watch /run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/.git/refs/remotes/origin/main for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/run/media/Inba/PublicSpace/Home/Documents/test/Timer-Toggler/.git/refs/remotes/origin/main')

@@ -1,0 +1,84 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 36,
+    "margin-top": 0,
+    "margin-left": 0,
+    "margin-right": 0,
+    "margin-bottom": 0,
+
+    // Layout configuration
+    "modules-left": ["clock","cpu", "memory", "niri/window"],
+    "modules-center": ["niri/workspaces"],
+    "modules-right": [
+	"bluetooth",
+        "network",  
+	"backlight",
+	"pulseaudio",
+	"battery"
+    ],
+
+    // LEFT: Clock & Date
+    "clock": {
+        "format": " {:%a, %b %d  %I:%M %p }      ",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+
+    // CENTER: Workspaces & Current Window
+    "niri/workspaces": {
+        "format": "{value}"
+//      "format-icons":{
+//            "focused": "{index}",   /* Displays the active workspace number */
+//            "default": ""        /* Bullet dot for inactive ones */
+//        }
+    },
+
+    "niri/window": {
+        "format": "     | {app_id} |", // Shows app name right next to workspaces
+        "max-length": 30,
+        "separate-outputs": true
+    },
+
+    // RIGHT: Status Indicators
+    "network": {
+        "format-wifi": " {essid}",
+        "format-disconnected": "⚠ Disconnected",
+        "tooltip-format": "{ifname} via {gwaddr}",
+	"on-click":"~/.config/waybar/wifi-menu.sh"
+    },
+    "backlight": {
+        "format": " {percent}%"
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": " Muted",
+        "format-icons": {
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "cpu": {
+        "format": " {usage}%",
+        "tooltip": false
+    },
+    "memory": {
+        "format": " {used:0.1f}G"
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-icons": ["","","","",""]
+    },
+    "bluetooth": {
+        "format": " {status}",
+        "format-connected": " {device_alias}",
+        "format-connected-battery": " {device_alias} {device_battery_percentage}%",
+        "tooltip-format": "{controller_alias}\t{controller_address}",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
+    }
+}

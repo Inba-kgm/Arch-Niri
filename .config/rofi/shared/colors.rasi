@@ -1,0 +1,8 @@
+* {
+    background-color: #1A1B1480; /* Base background with slight alpha transparency */
+    background-alt:   #1A1B26;   /* Alternate dark background for inputs/rows */
+    foreground-color: #CDD6F4;   /* Main text color */
+    border-color:     #737AA480;  /* Accent color for borders and highlights */
+//    border-color: #7B181750;
+	changed-color: #1A1B26;
+}

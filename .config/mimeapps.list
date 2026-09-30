@@ -1,0 +1,6 @@
+[Default Applications]
+x-scheme-handler/muffon=muffon.desktop
+audio/mp4=firefox.desktop
+
+[Added Associations]
+audio/mp4=firefox.desktop;
